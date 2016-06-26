@@ -1,0 +1,503 @@
+*** 2016-06-23 11:02:44.867 idempiere Log (CLogFile) ***
+11:02:44.867 Adempiere.startup: iDempiere(r) Release 3.1_2015-10-31 -Smart Suite ERP, CRM and SCM- (c) 1999-2013 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community [14]
+11:02:44.867 Ini.loadProperties: D:\idempiere\idempiere.properties #33 [14]
+11:02:45.898 DB.isBuildOK: Build DB=${env.ADEMPIERE_VERSION} 20080428-1232 [14]
+11:02:45.898 DB.isBuildOK: Build Cl=3.1.0.qualifier [14]
+11:02:45.937-----------> DB.isBuildOK: Build Version Error 
+
+The program assumes build version 3.1.0.qualifier, but database has build version ${env.ADEMPIERE_VERSION} 20080428-1232. 
+This is likely to cause hard to fix errors. 
+Please contact administrator. [14]
+11:02:46.203 Language.getLanguage: Adding Language=en, Country=US, Locale=en_US [14]
+11:02:46.203 Language.getLanguage: Adding Language=en, Country=US, Locale=en_US [14]
+11:02:46.328 WebEnv.initWeb: Servlet Context Init Parameters: iDempiere Root
+ServerRoot=1 [14]
+11:02:46.343-----------> EMail.setFrom: you @ company.org: javax.mail.internet.AddressException: Local address contains control or whitespace in string ``you @ company.org'' [14]
+11:02:46.343-----------> EMail.addTo: you @ company.org: javax.mail.internet.AddressException: Local address contains control or whitespace in string ``you @ company.org'' [14]
+11:02:46.343-----------> EMail.isValid: From is invalid=null [14]
+11:02:46.343-----------> EMail.isValid: From is invalid=null [14]
+11:02:46.343-----------> MClient.sendEMail: Could NOT Send Email: Server started: iDempiere (DESKTOP-K0DQ6Q3:192.168.10.212) to you @ company.org: Invalid Data (System) [14]
+11:02:46.343 WebEnv.initWeb: Servlet Init Parameter: idempiereMonitor [14]
+11:02:46.343 AdempiereMonitor.init:  [14]
+11:02:48.906-----------> AnnotationConfiguration.configure: ServletContainerInitializers: detected. Class hierarchy: empty [14]
+11:02:49.163-----------> ClassLocator.getDependentXMLResources: Replicate resource: ckez
+Overwrite bundleresource://174.fwk1031327099:2/metainfo/zk/config.xml
+with bundleresource://174.fwk1031327099:19/metainfo/zk/config.xml [14]
+11:02:49.163-----------> ClassLocator.getDependentXMLResources: Replicate resource: zk
+Overwrite bundleresource://174.fwk1031327099:11/metainfo/zk/config.xml
+with bundleresource://174.fwk1031327099:28/metainfo/zk/config.xml [14]
+11:02:49.179-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkbind
+Overwrite bundleresource://174.fwk1031327099:12/metainfo/zk/config.xml
+with bundleresource://174.fwk1031327099:29/metainfo/zk/config.xml [14]
+11:02:49.195-----------> ClassLocator.getDependentXMLResources: Replicate resource: zul
+Overwrite bundleresource://174.fwk1031327099:14/metainfo/zk/zk.xml
+with bundleresource://174.fwk1031327099:31/metainfo/zk/zk.xml [14]
+11:02:49.601-----------> LanguageDefinition.<init>: Replicated language: xhtml, overriden by [LanguageDefinition: xhtml] [14]
+11:02:49.632-----------> LanguageDefinition.<init>: Replicated language: xul/html, overriden by [LanguageDefinition: xul/html] [14]
+11:02:49.695-----------> ClassLocator.getDependentXMLResources: Replicate resource: calendar
+Overwrite bundleresource://174.fwk1031327099:1/metainfo/zk/lang-addon.xml
+with bundleresource://174.fwk1031327099:18/metainfo/zk/lang-addon.xml [14]
+11:02:49.695-----------> ClassLocator.getDependentXMLResources: Replicate resource: ckez
+Overwrite bundleresource://174.fwk1031327099:2/metainfo/zk/lang-addon.xml
+with bundleresource://174.fwk1031327099:19/metainfo/zk/lang-addon.xml [14]
+11:02:49.695-----------> ClassLocator.getDependentXMLResources: Replicate resource: gmapsz
+Overwrite bundleresource://174.fwk1031327099:5/metainfo/zk/lang-addon.xml
+with bundleresource://174.fwk1031327099:22/metainfo/zk/lang-addon.xml [14]
+11:02:49.710-----------> ClassLocator.getDependentXMLResources: Replicate resource: timeline
+Overwrite bundleresource://174.fwk1031327099:6/metainfo/zk/lang-addon.xml
+with bundleresource://174.fwk1031327099:23/metainfo/zk/lang-addon.xml [14]
+11:02:49.710-----------> ClassLocator.getDependentXMLResources: Replicate resource: timeplot
+Overwrite bundleresource://174.fwk1031327099:7/metainfo/zk/lang-addon.xml
+with bundleresource://174.fwk1031327099:24/metainfo/zk/lang-addon.xml [14]
+11:02:49.726-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkbind
+Overwrite bundleresource://174.fwk1031327099:12/metainfo/zk/lang-addon.xml
+with bundleresource://174.fwk1031327099:29/metainfo/zk/lang-addon.xml [14]
+11:02:49.726-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkplus
+Overwrite bundleresource://174.fwk1031327099:13/metainfo/zk/lang-addon.xml
+with bundleresource://174.fwk1031327099:30/metainfo/zk/lang-addon.xml [14]
+11:02:49.851           WebUIServlet.init: iDempiere Web Client started successfully [14]
+11:02:51.773-----------> AnnotationConfiguration.configure: ServletContainerInitializers: detected. Class hierarchy: empty [14]
+
+*** 2016-06-23 11:02:52.048 idempiere Log (CLogFile) ***
+11:02:54.455-----------> Node: [192.168.10.212]:5701 [adempiere.idempiere/localhost] [3.5.3] No join method is enabled! Starting standalone. [37]
+11:07:03.182-----------> ModelADServiceImpl.validateParameter: Web service type TestWebservice: constant parameter RecordID changed to 50003 [29]
+11:17:54.014===========> DB.executeUpdate: INSERT INTO WS_WebServiceTypeAccess (AD_Client_ID,AD_Org_ID,AD_Role_ID,WS_WebServiceType_ID,Created,CreatedBy,IsActive,IsReadWrite,Updated,UpdatedBy,WS_WebServiceTypeAccess_UU) VALUES (?,?,?,?,?,?,?,?,?,?,?) [POSaveWS_WebServiceType_6ede01d3-0f88-4673-ad8a-de2b866cd47e] [32]
+org.postgresql.util.PSQLException: 错误: 重复键违反唯一约束"ws_webservicetypeaccess_key"
+  详细：键值"(ad_role_id, ws_webservicetype_id)=(50004, 50000)" 已经存在; State=23505; ErrorCode=0
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2182)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:1911)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:173)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.execute(AbstractJdbc2Statement.java:645)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeWithFlags(AbstractJdbc2Statement.java:495)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeUpdate(AbstractJdbc2Statement.java:441)
+	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.executeUpdate(NewProxyPreparedStatement.java:1449)
+	at sun.reflect.GeneratedMethodAccessor56.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.compiere.db.StatementProxy.invoke(StatementProxy.java:128)
+	at com.sun.proxy.$Proxy3.executeUpdate(Unknown Source)
+	at org.compiere.util.DB.executeUpdate(DB.java:1038)
+	at org.compiere.util.DB.executeUpdate(DB.java:1007)
+	at org.compiere.model.PO.doInsert(PO.java:2974)
+	at org.compiere.model.PO.saveNew(PO.java:2778)
+	at org.compiere.model.PO.save(PO.java:2128)
+	at org.compiere.model.GridTable.dataSavePO(GridTable.java:2223)
+	at org.compiere.model.GridTable.dataSave(GridTable.java:1549)
+	at org.compiere.model.GridTab.dataSave(GridTab.java:1007)
+
+11:17:54.132===========> DB.saveError: SaveErrorNotUnique - 错误: 重复键违反唯一约束"ws_webservicetypeaccess_key"
+  详细：键值"(ad_role_id, ws_webservicetype_id)=(50004, 50000)" 已经存在 [32]
+11:17:54.135-----------> X_WS_WebServiceTypeAccess.doInsert: [POSaveWS_WebServiceType_6ede01d3-0f88-4673-ad8a-de2b866cd47e]Not inserted - WS_WebServiceTypeAccess [32]
+11:17:54.193===========> X_WS_WebServiceTypeAccess.saveError: SaveErrorNotUnique - 错误: 重复键违反唯一约束"ws_webservicetypeaccess_key"
+  详细：键值"(ad_role_id, ws_webservicetype_id)=(50004, 50000)" 已经存在 [32]
+11:17:54.197-----------> GridTable.saveWarning: SaveErrorNotUnique - 错误: 重复键违反唯一约束"ws_webservicetypeaccess_key"
+  详细：键值"(ad_role_id, ws_webservicetype_id)=(50004, 50000)" 已经存在 [32]
+11:17:57.651===========> DB.executeUpdate: INSERT INTO WS_WebServiceTypeAccess (AD_Client_ID,AD_Org_ID,AD_Role_ID,WS_WebServiceType_ID,Created,CreatedBy,IsActive,IsReadWrite,Updated,UpdatedBy,WS_WebServiceTypeAccess_UU) VALUES (?,?,?,?,?,?,?,?,?,?,?) [POSaveWS_WebServiceType_f2ba1b89-737c-481e-ba7e-8356287a6d6e] [32]
+org.postgresql.util.PSQLException: 错误: 重复键违反唯一约束"ws_webservicetypeaccess_key"
+  详细：键值"(ad_role_id, ws_webservicetype_id)=(50004, 50000)" 已经存在; State=23505; ErrorCode=0
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2182)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:1911)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:173)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.execute(AbstractJdbc2Statement.java:645)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeWithFlags(AbstractJdbc2Statement.java:495)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeUpdate(AbstractJdbc2Statement.java:441)
+	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.executeUpdate(NewProxyPreparedStatement.java:1449)
+	at sun.reflect.GeneratedMethodAccessor56.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.compiere.db.StatementProxy.invoke(StatementProxy.java:128)
+	at com.sun.proxy.$Proxy3.executeUpdate(Unknown Source)
+	at org.compiere.util.DB.executeUpdate(DB.java:1038)
+	at org.compiere.util.DB.executeUpdate(DB.java:1007)
+	at org.compiere.model.PO.doInsert(PO.java:2974)
+	at org.compiere.model.PO.saveNew(PO.java:2778)
+	at org.compiere.model.PO.save(PO.java:2128)
+	at org.compiere.model.GridTable.dataSavePO(GridTable.java:2223)
+	at org.compiere.model.GridTable.dataSave(GridTable.java:1549)
+	at org.compiere.model.GridTab.dataSave(GridTab.java:1007)
+
+11:17:57.695===========> DB.saveError: SaveErrorNotUnique - 错误: 重复键违反唯一约束"ws_webservicetypeaccess_key"
+  详细：键值"(ad_role_id, ws_webservicetype_id)=(50004, 50000)" 已经存在 [32]
+11:17:57.697-----------> X_WS_WebServiceTypeAccess.doInsert: [POSaveWS_WebServiceType_f2ba1b89-737c-481e-ba7e-8356287a6d6e]Not inserted - WS_WebServiceTypeAccess [32]
+11:17:57.709===========> X_WS_WebServiceTypeAccess.saveError: SaveErrorNotUnique - 错误: 重复键违反唯一约束"ws_webservicetypeaccess_key"
+  详细：键值"(ad_role_id, ws_webservicetype_id)=(50004, 50000)" 已经存在 [32]
+11:17:57.712-----------> GridTable.saveWarning: SaveErrorNotUnique - 错误: 重复键违反唯一约束"ws_webservicetypeaccess_key"
+  详细：键值"(ad_role_id, ws_webservicetype_id)=(50004, 50000)" 已经存在 [32]
+11:33:40.946-----------> MRole.saveWarning: AccessTableNoUpdate - AD_Client_ID=0, AD_Org_ID=0, UserLevel= CO => missing=S [32]
+11:33:40.947-----------> MRole.canUpdate: MRole[102,GardenWorld Admin,UserLevel= CO,AD_Client_ID IN(0,11),AD_Org_ID IN(50007,0,50004,50005,50006,50000,50001,50002,11,12)] [32]
+11:33:40.947-----------> GridTable.saveWarning: AccessCannotDelete -  [32]
+11:33:47.910-----------> MRole.saveWarning: AccessTableNoUpdate - AD_Client_ID=0, AD_Org_ID=0, UserLevel= CO => missing=S [29]
+11:33:47.911-----------> MRole.canUpdate: MRole[102,GardenWorld Admin,UserLevel= CO,AD_Client_ID IN(0,11),AD_Org_ID IN(50007,0,50004,50005,50006,50000,50001,50002,11,12)] [29]
+11:33:47.911-----------> GridTable.saveWarning: AccessCannotDelete -  [29]
+11:52:00.400-----------> ModelADServiceImpl.validateParameter: Web service type ReadBPartner: constant parameter TableName changed to C_BPartner [32]
+11:52:00.405===========> MBPartner.load: NO Data found for C_BPartner_ID=1000002 [32]
+java.lang.Exception
+	at org.compiere.model.PO.load(PO.java:1347)
+	at org.compiere.model.PO.load(PO.java:1287)
+	at org.compiere.model.PO.<init>(PO.java:204)
+	at org.compiere.model.PO.<init>(PO.java:154)
+	at org.compiere.model.X_C_BPartner.<init>(X_C_BPartner.java:41)
+	at org.compiere.model.MBPartner.<init>(MBPartner.java:208)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.adempiere.base.DefaultModelFactory.getPO(DefaultModelFactory.java:272)
+	at org.compiere.model.MTable.getPO(MTable.java:397)
+	at org.idempiere.adinterface.ModelADServiceImpl.readData(ModelADServiceImpl.java:1376)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.apache.cxf.service.invoker.AbstractInvoker.performInvocation(AbstractInvoker.java:180)
+	at org.apache.cxf.service.invoker.AbstractInvoker.invoke(AbstractInvoker.java:96)
+	at org.apache.cxf.jaxws.AbstractJAXWSMethodInvoker.invoke(AbstractJAXWSMethodInvoker.java:178)
+	at org.apache.cxf.jaxws.JAXWSMethodInvoker.invoke(JAXWSMethodInvoker.java:64)
+
+11:52:00.428===========> GenericPO.load: NO Data found for C_BPartner_ID=1000002 [32]
+java.lang.Exception
+	at org.compiere.model.PO.load(PO.java:1347)
+	at org.compiere.model.PO.load(PO.java:1287)
+	at org.compiere.model.PO.<init>(PO.java:204)
+	at org.adempiere.model.GenericPO.<init>(GenericPO.java:71)
+	at org.compiere.model.MTable.getPO(MTable.java:410)
+	at org.idempiere.adinterface.ModelADServiceImpl.readData(ModelADServiceImpl.java:1376)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.apache.cxf.service.invoker.AbstractInvoker.performInvocation(AbstractInvoker.java:180)
+	at org.apache.cxf.service.invoker.AbstractInvoker.invoke(AbstractInvoker.java:96)
+	at org.apache.cxf.jaxws.AbstractJAXWSMethodInvoker.invoke(AbstractJAXWSMethodInvoker.java:178)
+	at org.apache.cxf.jaxws.JAXWSMethodInvoker.invoke(JAXWSMethodInvoker.java:64)
+	at org.apache.cxf.service.invoker.AbstractInvoker.invoke(AbstractInvoker.java:75)
+	at org.apache.cxf.interceptor.ServiceInvokerInterceptor$1.run(ServiceInvokerInterceptor.java:58)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.apache.cxf.workqueue.SynchronousExecutor.execute(SynchronousExecutor.java:37)
+	at org.apache.cxf.interceptor.ServiceInvokerInterceptor.handleMessage(ServiceInvokerInterceptor.java:107)
+	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:262)
+
+11:52:24.428-----------> ModelADServiceImpl.validateParameter: Web service type ReadBPartner: constant parameter TableName changed to C_BPartner [110]
+11:52:24.432===========> MBPartner.load: NO Data found for C_BPartner_ID=100000 [110]
+java.lang.Exception
+	at org.compiere.model.PO.load(PO.java:1347)
+	at org.compiere.model.PO.load(PO.java:1287)
+	at org.compiere.model.PO.<init>(PO.java:204)
+	at org.compiere.model.PO.<init>(PO.java:154)
+	at org.compiere.model.X_C_BPartner.<init>(X_C_BPartner.java:41)
+	at org.compiere.model.MBPartner.<init>(MBPartner.java:208)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.adempiere.base.DefaultModelFactory.getPO(DefaultModelFactory.java:272)
+	at org.compiere.model.MTable.getPO(MTable.java:397)
+	at org.idempiere.adinterface.ModelADServiceImpl.readData(ModelADServiceImpl.java:1376)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.apache.cxf.service.invoker.AbstractInvoker.performInvocation(AbstractInvoker.java:180)
+	at org.apache.cxf.service.invoker.AbstractInvoker.invoke(AbstractInvoker.java:96)
+	at org.apache.cxf.jaxws.AbstractJAXWSMethodInvoker.invoke(AbstractJAXWSMethodInvoker.java:178)
+	at org.apache.cxf.jaxws.JAXWSMethodInvoker.invoke(JAXWSMethodInvoker.java:64)
+
+11:52:24.451===========> GenericPO.load: NO Data found for C_BPartner_ID=100000 [110]
+java.lang.Exception
+	at org.compiere.model.PO.load(PO.java:1347)
+	at org.compiere.model.PO.load(PO.java:1287)
+	at org.compiere.model.PO.<init>(PO.java:204)
+	at org.adempiere.model.GenericPO.<init>(GenericPO.java:71)
+	at org.compiere.model.MTable.getPO(MTable.java:410)
+	at org.idempiere.adinterface.ModelADServiceImpl.readData(ModelADServiceImpl.java:1376)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.apache.cxf.service.invoker.AbstractInvoker.performInvocation(AbstractInvoker.java:180)
+	at org.apache.cxf.service.invoker.AbstractInvoker.invoke(AbstractInvoker.java:96)
+	at org.apache.cxf.jaxws.AbstractJAXWSMethodInvoker.invoke(AbstractJAXWSMethodInvoker.java:178)
+	at org.apache.cxf.jaxws.JAXWSMethodInvoker.invoke(JAXWSMethodInvoker.java:64)
+	at org.apache.cxf.service.invoker.AbstractInvoker.invoke(AbstractInvoker.java:75)
+	at org.apache.cxf.interceptor.ServiceInvokerInterceptor$1.run(ServiceInvokerInterceptor.java:58)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.apache.cxf.workqueue.SynchronousExecutor.execute(SynchronousExecutor.java:37)
+	at org.apache.cxf.interceptor.ServiceInvokerInterceptor.handleMessage(ServiceInvokerInterceptor.java:107)
+	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:262)
+
+11:52:29.275-----------> ModelADServiceImpl.validateParameter: Web service type ReadBPartner: constant parameter TableName changed to C_BPartner [34]
+11:52:35.649-----------> ModelADServiceImpl.validateParameter: Web service type ReadBPartner: constant parameter TableName changed to C_BPartner [29]
+11:52:35.652===========> MBPartner.load: NO Data found for C_BPartner_ID=1000002 [29]
+java.lang.Exception
+	at org.compiere.model.PO.load(PO.java:1347)
+	at org.compiere.model.PO.load(PO.java:1287)
+	at org.compiere.model.PO.<init>(PO.java:204)
+	at org.compiere.model.PO.<init>(PO.java:154)
+	at org.compiere.model.X_C_BPartner.<init>(X_C_BPartner.java:41)
+	at org.compiere.model.MBPartner.<init>(MBPartner.java:208)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.adempiere.base.DefaultModelFactory.getPO(DefaultModelFactory.java:272)
+	at org.compiere.model.MTable.getPO(MTable.java:397)
+	at org.idempiere.adinterface.ModelADServiceImpl.readData(ModelADServiceImpl.java:1376)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.apache.cxf.service.invoker.AbstractInvoker.performInvocation(AbstractInvoker.java:180)
+	at org.apache.cxf.service.invoker.AbstractInvoker.invoke(AbstractInvoker.java:96)
+	at org.apache.cxf.jaxws.AbstractJAXWSMethodInvoker.invoke(AbstractJAXWSMethodInvoker.java:178)
+	at org.apache.cxf.jaxws.JAXWSMethodInvoker.invoke(JAXWSMethodInvoker.java:64)
+
+11:52:35.674===========> GenericPO.load: NO Data found for C_BPartner_ID=1000002 [29]
+java.lang.Exception
+	at org.compiere.model.PO.load(PO.java:1347)
+	at org.compiere.model.PO.load(PO.java:1287)
+	at org.compiere.model.PO.<init>(PO.java:204)
+	at org.adempiere.model.GenericPO.<init>(GenericPO.java:71)
+	at org.compiere.model.MTable.getPO(MTable.java:410)
+	at org.idempiere.adinterface.ModelADServiceImpl.readData(ModelADServiceImpl.java:1376)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.apache.cxf.service.invoker.AbstractInvoker.performInvocation(AbstractInvoker.java:180)
+	at org.apache.cxf.service.invoker.AbstractInvoker.invoke(AbstractInvoker.java:96)
+	at org.apache.cxf.jaxws.AbstractJAXWSMethodInvoker.invoke(AbstractJAXWSMethodInvoker.java:178)
+	at org.apache.cxf.jaxws.JAXWSMethodInvoker.invoke(JAXWSMethodInvoker.java:64)
+	at org.apache.cxf.service.invoker.AbstractInvoker.invoke(AbstractInvoker.java:75)
+	at org.apache.cxf.interceptor.ServiceInvokerInterceptor$1.run(ServiceInvokerInterceptor.java:58)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.apache.cxf.workqueue.SynchronousExecutor.execute(SynchronousExecutor.java:37)
+	at org.apache.cxf.interceptor.ServiceInvokerInterceptor.handleMessage(ServiceInvokerInterceptor.java:107)
+	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:262)
+
+11:52:40.684-----------> ModelADServiceImpl.validateParameter: Web service type ReadBPartner: constant parameter TableName changed to C_BPartner [110]
+11:52:40.687===========> MBPartner.load: NO Data found for C_BPartner_ID=1000005 [110]
+java.lang.Exception
+	at org.compiere.model.PO.load(PO.java:1347)
+	at org.compiere.model.PO.load(PO.java:1287)
+	at org.compiere.model.PO.<init>(PO.java:204)
+	at org.compiere.model.PO.<init>(PO.java:154)
+	at org.compiere.model.X_C_BPartner.<init>(X_C_BPartner.java:41)
+	at org.compiere.model.MBPartner.<init>(MBPartner.java:208)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.adempiere.base.DefaultModelFactory.getPO(DefaultModelFactory.java:272)
+	at org.compiere.model.MTable.getPO(MTable.java:397)
+	at org.idempiere.adinterface.ModelADServiceImpl.readData(ModelADServiceImpl.java:1376)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.apache.cxf.service.invoker.AbstractInvoker.performInvocation(AbstractInvoker.java:180)
+	at org.apache.cxf.service.invoker.AbstractInvoker.invoke(AbstractInvoker.java:96)
+	at org.apache.cxf.jaxws.AbstractJAXWSMethodInvoker.invoke(AbstractJAXWSMethodInvoker.java:178)
+	at org.apache.cxf.jaxws.JAXWSMethodInvoker.invoke(JAXWSMethodInvoker.java:64)
+
+11:52:40.704===========> GenericPO.load: NO Data found for C_BPartner_ID=1000005 [110]
+java.lang.Exception
+	at org.compiere.model.PO.load(PO.java:1347)
+	at org.compiere.model.PO.load(PO.java:1287)
+	at org.compiere.model.PO.<init>(PO.java:204)
+	at org.adempiere.model.GenericPO.<init>(GenericPO.java:71)
+	at org.compiere.model.MTable.getPO(MTable.java:410)
+	at org.idempiere.adinterface.ModelADServiceImpl.readData(ModelADServiceImpl.java:1376)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.apache.cxf.service.invoker.AbstractInvoker.performInvocation(AbstractInvoker.java:180)
+	at org.apache.cxf.service.invoker.AbstractInvoker.invoke(AbstractInvoker.java:96)
+	at org.apache.cxf.jaxws.AbstractJAXWSMethodInvoker.invoke(AbstractJAXWSMethodInvoker.java:178)
+	at org.apache.cxf.jaxws.JAXWSMethodInvoker.invoke(JAXWSMethodInvoker.java:64)
+	at org.apache.cxf.service.invoker.AbstractInvoker.invoke(AbstractInvoker.java:75)
+	at org.apache.cxf.interceptor.ServiceInvokerInterceptor$1.run(ServiceInvokerInterceptor.java:58)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.apache.cxf.workqueue.SynchronousExecutor.execute(SynchronousExecutor.java:37)
+	at org.apache.cxf.interceptor.ServiceInvokerInterceptor.handleMessage(ServiceInvokerInterceptor.java:107)
+	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:262)
+
+11:52:45.828-----------> ModelADServiceImpl.validateParameter: Web service type ReadBPartner: constant parameter TableName changed to C_BPartner [34]
+11:52:45.831===========> MBPartner.load: NO Data found for C_BPartner_ID=1000001 [34]
+java.lang.Exception
+	at org.compiere.model.PO.load(PO.java:1347)
+	at org.compiere.model.PO.load(PO.java:1287)
+	at org.compiere.model.PO.<init>(PO.java:204)
+	at org.compiere.model.PO.<init>(PO.java:154)
+	at org.compiere.model.X_C_BPartner.<init>(X_C_BPartner.java:41)
+	at org.compiere.model.MBPartner.<init>(MBPartner.java:208)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.adempiere.base.DefaultModelFactory.getPO(DefaultModelFactory.java:272)
+	at org.compiere.model.MTable.getPO(MTable.java:397)
+	at org.idempiere.adinterface.ModelADServiceImpl.readData(ModelADServiceImpl.java:1376)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.apache.cxf.service.invoker.AbstractInvoker.performInvocation(AbstractInvoker.java:180)
+	at org.apache.cxf.service.invoker.AbstractInvoker.invoke(AbstractInvoker.java:96)
+	at org.apache.cxf.jaxws.AbstractJAXWSMethodInvoker.invoke(AbstractJAXWSMethodInvoker.java:178)
+	at org.apache.cxf.jaxws.JAXWSMethodInvoker.invoke(JAXWSMethodInvoker.java:64)
+
+11:52:45.849===========> GenericPO.load: NO Data found for C_BPartner_ID=1000001 [34]
+java.lang.Exception
+	at org.compiere.model.PO.load(PO.java:1347)
+	at org.compiere.model.PO.load(PO.java:1287)
+	at org.compiere.model.PO.<init>(PO.java:204)
+	at org.adempiere.model.GenericPO.<init>(GenericPO.java:71)
+	at org.compiere.model.MTable.getPO(MTable.java:410)
+	at org.idempiere.adinterface.ModelADServiceImpl.readData(ModelADServiceImpl.java:1376)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.apache.cxf.service.invoker.AbstractInvoker.performInvocation(AbstractInvoker.java:180)
+	at org.apache.cxf.service.invoker.AbstractInvoker.invoke(AbstractInvoker.java:96)
+	at org.apache.cxf.jaxws.AbstractJAXWSMethodInvoker.invoke(AbstractJAXWSMethodInvoker.java:178)
+	at org.apache.cxf.jaxws.JAXWSMethodInvoker.invoke(JAXWSMethodInvoker.java:64)
+	at org.apache.cxf.service.invoker.AbstractInvoker.invoke(AbstractInvoker.java:75)
+	at org.apache.cxf.interceptor.ServiceInvokerInterceptor$1.run(ServiceInvokerInterceptor.java:58)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.apache.cxf.workqueue.SynchronousExecutor.execute(SynchronousExecutor.java:37)
+	at org.apache.cxf.interceptor.ServiceInvokerInterceptor.handleMessage(ServiceInvokerInterceptor.java:107)
+	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:262)
+
+11:52:50.439-----------> ModelADServiceImpl.validateParameter: Web service type ReadBPartner: constant parameter TableName changed to C_BPartner [29]
+11:53:42.457-----------> ModelADServiceImpl.validateParameter: Web service type ReadBPartner: constant parameter TableName changed to C_BPartner [34]
+11:53:42.460===========> MBPartner.load: NO Data found for C_BPartner_ID=1000002 [34]
+java.lang.Exception
+	at org.compiere.model.PO.load(PO.java:1347)
+	at org.compiere.model.PO.load(PO.java:1287)
+	at org.compiere.model.PO.<init>(PO.java:204)
+	at org.compiere.model.PO.<init>(PO.java:154)
+	at org.compiere.model.X_C_BPartner.<init>(X_C_BPartner.java:41)
+	at org.compiere.model.MBPartner.<init>(MBPartner.java:208)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.adempiere.base.DefaultModelFactory.getPO(DefaultModelFactory.java:272)
+	at org.compiere.model.MTable.getPO(MTable.java:397)
+	at org.idempiere.adinterface.ModelADServiceImpl.readData(ModelADServiceImpl.java:1376)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.apache.cxf.service.invoker.AbstractInvoker.performInvocation(AbstractInvoker.java:180)
+	at org.apache.cxf.service.invoker.AbstractInvoker.invoke(AbstractInvoker.java:96)
+	at org.apache.cxf.jaxws.AbstractJAXWSMethodInvoker.invoke(AbstractJAXWSMethodInvoker.java:178)
+	at org.apache.cxf.jaxws.JAXWSMethodInvoker.invoke(JAXWSMethodInvoker.java:64)
+
+11:53:42.479===========> GenericPO.load: NO Data found for C_BPartner_ID=1000002 [34]
+java.lang.Exception
+	at org.compiere.model.PO.load(PO.java:1347)
+	at org.compiere.model.PO.load(PO.java:1287)
+	at org.compiere.model.PO.<init>(PO.java:204)
+	at org.adempiere.model.GenericPO.<init>(GenericPO.java:71)
+	at org.compiere.model.MTable.getPO(MTable.java:410)
+	at org.idempiere.adinterface.ModelADServiceImpl.readData(ModelADServiceImpl.java:1376)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.apache.cxf.service.invoker.AbstractInvoker.performInvocation(AbstractInvoker.java:180)
+	at org.apache.cxf.service.invoker.AbstractInvoker.invoke(AbstractInvoker.java:96)
+	at org.apache.cxf.jaxws.AbstractJAXWSMethodInvoker.invoke(AbstractJAXWSMethodInvoker.java:178)
+	at org.apache.cxf.jaxws.JAXWSMethodInvoker.invoke(JAXWSMethodInvoker.java:64)
+	at org.apache.cxf.service.invoker.AbstractInvoker.invoke(AbstractInvoker.java:75)
+	at org.apache.cxf.interceptor.ServiceInvokerInterceptor$1.run(ServiceInvokerInterceptor.java:58)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.apache.cxf.workqueue.SynchronousExecutor.execute(SynchronousExecutor.java:37)
+	at org.apache.cxf.interceptor.ServiceInvokerInterceptor.handleMessage(ServiceInvokerInterceptor.java:107)
+	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:262)
+
+14:00:03.600-----------> ClusterService: [192.168.10.212]:5701 [adempiere.idempiere/localhost] [3.5.3] Resetting master confirmation timestamps because of huge system clock jump! Clock-Jump: 3770029ms, Master-Confirmation-Timeout: 500000ms. [97]
+17:46:50.669===========> GridWindowVO.createTabs: No Tabs - AD_Window_ID=53068 - SELECT * FROM AD_Tab_v WHERE AD_Window_ID=? AND IsAdvancedTab='N'  ORDER BY SeqNo [32]
+17:46:50.723===========> UiEngineImpl.handleError:  [32]
+org.adempiere.webui.exception.ApplicationException: With your current role and settings, you cannot view this information 
+
+You don't have the privileges (your Role does not allow to access the information) - or - set profile (e.g. if you want to see accounting records, Show Accounting must be set)(No Window Model Info)
+	at org.adempiere.webui.panel.AbstractMenuPanel.fireMenuSelectedEvent(AbstractMenuPanel.java:305)
+	at org.adempiere.webui.panel.AbstractMenuPanel.doOnClick(AbstractMenuPanel.java:250)
+	at org.adempiere.webui.panel.AbstractMenuPanel.onEvent(AbstractMenuPanel.java:224)
+	at org.adempiere.webui.panel.MenuTreePanel.onEvent(MenuTreePanel.java:116)
+	at org.zkoss.zk.ui.AbstractComponent.onEvent(AbstractComponent.java:2773)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2744)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2685)
+	at org.zkoss.zk.ui.impl.EventProcessor.process(EventProcessor.java:136)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.processEvent(UiEngineImpl.java:1765)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.process(UiEngineImpl.java:1550)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.execUpdate(UiEngineImpl.java:1260)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet.process(DHtmlUpdateServlet.java:611)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet.doGet(DHtmlUpdateServlet.java:485)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet.doPost(DHtmlUpdateServlet.java:494)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:808)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:587)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+caused by: org.adempiere.webui.exception.ApplicationException: With your current role and settings, you cannot view this information 
+
+You don't have the privileges (your Role does not allow to access the information) - or - set profile (e.g. if you want to see accounting records, Show Accounting must be set)(No Window Model Info)
+	at org.adempiere.webui.adwindow.ADWindow.<init>(ADWindow.java:97)
+	at org.adempiere.webui.desktop.TabbedDesktop.openWindow(TabbedDesktop.java:158)
+	at org.adempiere.webui.desktop.TabbedDesktop.openWindow(TabbedDesktop.java:148)
+	at org.adempiere.webui.desktop.AbstractDesktop.onMenuSelected(AbstractDesktop.java:68)
+	at org.adempiere.webui.desktop.DefaultDesktop.onMenuSelected(DefaultDesktop.java:886)
+	at org.adempiere.webui.panel.AbstractMenuPanel.fireMenuSelectedEvent(AbstractMenuPanel.java:301)
+	at org.adempiere.webui.panel.AbstractMenuPanel.doOnClick(AbstractMenuPanel.java:250)
+	at org.adempiere.webui.panel.AbstractMenuPanel.onEvent(AbstractMenuPanel.java:224)
+	at org.adempiere.webui.panel.MenuTreePanel.onEvent(MenuTreePanel.java:116)
+	at org.zkoss.zk.ui.AbstractComponent.onEvent(AbstractComponent.java:2773)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2744)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2685)
+	at org.zkoss.zk.ui.impl.EventProcessor.process(EventProcessor.java:136)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.processEvent(UiEngineImpl.java:1765)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.process(UiEngineImpl.java:1550)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.execUpdate(UiEngineImpl.java:1260)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet.process(DHtmlUpdateServlet.java:611)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet.doGet(DHtmlUpdateServlet.java:485)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet.doPost(DHtmlUpdateServlet.java:494)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+caused by: org.adempiere.webui.exception.ApplicationException: With your current role and settings, you cannot view this information 
+
+You don't have the privileges (your Role does not allow to access the information) - or - set profile (e.g. if you want to see accounting records, Show Accounting must be set)(No Window Model Info)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent.initComponents(AbstractADWindowContent.java:256)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent.<init>(AbstractADWindowContent.java:207)
+	at org.adempiere.webui.adwindow.ADWindowContent.<init>(ADWindowContent.java:72)
+	at org.adempiere.webui.adwindow.ADWindow.init(ADWindow.java:103)
+	at org.adempiere.webui.adwindow.ADWindow.<init>(ADWindow.java:94)
+	at org.adempiere.webui.desktop.TabbedDesktop.openWindow(TabbedDesktop.java:158)
+	at org.adempiere.webui.desktop.TabbedDesktop.openWindow(TabbedDesktop.java:148)
+	at org.adempiere.webui.desktop.AbstractDesktop.onMenuSelected(AbstractDesktop.java:68)
+	at org.adempiere.webui.desktop.DefaultDesktop.onMenuSelected(DefaultDesktop.java:886)
+	at org.adempiere.webui.panel.AbstractMenuPanel.fireMenuSelectedEvent(AbstractMenuPanel.java:301)
+	at org.adempiere.webui.panel.AbstractMenuPanel.doOnClick(AbstractMenuPanel.java:250)
+	at org.adempiere.webui.panel.AbstractMenuPanel.onEvent(AbstractMenuPanel.java:224)
+	at org.adempiere.webui.panel.MenuTreePanel.onEvent(MenuTreePanel.java:116)
+	at org.zkoss.zk.ui.AbstractComponent.onEvent(AbstractComponent.java:2773)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2744)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2685)
+	at org.zkoss.zk.ui.impl.EventProcessor.process(EventProcessor.java:136)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.processEvent(UiEngineImpl.java:1765)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.process(UiEngineImpl.java:1550)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.execUpdate(UiEngineImpl.java:1260)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet.process(DHtmlUpdateServlet.java:611)
+

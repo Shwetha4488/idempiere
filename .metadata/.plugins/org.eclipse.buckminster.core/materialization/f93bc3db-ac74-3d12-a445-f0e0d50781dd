@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8"?><md:materialization xmlns:md="http://www.eclipse.org/buckminster/MetaData-1.0" location="D:/idempiere/org.adempiere.replication.server/" name="org.adempiere.replication.server" componentType="osgi.bundle" version="3.1.0.qualifier"/>

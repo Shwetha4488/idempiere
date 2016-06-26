@@ -1,0 +1,15 @@
+*** 2016-06-12 09:31:09.561 idempiere Log (CLogFile) ***
+09:31:09.561 Setup.<init>: iDempiere(r) Release 3.1_2015-10-31 -Smart Suite ERP, CRM and SCM- (c) 1999-2013 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community [1]
+09:31:09.668 ConfigurationData.load: D:\idempiere\idempiereEnv.properties [1]
+09:31:31.084 Config.test: OK: JavaHome=D:\Program Files\Java\jre7 [27]
+09:31:31.089 Config.test: OK: Version=1.7.0_79 [27]
+09:31:31.089 ConfigurationData.testAdempiere: OK: AdempiereHome = D:\idempiere [27]
+09:31:31.090 KeyStoreMgt.<init>: D:\idempiere\jettyhome/etc\keystore [27]
+09:31:31.090 ConfigurationData.testAdempiere: OK: KeyStore = D:\idempiere\jettyhome/etc\keystore [27]
+09:31:31.090 Config.test: OK: AppsServer = DESKTOP-K0DQ6Q3/192.168.10.212 [27]
+09:31:52.129-----------> ConfigurationData.testServerPort: Port 8080: Address already in use: JVM_Bind [27]
+09:31:52.132-----------> ConfigurationData.test: Not correct: Web Port = 8080 [27]
+09:31:52.138===========> ConfigurationPanel$1.finished: Web 服务器连接端口设置错误 
+(Not correct: Web Port = 8080) [24]
+
+*** 2016-06-12 09:32:06.639 idempiere Log (CLogFile) ***

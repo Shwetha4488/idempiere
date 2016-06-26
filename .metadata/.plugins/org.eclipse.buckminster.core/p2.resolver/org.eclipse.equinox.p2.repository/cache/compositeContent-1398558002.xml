@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<?compositeMetadataRepository version="1.0.0"?> 
+<repository name="&quot;Jetty-9 Bundles Composite Repository&quot;"
+    type="org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository" version="1.0.0"> 
+  <properties size="1"> 
+    <property name="p2.timestamp" value="1464725796"/> 
+  </properties> 
+  <children size="40">
+    <child location="9.3.9.v20160517"/><child location="9.2.6.v20141205"/><child location="9.3.6.v20151106"/><child location="9.3.5.v20151012"/><child location="9.3.4.RC1"/><child location="9.1.1.v20140108"/><child location="9.1.2.v20140210"/><child location="9.1.3.v20140225"/><child location="9.1.4.v20140401"/><child location="9.1.5.v20140505"/><child location="9.2.0.v20140526"/><child location="9.2.1.v20140609"/><child location="9.2.2.v20140723"/><child location="9.2.3.v20140905"/><child location="9.2.4.v20141103"/><child location="9.2.5.v20141112"/><child location="9.2.7.v20150116"/><child location="9.2.8.v20150217"/><child location="9.2.9.v20150224"/><child location="9.3.0.v20150612"/><child location="9.3.1.v20150714"/><child location="9.3.2.v20150730"/><child location="9.2.10.v20150310"/><child location="9.2.12.v20150709"/><child location="9.2.13.v20150730"/><child location="9.3.3.v20150827"/><child location="9.1.0.RC0"/><child location="9.1.0.RC2"/><child location="9.1.0.v20131115"/><child location="9.0.7.v20131107"/><child location="9.0.6.v20130930"/><child location="9.0.5.v20130815"/><child location="9.0.4.v20130625"/><child location="9.0.3.v20130506"/><child location="9.0.2.v20130417"/><child location="9.0.1.v20130408"/><child location="9.0.0.v20130308"/><child location="9.0.0.RC2"/><child location="9.0.0.RC1"/><child location="9.0.0.RC0"/>
+  </children> 
+</repository> 
+ 

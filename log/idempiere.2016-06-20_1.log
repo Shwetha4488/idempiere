@@ -1,0 +1,159 @@
+*** 2016-06-20 22:19:53.979 idempiere Log (CLogFile) ***
+22:19:53.978 Adempiere.startup: iDempiere(r) Release 3.1_2015-10-31 -Smart Suite ERP, CRM and SCM- (c) 1999-2013 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community [14]
+22:19:53.986 Ini.loadProperties: D:\idempiere\idempiere.properties #32 [14]
+22:19:54.854 DB.isBuildOK: Build DB=${env.ADEMPIERE_VERSION} 20080428-1232 [14]
+22:19:54.854 DB.isBuildOK: Build Cl=3.1.0.qualifier [14]
+22:19:54.873-----------> DB.isBuildOK: Build Version Error 
+
+The program assumes build version 3.1.0.qualifier, but database has build version ${env.ADEMPIERE_VERSION} 20080428-1232. 
+This is likely to cause hard to fix errors. 
+Please contact administrator. [14]
+22:19:54.986 Language.getLanguage: Adding Language=en, Country=US, Locale=en_US [14]
+22:19:54.986 Language.getLanguage: Adding Language=en, Country=US, Locale=en_US [14]
+22:19:55.055 WebEnv.initWeb: Servlet Context Init Parameters: iDempiere Root
+ServerRoot=1 [14]
+22:19:55.086-----------> EMail.setFrom: you @ company.org: javax.mail.internet.AddressException: Local address contains control or whitespace in string ``you @ company.org'' [14]
+22:19:55.086-----------> EMail.addTo: you @ company.org: javax.mail.internet.AddressException: Local address contains control or whitespace in string ``you @ company.org'' [14]
+22:19:55.086-----------> EMail.isValid: From is invalid=null [14]
+22:19:55.086-----------> EMail.isValid: From is invalid=null [14]
+22:19:55.086-----------> MClient.sendEMail: Could NOT Send Email: Server started: iDempiere (DESKTOP-K0DQ6Q3:192.168.0.103) to you @ company.org: Invalid Data (System) [14]
+22:19:55.086 WebEnv.initWeb: Servlet Init Parameter: idempiereMonitor [14]
+22:19:55.086 AdempiereMonitor.init:  [14]
+22:19:57.203-----------> AnnotationConfiguration.configure: ServletContainerInitializers: detected. Class hierarchy: empty [14]
+22:19:57.473-----------> ClassLocator.getDependentXMLResources: Replicate resource: ckez
+Overwrite bundleresource://174.fwk976177856:2/metainfo/zk/config.xml
+with bundleresource://174.fwk976177856:19/metainfo/zk/config.xml [14]
+22:19:57.473-----------> ClassLocator.getDependentXMLResources: Replicate resource: zk
+Overwrite bundleresource://174.fwk976177856:11/metainfo/zk/config.xml
+with bundleresource://174.fwk976177856:28/metainfo/zk/config.xml [14]
+22:19:57.473-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkbind
+Overwrite bundleresource://174.fwk976177856:12/metainfo/zk/config.xml
+with bundleresource://174.fwk976177856:29/metainfo/zk/config.xml [14]
+22:19:57.504-----------> ClassLocator.getDependentXMLResources: Replicate resource: zul
+Overwrite bundleresource://174.fwk976177856:14/metainfo/zk/zk.xml
+with bundleresource://174.fwk976177856:31/metainfo/zk/zk.xml [14]
+22:19:57.889-----------> LanguageDefinition.<init>: Replicated language: xhtml, overriden by [LanguageDefinition: xhtml] [14]
+22:19:57.905-----------> LanguageDefinition.<init>: Replicated language: xul/html, overriden by [LanguageDefinition: xul/html] [14]
+22:19:57.974-----------> ClassLocator.getDependentXMLResources: Replicate resource: calendar
+Overwrite bundleresource://174.fwk976177856:1/metainfo/zk/lang-addon.xml
+with bundleresource://174.fwk976177856:18/metainfo/zk/lang-addon.xml [14]
+22:19:57.974-----------> ClassLocator.getDependentXMLResources: Replicate resource: ckez
+Overwrite bundleresource://174.fwk976177856:2/metainfo/zk/lang-addon.xml
+with bundleresource://174.fwk976177856:19/metainfo/zk/lang-addon.xml [14]
+22:19:57.974-----------> ClassLocator.getDependentXMLResources: Replicate resource: gmapsz
+Overwrite bundleresource://174.fwk976177856:5/metainfo/zk/lang-addon.xml
+with bundleresource://174.fwk976177856:22/metainfo/zk/lang-addon.xml [14]
+22:19:57.974-----------> ClassLocator.getDependentXMLResources: Replicate resource: timeline
+Overwrite bundleresource://174.fwk976177856:6/metainfo/zk/lang-addon.xml
+with bundleresource://174.fwk976177856:23/metainfo/zk/lang-addon.xml [14]
+22:19:57.974-----------> ClassLocator.getDependentXMLResources: Replicate resource: timeplot
+Overwrite bundleresource://174.fwk976177856:7/metainfo/zk/lang-addon.xml
+with bundleresource://174.fwk976177856:24/metainfo/zk/lang-addon.xml [14]
+22:19:57.989-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkbind
+Overwrite bundleresource://174.fwk976177856:12/metainfo/zk/lang-addon.xml
+with bundleresource://174.fwk976177856:29/metainfo/zk/lang-addon.xml [14]
+22:19:57.989-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkplus
+Overwrite bundleresource://174.fwk976177856:13/metainfo/zk/lang-addon.xml
+with bundleresource://174.fwk976177856:30/metainfo/zk/lang-addon.xml [14]
+22:19:58.105           WebUIServlet.init: iDempiere Web Client started successfully [14]
+22:19:59.876-----------> AnnotationConfiguration.configure: ServletContainerInitializers: detected. Class hierarchy: empty [14]
+
+*** 2016-06-20 22:20:00.161 idempiere Log (CLogFile) ***
+22:20:02.511-----------> Node: [192.168.0.103]:5701 [adempiere.idempiere/localhost] [3.5.3] No join method is enabled! Starting standalone. [38]
+22:30:05.954===========> DB.executeUpdate: INSERT INTO AD_Table (AD_Table_ID,Name,Description,Help,TableName,LoadSeq,AccessLevel,AD_Client_ID,AD_Org_ID,IsActive,Created,CreatedBy,Updated,UpdatedBy,IsSecurityEnabled,IsDeleteable,IsHighVolume,IsView,EntityType,ImportTable,IsChangeLog,ReplicationType,CopyColumnsFromTable,IsCentrallyMaintained,AD_Table_UU,Processing,DatabaseViewDrop,CopyComponentsFromView) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?) [POSaveAD_Table_14f333da-00a7-496c-b011-6965df34db71] [30]
+org.postgresql.util.PSQLException: 错误: 重复键违反唯一约束"ad_table_name"
+  详细：键值"(tablename)=(c_mom)" 已经存在; State=23505; ErrorCode=0
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2182)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:1911)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:173)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.execute(AbstractJdbc2Statement.java:645)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeWithFlags(AbstractJdbc2Statement.java:495)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeUpdate(AbstractJdbc2Statement.java:441)
+	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.executeUpdate(NewProxyPreparedStatement.java:1449)
+	at sun.reflect.GeneratedMethodAccessor56.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.compiere.db.StatementProxy.invoke(StatementProxy.java:128)
+	at com.sun.proxy.$Proxy3.executeUpdate(Unknown Source)
+	at org.compiere.util.DB.executeUpdate(DB.java:1038)
+	at org.compiere.util.DB.executeUpdate(DB.java:1007)
+	at org.compiere.model.PO.doInsert(PO.java:2974)
+	at org.compiere.model.PO.saveNew(PO.java:2778)
+	at org.compiere.model.PO.save(PO.java:2128)
+	at org.compiere.model.GridTable.dataSavePO(GridTable.java:2223)
+	at org.compiere.model.GridTable.dataSave(GridTable.java:1549)
+	at org.compiere.model.GridTab.dataSave(GridTab.java:1007)
+
+22:30:06.022===========> DB.saveError: SaveErrorNotUnique - 错误: 重复键违反唯一约束"ad_table_name"
+  详细：键值"(tablename)=(c_mom)" 已经存在 [30]
+22:30:06.038-----------> MTable.doInsert: [POSaveAD_Table_14f333da-00a7-496c-b011-6965df34db71]Not inserted - AD_Table [30]
+22:30:06.071===========> MTable.saveError: SaveErrorNotUnique - 错误: 重复键违反唯一约束"ad_table_name"
+  详细：键值"(tablename)=(c_mom)" 已经存在 [30]
+22:30:06.071-----------> GridTable.saveWarning: SaveErrorNotUnique - 错误: 重复键违反唯一约束"ad_table_name"
+  详细：键值"(tablename)=(c_mom)" 已经存在 [30]
+22:30:39.858===========> DB.executeUpdate: INSERT INTO AD_Table (AD_Table_ID,Name,Description,Help,TableName,LoadSeq,AccessLevel,AD_Client_ID,AD_Org_ID,IsActive,Created,CreatedBy,Updated,UpdatedBy,IsSecurityEnabled,IsDeleteable,IsHighVolume,IsView,EntityType,ImportTable,IsChangeLog,ReplicationType,CopyColumnsFromTable,IsCentrallyMaintained,AD_Table_UU,Processing,DatabaseViewDrop,CopyComponentsFromView) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?) [POSaveAD_Table_e5d1db70-f76b-4cf9-a066-3e9df1387c97] [34]
+org.postgresql.util.PSQLException: 错误: 重复键违反唯一约束"ad_table_name"
+  详细：键值"(tablename)=(c_mom)" 已经存在; State=23505; ErrorCode=0
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2182)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:1911)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:173)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.execute(AbstractJdbc2Statement.java:645)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeWithFlags(AbstractJdbc2Statement.java:495)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeUpdate(AbstractJdbc2Statement.java:441)
+	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.executeUpdate(NewProxyPreparedStatement.java:1449)
+	at sun.reflect.GeneratedMethodAccessor56.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.compiere.db.StatementProxy.invoke(StatementProxy.java:128)
+	at com.sun.proxy.$Proxy3.executeUpdate(Unknown Source)
+	at org.compiere.util.DB.executeUpdate(DB.java:1038)
+	at org.compiere.util.DB.executeUpdate(DB.java:1007)
+	at org.compiere.model.PO.doInsert(PO.java:2974)
+	at org.compiere.model.PO.saveNew(PO.java:2778)
+	at org.compiere.model.PO.save(PO.java:2128)
+	at org.compiere.model.GridTable.dataSavePO(GridTable.java:2223)
+	at org.compiere.model.GridTable.dataSave(GridTable.java:1549)
+	at org.compiere.model.GridTab.dataSave(GridTab.java:1007)
+
+22:30:39.873===========> DB.saveError: SaveErrorNotUnique - 错误: 重复键违反唯一约束"ad_table_name"
+  详细：键值"(tablename)=(c_mom)" 已经存在 [34]
+22:30:39.891-----------> MTable.doInsert: [POSaveAD_Table_e5d1db70-f76b-4cf9-a066-3e9df1387c97]Not inserted - AD_Table [34]
+22:30:39.895===========> MTable.saveError: SaveErrorNotUnique - 错误: 重复键违反唯一约束"ad_table_name"
+  详细：键值"(tablename)=(c_mom)" 已经存在 [34]
+22:30:39.895-----------> GridTable.saveWarning: SaveErrorNotUnique - 错误: 重复键违反唯一约束"ad_table_name"
+  详细：键值"(tablename)=(c_mom)" 已经存在 [34]
+22:30:45.337===========> DB.executeUpdate: INSERT INTO AD_Table (AD_Table_ID,Name,Description,Help,TableName,LoadSeq,AccessLevel,AD_Client_ID,AD_Org_ID,IsActive,Created,CreatedBy,Updated,UpdatedBy,IsSecurityEnabled,IsDeleteable,IsHighVolume,IsView,EntityType,ImportTable,IsChangeLog,ReplicationType,CopyColumnsFromTable,IsCentrallyMaintained,AD_Table_UU,Processing,DatabaseViewDrop,CopyComponentsFromView) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?) [POSaveAD_Table_940556f8-44b8-4e84-a3f7-b79c18e4a196] [31]
+org.postgresql.util.PSQLException: 错误: 重复键违反唯一约束"ad_table_name"
+  详细：键值"(tablename)=(c_mom)" 已经存在; State=23505; ErrorCode=0
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2182)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:1911)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:173)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.execute(AbstractJdbc2Statement.java:645)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeWithFlags(AbstractJdbc2Statement.java:495)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeUpdate(AbstractJdbc2Statement.java:441)
+	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.executeUpdate(NewProxyPreparedStatement.java:1449)
+	at sun.reflect.GeneratedMethodAccessor56.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.compiere.db.StatementProxy.invoke(StatementProxy.java:128)
+	at com.sun.proxy.$Proxy3.executeUpdate(Unknown Source)
+	at org.compiere.util.DB.executeUpdate(DB.java:1038)
+	at org.compiere.util.DB.executeUpdate(DB.java:1007)
+	at org.compiere.model.PO.doInsert(PO.java:2974)
+	at org.compiere.model.PO.saveNew(PO.java:2778)
+	at org.compiere.model.PO.save(PO.java:2128)
+	at org.compiere.model.GridTable.dataSavePO(GridTable.java:2223)
+	at org.compiere.model.GridTable.dataSave(GridTable.java:1549)
+	at org.compiere.model.GridTab.dataSave(GridTab.java:1007)
+
+22:30:45.371===========> DB.saveError: SaveErrorNotUnique - 错误: 重复键违反唯一约束"ad_table_name"
+  详细：键值"(tablename)=(c_mom)" 已经存在 [31]
+22:30:45.374-----------> MTable.doInsert: [POSaveAD_Table_940556f8-44b8-4e84-a3f7-b79c18e4a196]Not inserted - AD_Table [31]
+22:30:45.375===========> MTable.saveError: SaveErrorNotUnique - 错误: 重复键违反唯一约束"ad_table_name"
+  详细：键值"(tablename)=(c_mom)" 已经存在 [31]
+22:30:45.391-----------> GridTable.saveWarning: SaveErrorNotUnique - 错误: 重复键违反唯一约束"ad_table_name"
+  详细：键值"(tablename)=(c_mom)" 已经存在 [31]
+22:48:25.978-----------> MRole.saveWarning: AccessTableNoUpdate - AD_Client_ID=-1, AD_Org_ID=0, UserLevel= CO => missing=C [192]
+22:48:25.978-----------> MRole.canUpdate: MRole[102,GardenWorld Admin,UserLevel= CO,AD_Client_ID IN(0,11),AD_Org_ID IN(50007,0,50004,50005,50006,50000,50001,50002,11,12)] [192]
+22:57:35.288-----------> GridTable.saveWarning: FillMandatory - Name, start_date, start_time, end_time
+ [31]

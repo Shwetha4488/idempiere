@@ -1,0 +1,7 @@
+INDEX VERSION 1.127
+D:\idempiere\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3341541206.index
+\org.adempiere.ui.zk\WEB-INF\src
+D:\idempiere\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3945613935.index
+\org.adempiere.server\src\main\server
+D:\idempiere\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3336047440.index
+\org.adempiere.webstore.resource\src

@@ -1,0 +1,5 @@
+package com.tgb.activemq;
+
+public class SimpleStompProducer {
+
+}

@@ -1,0 +1,7 @@
+[2016-06-13 15:44:15] [error] [client 127.0.0.1] [context /webui] [username admin] Invalid User ID or Password
+[2016-06-13 15:44:47] [error] [client 127.0.0.1] [context /webui] [username idempiere] Invalid User ID or Password
+[2016-06-13 22:27:54] [error] [client 127.0.0.1] [context /webui] [username Garduser] Invalid User ID or Password
+[2016-06-13 22:28:15] [error] [client 127.0.0.1] [context /webui] [username Gardenuser] Invalid User ID or Password
+[2016-06-13 22:28:43] [error] [client 127.0.0.1] [context /webui] [username GardenUser] Invalid User ID or Password
+[2016-06-21 11:04:47] [error] [client 127.0.0.1] [context /webui] [username System] Invalid User ID or Password
+[2016-06-23 11:34:05] [error] [client 127.0.0.1] [context /webui] [username System] Invalid User ID or Password

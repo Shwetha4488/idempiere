@@ -1,0 +1,17 @@
+package com.tgb.activemq;
+
+import java.io.IOException;
+import java.net.UnknownHostException;
+
+import org.apache.activemq.transport.stomp.StompConnection;
+
+public class SimpleStompProducer {
+
+	public static void main(String[] args) throws Exception{
+		StompConnection connection = new StompConnection();
+		connection.open("localhost", 61613);
+		connection.connect("admin", "");
+		
+	}
+	
+}

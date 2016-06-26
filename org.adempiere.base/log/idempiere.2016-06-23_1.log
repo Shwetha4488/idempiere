@@ -1,0 +1,7 @@
+*** 2016-06-23 15:11:21.373 idempiere Log (CLogFile) ***
+15:11:21.372 Adempiere.startup: iDempiere(r) Release 3.1_2015-10-31 -Smart Suite ERP, CRM and SCM- (c) 1999-2013 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community [1]
+15:11:21.374 Ini.loadProperties: D:\idempiere\org.adempiere.base\idempiere.properties #27 [1]
+15:11:21.511===========> SecureEngine.<init>: Could not initialize: org.compiere.util.Secure - java.lang.NullPointerException
+Check start script parameter ADEMPIERE_SECURE [1]
+
+*** 2016-06-23 15:11:21.515 idempiere Log (CLogFile) ***

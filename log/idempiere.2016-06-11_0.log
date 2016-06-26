@@ -1,0 +1,7 @@
+*** 2016-06-11 15:54:50.708 idempiere Log (CLogFile) ***
+15:54:50.707 Adempiere.startup: iDempiere(r) Release 3.1_2015-10-31 -Smart Suite ERP, CRM and SCM- (c) 1999-2013 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community [1]
+15:54:50.709-----------> Ini.loadProperties: D:\idempiere\idempiere.properties not found [1]
+15:54:50.719 Ini.loadProperties: D:\idempiere\idempiere.properties #27 [1]
+15:54:51.169===========> Adempiere.startupEnvironment: No Database [1]
+
+*** 2016-06-11 15:54:51.724 idempiere Log (CLogFile) ***

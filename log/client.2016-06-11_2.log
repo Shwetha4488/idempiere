@@ -1,0 +1,20 @@
+*** 2016-06-11 21:07:08.124 idempiere Log (CLogFile) ***
+21:07:08.123 Setup.<init>: iDempiere(r) Release 3.1_2015-10-31 -Smart Suite ERP, CRM and SCM- (c) 1999-2013 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community [1]
+21:07:08.232 ConfigurationData.load: D:\idempiere\idempiereEnv.properties [1]
+21:07:19.624 Config.test: OK: JavaHome=D:\Program Files\Java\jre7 [28]
+21:07:19.624 Config.test: OK: Version=1.7.0_79 [28]
+21:07:19.625 ConfigurationData.testAdempiere: OK: AdempiereHome = D:\idempiere [28]
+21:07:19.628 KeyStoreMgt.<init>: D:\idempiere\jettyhome/etc\keystore [28]
+21:07:19.634 ConfigurationData.testAdempiere: OK: KeyStore = D:\idempiere\jettyhome/etc\keystore [28]
+21:07:19.635 Config.test: OK: AppsServer = DESKTOP-K0DQ6Q3/192.168.0.108 [28]
+21:07:20.652 Config.test: OK: Web Port = 8080 [28]
+21:07:21.888 Config.test: OK: SSL Port = 8443 [28]
+21:07:21.890 ConfigPostgreSQL.test: OK: Database Server = /127.0.0.1 [28]
+21:07:21.892 ConfigPostgreSQL.test: OK: Database Port = 5432 [28]
+21:07:22.060 ConfigPostgreSQL.test: OK: System Connection = jdbc:postgresql://127.0.0.1:5432/template1 [28]
+21:07:22.131 ConfigPostgreSQL.test: OK: Database User = adempiere [28]
+21:07:22.135-----------> ConfigurationData.testMail: Not valid:  - Illegal address [28]
+21:07:22.139 Ini.loadProperties: D:\idempiere\idempiere.properties #28 [25]
+21:07:22.144 ConfigurationData.save: D:\idempiere\idempiereEnv.properties [25]
+
+*** 2016-06-11 21:07:23.093 idempiere Log (CLogFile) ***
