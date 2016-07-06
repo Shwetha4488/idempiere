@@ -1,0 +1,36 @@
+*** 2016-07-04 19:21:02.767 idempiere Log (CLogFile) ***
+19:21:02.766 Setup.<init>: iDempiere(r) Release 3.1_2015-10-31 -Smart Suite ERP, CRM and SCM- (c) 1999-2013 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community [1]
+19:21:02.902 ConfigurationData.load: D:\idempiere\idempiereEnv.properties [1]
+19:21:25.297 Config.test: OK: JavaHome=D:\Program Files\Java\jre7 [27]
+19:21:25.298 Config.test: OK: Version=1.7.0_79 [27]
+19:21:25.298 ConfigurationData.testAdempiere: OK: AdempiereHome = D:\idempiere [27]
+19:21:25.302 KeyStoreMgt.<init>: D:\idempiere\jettyhome/etc\keystore [27]
+19:21:25.307 ConfigurationData.testAdempiere: OK: KeyStore = D:\idempiere\jettyhome/etc\keystore [27]
+19:21:25.308 Config.test: OK: AppsServer = /127.0.0.1 [27]
+19:21:25.333-----------> ConfigurationData.testPort: In Use=http://127.0.0.1:8080/ [27]
+19:21:25.334-----------> ConfigurationData.test: Not correct: Web Port = 8080 [27]
+19:21:25.336===========> ConfigurationPanel$1.finished: Web 服务器连接端口设置错误 
+(Not correct: Web Port = 8080) [24]
+19:21:42.169 Config.test: OK: JavaHome=D:\Program Files\Java\jre7 [30]
+19:21:42.170 Config.test: OK: Version=1.7.0_79 [30]
+19:21:42.170 ConfigurationData.testAdempiere: OK: AdempiereHome = D:\idempiere [30]
+19:21:42.170 KeyStoreMgt.<init>: D:\idempiere\jettyhome/etc\keystore [30]
+19:21:42.172 ConfigurationData.testAdempiere: OK: KeyStore = D:\idempiere\jettyhome/etc\keystore [30]
+19:21:42.173 Config.test: OK: AppsServer = /127.0.0.1 [30]
+19:21:42.181-----------> ConfigurationData.testPort: In Use=http://127.0.0.1:8080/ [30]
+19:21:42.182-----------> ConfigurationData.test: Not correct: Web Port = 8080 [30]
+19:21:42.184===========> ConfigurationPanel$1.finished: Web 服务器连接端口设置错误 
+(Not correct: Web Port = 8080) [24]
+19:21:51.970 Config.test: OK: JavaHome=D:\Program Files\Java\jre7 [31]
+19:21:51.971 Config.test: OK: Version=1.7.0_79 [31]
+19:21:51.971 ConfigurationData.testAdempiere: OK: AdempiereHome = D:\idempiere [31]
+19:21:51.972 KeyStoreMgt.<init>: D:\idempiere\jettyhome/etc\keystore [31]
+19:21:51.973 ConfigurationData.testAdempiere: OK: KeyStore = D:\idempiere\jettyhome/etc\keystore [31]
+19:21:51.974 Config.test: OK: AppsServer = /127.0.0.1 [31]
+19:21:52.977 Config.test: OK: Web Port = 8088 [31]
+19:21:53.296-----------> ConfigurationData.testServerPort: Port 8443: Address already in use: JVM_Bind [31]
+19:21:53.296-----------> ConfigurationData.test: Not correct: SSL Port = 8443 [31]
+19:21:53.299===========> ConfigurationPanel$1.finished: Web 服务器连接端口设置错误 
+(Not correct: SSL Port = 8443) [24]
+
+*** 2016-07-04 19:23:37.41 idempiere Log (CLogFile) ***

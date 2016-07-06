@@ -1,0 +1,50 @@
+package com.activemq;
+
+import java.sql.SQLException;
+import java.text.ParseException;
+
+import javax.jms.JMSException;
+import javax.jms.Message;
+import javax.jms.MessageListener;
+import javax.jms.TextMessage;
+
+import net.sf.json.JSONObject;
+
+import org.apache.activemq.command.ActiveMQBytesMessage;
+
+import com.dao.OrderDao;
+import com.dao.OrderDaoA;
+import com.pojo.Order;
+
+public class JMSListenerA implements MessageListener{
+
+	@Override
+	public void onMessage(Message message) {
+		String jsonString = new String();
+		if (message instanceof ActiveMQBytesMessage){
+			jsonString = new String (((ActiveMQBytesMessage) message).getContent().getData());
+		}else if (message instanceof TextMessage){
+			try {
+				jsonString = ((TextMessage) message).getText();
+			} catch (JMSException e) {
+				e.printStackTrace();
+			}
+		}
+		
+		
+		
+		
+		if (jsonString != null){
+			try {
+				//转换为javaBean
+				JSONObject jsonObject = JSONObject.fromObject(jsonString); 
+				String orderId = (String) jsonObject.get("orderId");
+				OrderDaoA.insertOrder(orderId);
+				OrderDaoA.insertBom(orderId);
+			} catch (SQLException e) {
+				e.printStackTrace();
+			}
+		}
+	}
+
+}

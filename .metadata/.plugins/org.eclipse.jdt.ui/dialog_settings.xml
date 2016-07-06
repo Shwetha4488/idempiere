@@ -22,8 +22,8 @@
 			<item value="600" key="DIALOG_WIDTH"/>
 			<item value="1|Microsoft YaHei UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Microsoft YaHei UI" key="DIALOG_FONT_NAME"/>
 			<item value="500" key="DIALOG_HEIGHT"/>
-			<item value="-14" key="DIALOG_X_ORIGIN"/>
-			<item value="4" key="DIALOG_Y_ORIGIN"/>
+			<item value="805" key="DIALOG_X_ORIGIN"/>
+			<item value="297" key="DIALOG_Y_ORIGIN"/>
 		</section>
 	</section>
 	<section name="NewClassWizardPage">
@@ -42,7 +42,7 @@
 	</section>
 	<section name="DialogBounds_GetterSetterTreeSelectionDialog">
 		<item value="587" key="DIALOG_WIDTH"/>
-		<item value="1|Microsoft YaHei UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|5|0|Microsoft YaHei UI" key="DIALOG_FONT_NAME"/>
+		<item value="1|Microsoft YaHei UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Microsoft YaHei UI" key="DIALOG_FONT_NAME"/>
 		<item value="767" key="DIALOG_HEIGHT"/>
 		<item value="953" key="DIALOG_X_ORIGIN"/>
 		<item value="183" key="DIALOG_Y_ORIGIN"/>
@@ -60,13 +60,13 @@
 	</section>
 	<section name="FatJarPackageWizard">
 		<item value="D:\idempiere" key="FatJarPackageWizardPage.ANTSCRIPT_LOCATION"/>
-		<item value="JMSConsumer (1) - activeMQ" key="FatJarPackageWizardPage.LAUNCH_CONFIGURATION_SELECTION_NAME"/>
-		<item value="C:\Users\xinli\Desktop\activeMQConsumer.jar" key="FatJarPackageWizardPage.DESTINATION_PATH_SELECTION"/>
+		<item value="JMSProducer (1) - activeMQ" key="FatJarPackageWizardPage.LAUNCH_CONFIGURATION_SELECTION_NAME"/>
+		<item value="C:\Users\xinli\Desktop\activeMQProducer.jar" key="FatJarPackageWizardPage.DESTINATION_PATH_SELECTION"/>
 		<item value="false" key="FatJarPackageWizardPage.ANTSCRIPT_SAVE"/>
 		<item value="2" key="FatJarPackageWizardPage.LIBRARY_HANDLING"/>
 		<list key="FatJarPackageWizardPage.DESTINATION_NAMES_ID">
-			<item value="C:\Users\xinli\Desktop\activeMQConsumer.jar"/>
 			<item value="C:\Users\xinli\Desktop\activeMQProducer.jar"/>
+			<item value="C:\Users\xinli\Desktop\activeMQConsumer.jar"/>
 			<item value="C:\Users\xinli\Desktop\activeMQ.jar"/>
 		</list>
 		<list key="FatJarPackageWizardPage.ANTSCRIPT_LOCATION_HISTORY">
@@ -148,7 +148,7 @@
 		</section>
 	</section>
 	<section name="BuildPathsPropertyPage">
-		<item value="3" key="pageIndex"/>
+		<item value="1" key="pageIndex"/>
 	</section>
 	<section name="completion_proposal_size">
 	</section>

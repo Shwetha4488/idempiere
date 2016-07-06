@@ -22,7 +22,7 @@
           </Array>
         </Arg>
 
-        <Set name="host"><Property name="jetty.host" default="localhost" /></Set>
+        <Set name="host"><Property name="jetty.host" default="0.0.0.0" /></Set>
         <Set name="port"><Property name="ssl.port" default="8443" /></Set>
         <Set name="idleTimeout"><Property name="ssl.timeout" default="300000"/></Set>
         <Set name="soLingerTime"><Property name="ssl.soLingerTime" default="-1"/></Set>

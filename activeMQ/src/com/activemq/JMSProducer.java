@@ -58,7 +58,7 @@ public class JMSProducer {
         		session = connection.createSession(true, Session.AUTO_ACKNOWLEDGE);
         		//创建一个名称为HelloWorld的消息队列
 //        		destination = session.createQueue("HelloWorld");
-                destination = session.createTopic("/topic/mytopic");
+                destination = session.createTopic("orderstatus");
         		//创建消息生产者
         		messageProducer = session.createProducer(destination);
         		//发送消息
@@ -139,7 +139,9 @@ public class JMSProducer {
         sb.append("\"endDate\":");
         sb.append("\"2015-06-05T00:00:00+00:00\"");
         sb.append("}");
-        TextMessage message = session.createTextMessage(sb.toString());
+        
+        
+        TextMessage message = session.createTextMessage("{orderId:24}");
         System.out.println("发送消息：Activemq 发送消息" + i);
         //通过消息生产者发出消息 
         messageProducer.send(message);

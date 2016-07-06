@@ -1,0 +1,33 @@
+package com.tgb.activemq;
+
+import java.security.Timestamp;
+import java.util.Date;
+
+import net.sf.ezmorph.array.AbstractArrayMorpher;
+
+public class TimestampMorpher extends AbstractArrayMorpher {
+
+	@Override
+	public Object morph(Object timeLong) {
+		if (null == timeLong){
+			return null;
+		}
+		if (Date.class.isAssignableFrom(timeLong.getClass())){
+			return timeLong;
+		}
+		if (Long.class.isAssignableFrom(timeLong.getClass()));
+		
+		
+		return new Date(timeLong);
+		
+		
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Class morphsTo() {
+		return Date.class;
+	}
+
+}

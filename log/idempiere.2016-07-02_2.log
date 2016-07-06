@@ -1,0 +1,1350 @@
+*** 2016-07-02 19:48:29.378 idempiere Log (CLogFile) ***
+19:48:29.378 Adempiere.startup: iDempiere(r) Release 3.1_2015-10-31 -Smart Suite ERP, CRM and SCM- (c) 1999-2013 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community [14]
+19:48:29.378 Ini.loadProperties: D:\idempiere\idempiere.properties #33 [14]
+19:48:30.362 DB.isBuildOK: Build DB=${env.ADEMPIERE_VERSION} 20080428-1232 [14]
+19:48:30.362 DB.isBuildOK: Build Cl=3.1.0.qualifier [14]
+19:48:30.394-----------> DB.isBuildOK: Build Version Error 
+
+The program assumes build version 3.1.0.qualifier, but database has build version ${env.ADEMPIERE_VERSION} 20080428-1232. 
+This is likely to cause hard to fix errors. 
+Please contact administrator. [14]
+19:48:30.644 Language.getLanguage: Adding Language=en, Country=US, Locale=en_US [14]
+19:48:30.644 Language.getLanguage: Adding Language=en, Country=US, Locale=en_US [14]
+19:48:30.754 WebEnv.initWeb: Servlet Context Init Parameters: iDempiere Root
+ServerRoot=1 [14]
+19:48:30.785-----------> EMail.setFrom: you @ company.org: javax.mail.internet.AddressException: Local address contains control or whitespace in string ``you @ company.org'' [14]
+19:48:30.785-----------> EMail.addTo: you @ company.org: javax.mail.internet.AddressException: Local address contains control or whitespace in string ``you @ company.org'' [14]
+19:48:30.785-----------> EMail.isValid: From is invalid=null [14]
+19:48:30.785-----------> EMail.isValid: From is invalid=null [14]
+19:48:30.785-----------> MClient.sendEMail: Could NOT Send Email: Server started: iDempiere (DESKTOP-K0DQ6Q3:192.168.10.212) to you @ company.org: Invalid Data (System) [14]
+19:48:30.785 WebEnv.initWeb: Servlet Init Parameter: idempiereMonitor [14]
+19:48:30.785 AdempiereMonitor.init:  [14]
+19:48:33.395-----------> AnnotationConfiguration.configure: ServletContainerInitializers: detected. Class hierarchy: empty [14]
+19:48:33.624-----------> ClassLocator.getDependentXMLResources: Replicate resource: ckez
+Overwrite bundleresource://175.fwk1993646359:2/metainfo/zk/config.xml
+with bundleresource://175.fwk1993646359:19/metainfo/zk/config.xml [14]
+19:48:33.639-----------> ClassLocator.getDependentXMLResources: Replicate resource: zk
+Overwrite bundleresource://175.fwk1993646359:11/metainfo/zk/config.xml
+with bundleresource://175.fwk1993646359:28/metainfo/zk/config.xml [14]
+19:48:33.639-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkbind
+Overwrite bundleresource://175.fwk1993646359:12/metainfo/zk/config.xml
+with bundleresource://175.fwk1993646359:29/metainfo/zk/config.xml [14]
+19:48:33.670-----------> ClassLocator.getDependentXMLResources: Replicate resource: zul
+Overwrite bundleresource://175.fwk1993646359:14/metainfo/zk/zk.xml
+with bundleresource://175.fwk1993646359:31/metainfo/zk/zk.xml [14]
+19:48:34.202-----------> LanguageDefinition.<init>: Replicated language: xhtml, overriden by [LanguageDefinition: xhtml] [14]
+19:48:34.233-----------> LanguageDefinition.<init>: Replicated language: xul/html, overriden by [LanguageDefinition: xul/html] [14]
+19:48:34.296-----------> ClassLocator.getDependentXMLResources: Replicate resource: calendar
+Overwrite bundleresource://175.fwk1993646359:1/metainfo/zk/lang-addon.xml
+with bundleresource://175.fwk1993646359:18/metainfo/zk/lang-addon.xml [14]
+19:48:34.296-----------> ClassLocator.getDependentXMLResources: Replicate resource: ckez
+Overwrite bundleresource://175.fwk1993646359:2/metainfo/zk/lang-addon.xml
+with bundleresource://175.fwk1993646359:19/metainfo/zk/lang-addon.xml [14]
+19:48:34.296-----------> ClassLocator.getDependentXMLResources: Replicate resource: gmapsz
+Overwrite bundleresource://175.fwk1993646359:5/metainfo/zk/lang-addon.xml
+with bundleresource://175.fwk1993646359:22/metainfo/zk/lang-addon.xml [14]
+19:48:34.296-----------> ClassLocator.getDependentXMLResources: Replicate resource: timeline
+Overwrite bundleresource://175.fwk1993646359:6/metainfo/zk/lang-addon.xml
+with bundleresource://175.fwk1993646359:23/metainfo/zk/lang-addon.xml [14]
+19:48:34.311-----------> ClassLocator.getDependentXMLResources: Replicate resource: timeplot
+Overwrite bundleresource://175.fwk1993646359:7/metainfo/zk/lang-addon.xml
+with bundleresource://175.fwk1993646359:24/metainfo/zk/lang-addon.xml [14]
+19:48:34.327-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkbind
+Overwrite bundleresource://175.fwk1993646359:12/metainfo/zk/lang-addon.xml
+with bundleresource://175.fwk1993646359:29/metainfo/zk/lang-addon.xml [14]
+19:48:34.327-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkplus
+Overwrite bundleresource://175.fwk1993646359:13/metainfo/zk/lang-addon.xml
+with bundleresource://175.fwk1993646359:30/metainfo/zk/lang-addon.xml [14]
+19:48:34.452           WebUIServlet.init: iDempiere Web Client started successfully [14]
+19:48:36.234-----------> AnnotationConfiguration.configure: ServletContainerInitializers: detected. Class hierarchy: empty [14]
+
+*** 2016-07-02 19:48:36.565 idempiere Log (CLogFile) ***
+19:48:39.363-----------> Node: [192.168.10.212]:5701 [adempiere.idempiere/localhost] [3.5.3] No join method is enabled! Starting standalone. [39]
+19:49:20.860===========> GridTable.saveError: 错误: 字段 "timestamp" 不存在
+  位置：45 - 错误: 字段 "timestamp" 不存在
+  位置：45 [49]
+19:49:20.865===========> UiEngineImpl.handleError:  [30]
+org.adempiere.webui.exception.ApplicationException: org.postgresql.util.PSQLException: 错误: 字段 "timestamp" 不存在
+  位置：45
+	at org.adempiere.webui.panel.AbstractMenuPanel.fireMenuSelectedEvent(AbstractMenuPanel.java:305)
+	at org.adempiere.webui.panel.AbstractMenuPanel.doOnClick(AbstractMenuPanel.java:250)
+	at org.adempiere.webui.panel.AbstractMenuPanel.onEvent(AbstractMenuPanel.java:224)
+	at org.adempiere.webui.panel.MenuTreePanel.onEvent(MenuTreePanel.java:116)
+	at org.zkoss.zk.ui.AbstractComponent.onEvent(AbstractComponent.java:2773)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2744)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2685)
+	at org.zkoss.zk.ui.impl.EventProcessor.process(EventProcessor.java:136)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.processEvent(UiEngineImpl.java:1765)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.process(UiEngineImpl.java:1550)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.execUpdate(UiEngineImpl.java:1260)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet.process(DHtmlUpdateServlet.java:611)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet.doGet(DHtmlUpdateServlet.java:485)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet.doPost(DHtmlUpdateServlet.java:494)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:808)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:587)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+caused by: java.lang.IllegalStateException: org.postgresql.util.PSQLException: 错误: 字段 "timestamp" 不存在
+  位置：45
+	at org.compiere.model.GridTable.waitLoadingForRow(GridTable.java:1095)
+	at org.compiere.model.GridTab.verifyRow(GridTab.java:2529)
+	at org.compiere.model.GridTab.setCurrentRow(GridTab.java:2544)
+	at org.compiere.model.GridTab.query(GridTab.java:729)
+	at org.adempiere.webui.adwindow.ADTabpanel.query(ADTabpanel.java:944)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent.initFirstTabpanel(AbstractADWindowContent.java:653)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent.initTab(AbstractADWindowContent.java:639)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent.initPanel(AbstractADWindowContent.java:352)
+	at org.adempiere.webui.adwindow.ADWindow.doCreatePart(ADWindow.java:132)
+	at org.adempiere.webui.part.AbstractUIPart.createPart(AbstractUIPart.java:50)
+	at org.adempiere.webui.desktop.TabbedDesktop$OpenWindowRunnable.run(TabbedDesktop.java:383)
+	at org.adempiere.webui.desktop.TabbedDesktop.openWindow(TabbedDesktop.java:168)
+	at org.adempiere.webui.desktop.TabbedDesktop.openWindow(TabbedDesktop.java:148)
+	at org.adempiere.webui.desktop.AbstractDesktop.onMenuSelected(AbstractDesktop.java:68)
+	at org.adempiere.webui.desktop.DefaultDesktop.onMenuSelected(DefaultDesktop.java:886)
+	at org.adempiere.webui.panel.AbstractMenuPanel.fireMenuSelectedEvent(AbstractMenuPanel.java:301)
+	at org.adempiere.webui.panel.AbstractMenuPanel.doOnClick(AbstractMenuPanel.java:250)
+	at org.adempiere.webui.panel.AbstractMenuPanel.onEvent(AbstractMenuPanel.java:224)
+	at org.adempiere.webui.panel.MenuTreePanel.onEvent(MenuTreePanel.java:116)
+	at org.zkoss.zk.ui.AbstractComponent.onEvent(AbstractComponent.java:2773)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2744)
+caused by: org.postgresql.util.PSQLException: 错误: 字段 "timestamp" 不存在
+  位置：45; State=42703; ErrorCode=0
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2182)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:1911)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:173)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.execute(AbstractJdbc2Statement.java:645)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeWithFlags(AbstractJdbc2Statement.java:495)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeQuery(AbstractJdbc2Statement.java:380)
+	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.executeQuery(NewProxyPreparedStatement.java:1418)
+	at sun.reflect.GeneratedMethodAccessor21.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.compiere.db.StatementProxy.invoke(StatementProxy.java:128)
+	at com.sun.proxy.$Proxy3.executeQuery(Unknown Source)
+	at org.compiere.model.GridTable$Loader.openResultSet(GridTable.java:3560)
+	at org.compiere.model.GridTable$Loader.doRun(GridTable.java:3598)
+	at org.compiere.model.GridTable$Loader.run(GridTable.java:3590)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+
+19:50:51.504===========> GridTable.saveError: 错误: 字段 "timestamp" 不存在
+  位置：45 - 错误: 字段 "timestamp" 不存在
+  位置：45 [155]
+19:50:51.507===========> UiEngineImpl.handleError:  [29]
+org.adempiere.webui.exception.ApplicationException: org.postgresql.util.PSQLException: 错误: 字段 "timestamp" 不存在
+  位置：45
+	at org.adempiere.webui.panel.AbstractMenuPanel.fireMenuSelectedEvent(AbstractMenuPanel.java:305)
+	at org.adempiere.webui.panel.AbstractMenuPanel.doOnClick(AbstractMenuPanel.java:250)
+	at org.adempiere.webui.panel.AbstractMenuPanel.onEvent(AbstractMenuPanel.java:224)
+	at org.adempiere.webui.panel.MenuTreePanel.onEvent(MenuTreePanel.java:116)
+	at org.zkoss.zk.ui.AbstractComponent.onEvent(AbstractComponent.java:2773)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2744)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2685)
+	at org.zkoss.zk.ui.impl.EventProcessor.process(EventProcessor.java:136)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.processEvent(UiEngineImpl.java:1765)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.process(UiEngineImpl.java:1550)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.execUpdate(UiEngineImpl.java:1260)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet.process(DHtmlUpdateServlet.java:611)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet.doGet(DHtmlUpdateServlet.java:485)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet.doPost(DHtmlUpdateServlet.java:494)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:808)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:587)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+caused by: java.lang.IllegalStateException: org.postgresql.util.PSQLException: 错误: 字段 "timestamp" 不存在
+  位置：45
+	at org.compiere.model.GridTable.waitLoadingForRow(GridTable.java:1095)
+	at org.compiere.model.GridTab.verifyRow(GridTab.java:2529)
+	at org.compiere.model.GridTab.setCurrentRow(GridTab.java:2544)
+	at org.compiere.model.GridTab.query(GridTab.java:729)
+	at org.adempiere.webui.adwindow.ADTabpanel.query(ADTabpanel.java:944)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent.initFirstTabpanel(AbstractADWindowContent.java:653)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent.initTab(AbstractADWindowContent.java:639)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent.initPanel(AbstractADWindowContent.java:352)
+	at org.adempiere.webui.adwindow.ADWindow.doCreatePart(ADWindow.java:132)
+	at org.adempiere.webui.part.AbstractUIPart.createPart(AbstractUIPart.java:50)
+	at org.adempiere.webui.desktop.TabbedDesktop$OpenWindowRunnable.run(TabbedDesktop.java:383)
+	at org.adempiere.webui.desktop.TabbedDesktop.openWindow(TabbedDesktop.java:168)
+	at org.adempiere.webui.desktop.TabbedDesktop.openWindow(TabbedDesktop.java:148)
+	at org.adempiere.webui.desktop.AbstractDesktop.onMenuSelected(AbstractDesktop.java:68)
+	at org.adempiere.webui.desktop.DefaultDesktop.onMenuSelected(DefaultDesktop.java:886)
+	at org.adempiere.webui.panel.AbstractMenuPanel.fireMenuSelectedEvent(AbstractMenuPanel.java:301)
+	at org.adempiere.webui.panel.AbstractMenuPanel.doOnClick(AbstractMenuPanel.java:250)
+	at org.adempiere.webui.panel.AbstractMenuPanel.onEvent(AbstractMenuPanel.java:224)
+	at org.adempiere.webui.panel.MenuTreePanel.onEvent(MenuTreePanel.java:116)
+	at org.zkoss.zk.ui.AbstractComponent.onEvent(AbstractComponent.java:2773)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2744)
+caused by: org.postgresql.util.PSQLException: 错误: 字段 "timestamp" 不存在
+  位置：45; State=42703; ErrorCode=0
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2182)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:1911)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:173)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.execute(AbstractJdbc2Statement.java:645)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeWithFlags(AbstractJdbc2Statement.java:495)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeQuery(AbstractJdbc2Statement.java:380)
+	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.executeQuery(NewProxyPreparedStatement.java:1418)
+	at sun.reflect.GeneratedMethodAccessor21.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.compiere.db.StatementProxy.invoke(StatementProxy.java:128)
+	at com.sun.proxy.$Proxy3.executeQuery(Unknown Source)
+	at org.compiere.model.GridTable$Loader.openResultSet(GridTable.java:3560)
+	at org.compiere.model.GridTable$Loader.doRun(GridTable.java:3598)
+	at org.compiere.model.GridTable$Loader.run(GridTable.java:3590)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+
+19:51:45.119===========> GridTable.saveError: 错误: 字段 "timestamp" 不存在
+  位置：45 - 错误: 字段 "timestamp" 不存在
+  位置：45 [156]
+19:51:45.121===========> UiEngineImpl.handleError:  [33]
+org.adempiere.webui.exception.ApplicationException: org.postgresql.util.PSQLException: 错误: 字段 "timestamp" 不存在
+  位置：45
+	at org.adempiere.webui.panel.AbstractMenuPanel.fireMenuSelectedEvent(AbstractMenuPanel.java:305)
+	at org.adempiere.webui.panel.AbstractMenuPanel.doOnClick(AbstractMenuPanel.java:250)
+	at org.adempiere.webui.panel.AbstractMenuPanel.onEvent(AbstractMenuPanel.java:224)
+	at org.adempiere.webui.panel.MenuTreePanel.onEvent(MenuTreePanel.java:116)
+	at org.zkoss.zk.ui.AbstractComponent.onEvent(AbstractComponent.java:2773)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2744)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2685)
+	at org.zkoss.zk.ui.impl.EventProcessor.process(EventProcessor.java:136)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.processEvent(UiEngineImpl.java:1765)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.process(UiEngineImpl.java:1550)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.execUpdate(UiEngineImpl.java:1260)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet.process(DHtmlUpdateServlet.java:611)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet.doGet(DHtmlUpdateServlet.java:485)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet.doPost(DHtmlUpdateServlet.java:494)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:808)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:587)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+caused by: java.lang.IllegalStateException: org.postgresql.util.PSQLException: 错误: 字段 "timestamp" 不存在
+  位置：45
+	at org.compiere.model.GridTable.waitLoadingForRow(GridTable.java:1095)
+	at org.compiere.model.GridTab.verifyRow(GridTab.java:2529)
+	at org.compiere.model.GridTab.setCurrentRow(GridTab.java:2544)
+	at org.compiere.model.GridTab.query(GridTab.java:729)
+	at org.adempiere.webui.adwindow.ADTabpanel.query(ADTabpanel.java:944)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent.initFirstTabpanel(AbstractADWindowContent.java:653)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent.initTab(AbstractADWindowContent.java:639)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent.initPanel(AbstractADWindowContent.java:352)
+	at org.adempiere.webui.adwindow.ADWindow.doCreatePart(ADWindow.java:132)
+	at org.adempiere.webui.part.AbstractUIPart.createPart(AbstractUIPart.java:50)
+	at org.adempiere.webui.desktop.TabbedDesktop$OpenWindowRunnable.run(TabbedDesktop.java:383)
+	at org.adempiere.webui.desktop.TabbedDesktop.openWindow(TabbedDesktop.java:168)
+	at org.adempiere.webui.desktop.TabbedDesktop.openWindow(TabbedDesktop.java:148)
+	at org.adempiere.webui.desktop.AbstractDesktop.onMenuSelected(AbstractDesktop.java:68)
+	at org.adempiere.webui.desktop.DefaultDesktop.onMenuSelected(DefaultDesktop.java:886)
+	at org.adempiere.webui.panel.AbstractMenuPanel.fireMenuSelectedEvent(AbstractMenuPanel.java:301)
+	at org.adempiere.webui.panel.AbstractMenuPanel.doOnClick(AbstractMenuPanel.java:250)
+	at org.adempiere.webui.panel.AbstractMenuPanel.onEvent(AbstractMenuPanel.java:224)
+	at org.adempiere.webui.panel.MenuTreePanel.onEvent(MenuTreePanel.java:116)
+	at org.zkoss.zk.ui.AbstractComponent.onEvent(AbstractComponent.java:2773)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2744)
+caused by: org.postgresql.util.PSQLException: 错误: 字段 "timestamp" 不存在
+  位置：45; State=42703; ErrorCode=0
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2182)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:1911)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:173)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.execute(AbstractJdbc2Statement.java:645)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeWithFlags(AbstractJdbc2Statement.java:495)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeQuery(AbstractJdbc2Statement.java:380)
+	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.executeQuery(NewProxyPreparedStatement.java:1418)
+	at sun.reflect.GeneratedMethodAccessor21.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.compiere.db.StatementProxy.invoke(StatementProxy.java:128)
+	at com.sun.proxy.$Proxy3.executeQuery(Unknown Source)
+	at org.compiere.model.GridTable$Loader.openResultSet(GridTable.java:3560)
+	at org.compiere.model.GridTable$Loader.doRun(GridTable.java:3598)
+	at org.compiere.model.GridTable$Loader.run(GridTable.java:3590)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+
+19:59:48.446===========> GridTable.saveError: 错误: 字段 "timestamp" 不存在
+  位置：45 - 错误: 字段 "timestamp" 不存在
+  位置：45 [127]
+19:59:48.449===========> UiEngineImpl.handleError:  [37]
+org.adempiere.webui.exception.ApplicationException: org.postgresql.util.PSQLException: 错误: 字段 "timestamp" 不存在
+  位置：45
+	at org.adempiere.webui.panel.AbstractMenuPanel.fireMenuSelectedEvent(AbstractMenuPanel.java:305)
+	at org.adempiere.webui.panel.AbstractMenuPanel.doOnClick(AbstractMenuPanel.java:250)
+	at org.adempiere.webui.panel.AbstractMenuPanel.onEvent(AbstractMenuPanel.java:224)
+	at org.adempiere.webui.panel.MenuTreePanel.onEvent(MenuTreePanel.java:116)
+	at org.zkoss.zk.ui.AbstractComponent.onEvent(AbstractComponent.java:2773)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2744)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2685)
+	at org.zkoss.zk.ui.impl.EventProcessor.process(EventProcessor.java:136)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.processEvent(UiEngineImpl.java:1765)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.process(UiEngineImpl.java:1550)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.execUpdate(UiEngineImpl.java:1260)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet.process(DHtmlUpdateServlet.java:611)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet.doGet(DHtmlUpdateServlet.java:485)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet.doPost(DHtmlUpdateServlet.java:494)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:808)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:587)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+caused by: java.lang.IllegalStateException: org.postgresql.util.PSQLException: 错误: 字段 "timestamp" 不存在
+  位置：45
+	at org.compiere.model.GridTable.waitLoadingForRow(GridTable.java:1095)
+	at org.compiere.model.GridTab.verifyRow(GridTab.java:2529)
+	at org.compiere.model.GridTab.setCurrentRow(GridTab.java:2544)
+	at org.compiere.model.GridTab.query(GridTab.java:729)
+	at org.adempiere.webui.adwindow.ADTabpanel.query(ADTabpanel.java:944)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent.initFirstTabpanel(AbstractADWindowContent.java:653)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent.initTab(AbstractADWindowContent.java:639)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent.initPanel(AbstractADWindowContent.java:352)
+	at org.adempiere.webui.adwindow.ADWindow.doCreatePart(ADWindow.java:132)
+	at org.adempiere.webui.part.AbstractUIPart.createPart(AbstractUIPart.java:50)
+	at org.adempiere.webui.desktop.TabbedDesktop$OpenWindowRunnable.run(TabbedDesktop.java:383)
+	at org.adempiere.webui.desktop.TabbedDesktop.openWindow(TabbedDesktop.java:168)
+	at org.adempiere.webui.desktop.TabbedDesktop.openWindow(TabbedDesktop.java:148)
+	at org.adempiere.webui.desktop.AbstractDesktop.onMenuSelected(AbstractDesktop.java:68)
+	at org.adempiere.webui.desktop.DefaultDesktop.onMenuSelected(DefaultDesktop.java:886)
+	at org.adempiere.webui.panel.AbstractMenuPanel.fireMenuSelectedEvent(AbstractMenuPanel.java:301)
+	at org.adempiere.webui.panel.AbstractMenuPanel.doOnClick(AbstractMenuPanel.java:250)
+	at org.adempiere.webui.panel.AbstractMenuPanel.onEvent(AbstractMenuPanel.java:224)
+	at org.adempiere.webui.panel.MenuTreePanel.onEvent(MenuTreePanel.java:116)
+	at org.zkoss.zk.ui.AbstractComponent.onEvent(AbstractComponent.java:2773)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2744)
+caused by: org.postgresql.util.PSQLException: 错误: 字段 "timestamp" 不存在
+  位置：45; State=42703; ErrorCode=0
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2182)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:1911)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:173)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.execute(AbstractJdbc2Statement.java:645)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeWithFlags(AbstractJdbc2Statement.java:495)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeQuery(AbstractJdbc2Statement.java:380)
+	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.executeQuery(NewProxyPreparedStatement.java:1418)
+	at sun.reflect.GeneratedMethodAccessor21.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.compiere.db.StatementProxy.invoke(StatementProxy.java:128)
+	at com.sun.proxy.$Proxy3.executeQuery(Unknown Source)
+	at org.compiere.model.GridTable$Loader.openResultSet(GridTable.java:3560)
+	at org.compiere.model.GridTable$Loader.doRun(GridTable.java:3598)
+	at org.compiere.model.GridTable$Loader.run(GridTable.java:3590)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+
+20:04:06.499===========> DB.executeUpdate: UPDATE AD_Table SET TableName=?,Updated=?,UpdatedBy=? WHERE AD_Table_ID=1000016 [POSaveAD_Table_5052d2f5-1023-48c5-8d93-233f6916d456] [36]
+org.postgresql.util.PSQLException: 错误: 重复键违反唯一约束"ad_table_name"
+  详细：键值"(tablename)=(swie_order)" 已经存在; State=23505; ErrorCode=0
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2182)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:1911)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:173)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.execute(AbstractJdbc2Statement.java:645)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeWithFlags(AbstractJdbc2Statement.java:495)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeUpdate(AbstractJdbc2Statement.java:441)
+	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.executeUpdate(NewProxyPreparedStatement.java:1449)
+	at sun.reflect.GeneratedMethodAccessor61.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.compiere.db.StatementProxy.invoke(StatementProxy.java:128)
+	at com.sun.proxy.$Proxy3.executeUpdate(Unknown Source)
+	at org.compiere.util.DB.executeUpdate(DB.java:1038)
+	at org.compiere.util.DB.executeUpdate(DB.java:1007)
+	at org.compiere.model.PO.doUpdate(PO.java:2672)
+	at org.compiere.model.PO.saveUpdate(PO.java:2405)
+	at org.compiere.model.PO.save(PO.java:2148)
+	at org.compiere.model.GridTable.dataSavePO(GridTable.java:2223)
+	at org.compiere.model.GridTable.dataSave(GridTable.java:1549)
+	at org.compiere.model.GridTab.dataSave(GridTab.java:1007)
+
+20:04:06.517===========> DB.saveError: SaveErrorNotUnique - 错误: 重复键违反唯一约束"ad_table_name"
+  详细：键值"(tablename)=(swie_order)" 已经存在 [36]
+20:04:06.520===========> MTable.saveError: SaveError - Update return -1 instead of 1 - [POSaveAD_Table_5052d2f5-1023-48c5-8d93-233f6916d456] - AD_Table.AD_Table_ID=1000016 [36]
+20:04:06.599===========> MTable.saveError: SaveError - Update return -1 instead of 1 - [POSaveAD_Table_5052d2f5-1023-48c5-8d93-233f6916d456] - AD_Table.AD_Table_ID=1000016 [36]
+20:04:06.602-----------> GridTable.saveWarning: SaveError - Update return -1 instead of 1 - [POSaveAD_Table_5052d2f5-1023-48c5-8d93-233f6916d456] - AD_Table.AD_Table_ID=1000016 [36]
+20:05:31.525===========> GridTable.saveError: 错误: 字段 "timestamp" 不存在
+  位置：45 - 错误: 字段 "timestamp" 不存在
+  位置：45 [119]
+20:05:31.528===========> UiEngineImpl.handleError:  [37]
+org.adempiere.webui.exception.ApplicationException: org.postgresql.util.PSQLException: 错误: 字段 "timestamp" 不存在
+  位置：45
+	at org.adempiere.webui.panel.AbstractMenuPanel.fireMenuSelectedEvent(AbstractMenuPanel.java:305)
+	at org.adempiere.webui.panel.AbstractMenuPanel.doOnClick(AbstractMenuPanel.java:250)
+	at org.adempiere.webui.panel.AbstractMenuPanel.onEvent(AbstractMenuPanel.java:224)
+	at org.adempiere.webui.panel.MenuTreePanel.onEvent(MenuTreePanel.java:116)
+	at org.zkoss.zk.ui.AbstractComponent.onEvent(AbstractComponent.java:2773)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2744)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2685)
+	at org.zkoss.zk.ui.impl.EventProcessor.process(EventProcessor.java:136)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.processEvent(UiEngineImpl.java:1765)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.process(UiEngineImpl.java:1550)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.execUpdate(UiEngineImpl.java:1260)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet.process(DHtmlUpdateServlet.java:611)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet.doGet(DHtmlUpdateServlet.java:485)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet.doPost(DHtmlUpdateServlet.java:494)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:808)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:587)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+caused by: java.lang.IllegalStateException: org.postgresql.util.PSQLException: 错误: 字段 "timestamp" 不存在
+  位置：45
+	at org.compiere.model.GridTable.waitLoadingForRow(GridTable.java:1095)
+	at org.compiere.model.GridTab.verifyRow(GridTab.java:2529)
+	at org.compiere.model.GridTab.setCurrentRow(GridTab.java:2544)
+	at org.compiere.model.GridTab.query(GridTab.java:729)
+	at org.adempiere.webui.adwindow.ADTabpanel.query(ADTabpanel.java:944)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent.initFirstTabpanel(AbstractADWindowContent.java:653)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent.initTab(AbstractADWindowContent.java:639)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent.initPanel(AbstractADWindowContent.java:352)
+	at org.adempiere.webui.adwindow.ADWindow.doCreatePart(ADWindow.java:132)
+	at org.adempiere.webui.part.AbstractUIPart.createPart(AbstractUIPart.java:50)
+	at org.adempiere.webui.desktop.TabbedDesktop$OpenWindowRunnable.run(TabbedDesktop.java:383)
+	at org.adempiere.webui.desktop.TabbedDesktop.openWindow(TabbedDesktop.java:168)
+	at org.adempiere.webui.desktop.TabbedDesktop.openWindow(TabbedDesktop.java:148)
+	at org.adempiere.webui.desktop.AbstractDesktop.onMenuSelected(AbstractDesktop.java:68)
+	at org.adempiere.webui.desktop.DefaultDesktop.onMenuSelected(DefaultDesktop.java:886)
+	at org.adempiere.webui.panel.AbstractMenuPanel.fireMenuSelectedEvent(AbstractMenuPanel.java:301)
+	at org.adempiere.webui.panel.AbstractMenuPanel.doOnClick(AbstractMenuPanel.java:250)
+	at org.adempiere.webui.panel.AbstractMenuPanel.onEvent(AbstractMenuPanel.java:224)
+	at org.adempiere.webui.panel.MenuTreePanel.onEvent(MenuTreePanel.java:116)
+	at org.zkoss.zk.ui.AbstractComponent.onEvent(AbstractComponent.java:2773)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2744)
+caused by: org.postgresql.util.PSQLException: 错误: 字段 "timestamp" 不存在
+  位置：45; State=42703; ErrorCode=0
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2182)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:1911)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:173)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.execute(AbstractJdbc2Statement.java:645)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeWithFlags(AbstractJdbc2Statement.java:495)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeQuery(AbstractJdbc2Statement.java:380)
+	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.executeQuery(NewProxyPreparedStatement.java:1418)
+	at sun.reflect.GeneratedMethodAccessor21.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.compiere.db.StatementProxy.invoke(StatementProxy.java:128)
+	at com.sun.proxy.$Proxy3.executeQuery(Unknown Source)
+	at org.compiere.model.GridTable$Loader.openResultSet(GridTable.java:3560)
+	at org.compiere.model.GridTable$Loader.doRun(GridTable.java:3598)
+	at org.compiere.model.GridTable$Loader.run(GridTable.java:3590)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+
+20:07:29.379===========> GridTable.saveError: 错误: 字段 "timestamp" 不存在
+  位置：45 - 错误: 字段 "timestamp" 不存在
+  位置：45 [177]
+20:07:29.381===========> UiEngineImpl.handleError:  [37]
+org.adempiere.webui.exception.ApplicationException: org.postgresql.util.PSQLException: 错误: 字段 "timestamp" 不存在
+  位置：45
+	at org.adempiere.webui.panel.AbstractMenuPanel.fireMenuSelectedEvent(AbstractMenuPanel.java:305)
+	at org.adempiere.webui.panel.AbstractMenuPanel.doOnClick(AbstractMenuPanel.java:250)
+	at org.adempiere.webui.panel.AbstractMenuPanel.onEvent(AbstractMenuPanel.java:224)
+	at org.adempiere.webui.panel.MenuTreePanel.onEvent(MenuTreePanel.java:116)
+	at org.zkoss.zk.ui.AbstractComponent.onEvent(AbstractComponent.java:2773)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2744)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2685)
+	at org.zkoss.zk.ui.impl.EventProcessor.process(EventProcessor.java:136)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.processEvent(UiEngineImpl.java:1765)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.process(UiEngineImpl.java:1550)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.execUpdate(UiEngineImpl.java:1260)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet.process(DHtmlUpdateServlet.java:611)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet.doGet(DHtmlUpdateServlet.java:485)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet.doPost(DHtmlUpdateServlet.java:494)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:808)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:587)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+caused by: java.lang.IllegalStateException: org.postgresql.util.PSQLException: 错误: 字段 "timestamp" 不存在
+  位置：45
+	at org.compiere.model.GridTable.waitLoadingForRow(GridTable.java:1095)
+	at org.compiere.model.GridTab.verifyRow(GridTab.java:2529)
+	at org.compiere.model.GridTab.setCurrentRow(GridTab.java:2544)
+	at org.compiere.model.GridTab.query(GridTab.java:729)
+	at org.adempiere.webui.adwindow.ADTabpanel.query(ADTabpanel.java:944)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent.initFirstTabpanel(AbstractADWindowContent.java:653)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent.initTab(AbstractADWindowContent.java:639)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent.initPanel(AbstractADWindowContent.java:352)
+	at org.adempiere.webui.adwindow.ADWindow.doCreatePart(ADWindow.java:132)
+	at org.adempiere.webui.part.AbstractUIPart.createPart(AbstractUIPart.java:50)
+	at org.adempiere.webui.desktop.TabbedDesktop$OpenWindowRunnable.run(TabbedDesktop.java:383)
+	at org.adempiere.webui.desktop.TabbedDesktop.openWindow(TabbedDesktop.java:168)
+	at org.adempiere.webui.desktop.TabbedDesktop.openWindow(TabbedDesktop.java:148)
+	at org.adempiere.webui.desktop.AbstractDesktop.onMenuSelected(AbstractDesktop.java:68)
+	at org.adempiere.webui.desktop.DefaultDesktop.onMenuSelected(DefaultDesktop.java:886)
+	at org.adempiere.webui.panel.AbstractMenuPanel.fireMenuSelectedEvent(AbstractMenuPanel.java:301)
+	at org.adempiere.webui.panel.AbstractMenuPanel.doOnClick(AbstractMenuPanel.java:250)
+	at org.adempiere.webui.panel.AbstractMenuPanel.onEvent(AbstractMenuPanel.java:224)
+	at org.adempiere.webui.panel.MenuTreePanel.onEvent(MenuTreePanel.java:116)
+	at org.zkoss.zk.ui.AbstractComponent.onEvent(AbstractComponent.java:2773)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2744)
+caused by: org.postgresql.util.PSQLException: 错误: 字段 "timestamp" 不存在
+  位置：45; State=42703; ErrorCode=0
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2182)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:1911)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:173)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.execute(AbstractJdbc2Statement.java:645)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeWithFlags(AbstractJdbc2Statement.java:495)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeQuery(AbstractJdbc2Statement.java:380)
+	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.executeQuery(NewProxyPreparedStatement.java:1418)
+	at sun.reflect.GeneratedMethodAccessor21.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.compiere.db.StatementProxy.invoke(StatementProxy.java:128)
+	at com.sun.proxy.$Proxy3.executeQuery(Unknown Source)
+	at org.compiere.model.GridTable$Loader.openResultSet(GridTable.java:3560)
+	at org.compiere.model.GridTable$Loader.doRun(GridTable.java:3598)
+	at org.compiere.model.GridTable$Loader.run(GridTable.java:3590)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+
+20:08:02.337===========> GridTable.saveError: 错误: 字段 "timestamp" 不存在
+  位置：45 - 错误: 字段 "timestamp" 不存在
+  位置：45 [158]
+20:08:02.339===========> UiEngineImpl.handleError:  [37]
+org.adempiere.webui.exception.ApplicationException: org.postgresql.util.PSQLException: 错误: 字段 "timestamp" 不存在
+  位置：45
+	at org.adempiere.webui.panel.AbstractMenuPanel.fireMenuSelectedEvent(AbstractMenuPanel.java:305)
+	at org.adempiere.webui.panel.AbstractMenuPanel.doOnClick(AbstractMenuPanel.java:250)
+	at org.adempiere.webui.panel.AbstractMenuPanel.onEvent(AbstractMenuPanel.java:224)
+	at org.adempiere.webui.panel.MenuTreePanel.onEvent(MenuTreePanel.java:116)
+	at org.zkoss.zk.ui.AbstractComponent.onEvent(AbstractComponent.java:2773)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2744)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2685)
+	at org.zkoss.zk.ui.impl.EventProcessor.process(EventProcessor.java:136)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.processEvent(UiEngineImpl.java:1765)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.process(UiEngineImpl.java:1550)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.execUpdate(UiEngineImpl.java:1260)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet.process(DHtmlUpdateServlet.java:611)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet.doGet(DHtmlUpdateServlet.java:485)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet.doPost(DHtmlUpdateServlet.java:494)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:808)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:587)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+caused by: java.lang.IllegalStateException: org.postgresql.util.PSQLException: 错误: 字段 "timestamp" 不存在
+  位置：45
+	at org.compiere.model.GridTable.waitLoadingForRow(GridTable.java:1095)
+	at org.compiere.model.GridTab.verifyRow(GridTab.java:2529)
+	at org.compiere.model.GridTab.setCurrentRow(GridTab.java:2544)
+	at org.compiere.model.GridTab.query(GridTab.java:729)
+	at org.adempiere.webui.adwindow.ADTabpanel.query(ADTabpanel.java:944)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent.initFirstTabpanel(AbstractADWindowContent.java:653)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent.initTab(AbstractADWindowContent.java:639)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent.initPanel(AbstractADWindowContent.java:352)
+	at org.adempiere.webui.adwindow.ADWindow.doCreatePart(ADWindow.java:132)
+	at org.adempiere.webui.part.AbstractUIPart.createPart(AbstractUIPart.java:50)
+	at org.adempiere.webui.desktop.TabbedDesktop$OpenWindowRunnable.run(TabbedDesktop.java:383)
+	at org.adempiere.webui.desktop.TabbedDesktop.openWindow(TabbedDesktop.java:168)
+	at org.adempiere.webui.desktop.TabbedDesktop.openWindow(TabbedDesktop.java:148)
+	at org.adempiere.webui.desktop.AbstractDesktop.onMenuSelected(AbstractDesktop.java:68)
+	at org.adempiere.webui.desktop.DefaultDesktop.onMenuSelected(DefaultDesktop.java:886)
+	at org.adempiere.webui.panel.AbstractMenuPanel.fireMenuSelectedEvent(AbstractMenuPanel.java:301)
+	at org.adempiere.webui.panel.AbstractMenuPanel.doOnClick(AbstractMenuPanel.java:250)
+	at org.adempiere.webui.panel.AbstractMenuPanel.onEvent(AbstractMenuPanel.java:224)
+	at org.adempiere.webui.panel.MenuTreePanel.onEvent(MenuTreePanel.java:116)
+	at org.zkoss.zk.ui.AbstractComponent.onEvent(AbstractComponent.java:2773)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2744)
+caused by: org.postgresql.util.PSQLException: 错误: 字段 "timestamp" 不存在
+  位置：45; State=42703; ErrorCode=0
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2182)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:1911)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:173)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.execute(AbstractJdbc2Statement.java:645)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeWithFlags(AbstractJdbc2Statement.java:495)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeQuery(AbstractJdbc2Statement.java:380)
+	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.executeQuery(NewProxyPreparedStatement.java:1418)
+	at sun.reflect.GeneratedMethodAccessor21.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.compiere.db.StatementProxy.invoke(StatementProxy.java:128)
+	at com.sun.proxy.$Proxy3.executeQuery(Unknown Source)
+	at org.compiere.model.GridTable$Loader.openResultSet(GridTable.java:3560)
+	at org.compiere.model.GridTable$Loader.doRun(GridTable.java:3598)
+	at org.compiere.model.GridTable$Loader.run(GridTable.java:3590)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+
+20:08:28.030===========> DB.executeUpdate: INSERT INTO swie_order (swie_order_ID,TIMESTAMP,statusId,AD_Client_ID,AD_Org_ID,IsActive,Created,CreatedBy,Updated,UpdatedBy,UserID,fullName,Region,Country,City,Address1,Address2) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?) [POSaveswie_order_6d549555-4ab5-461f-b85e-7c4b92944fd8] [29]
+org.postgresql.util.PSQLException: 错误: 关系 "swie_order" 的 "timestamp" 字段不存在
+  位置：39; State=42703; ErrorCode=0
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2182)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:1911)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:173)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.execute(AbstractJdbc2Statement.java:645)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeWithFlags(AbstractJdbc2Statement.java:495)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeUpdate(AbstractJdbc2Statement.java:441)
+	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.executeUpdate(NewProxyPreparedStatement.java:1449)
+	at sun.reflect.GeneratedMethodAccessor61.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.compiere.db.StatementProxy.invoke(StatementProxy.java:128)
+	at com.sun.proxy.$Proxy3.executeUpdate(Unknown Source)
+	at org.compiere.util.DB.executeUpdate(DB.java:1038)
+	at org.compiere.util.DB.executeUpdate(DB.java:1007)
+	at org.compiere.model.PO.doInsert(PO.java:2974)
+	at org.compiere.model.PO.saveNew(PO.java:2778)
+	at org.compiere.model.PO.save(PO.java:2128)
+	at org.compiere.model.GridTable.dataSavePO(GridTable.java:2223)
+	at org.compiere.model.GridTable.dataSave(GridTable.java:1549)
+	at org.compiere.model.GridTab.dataSave(GridTab.java:1007)
+
+20:08:28.051===========> DB.saveError: DBExecuteError - 错误: 关系 "swie_order" 的 "timestamp" 字段不存在
+  位置：39 [29]
+20:08:28.053-----------> GenericPO.doInsert: [POSaveswie_order_6d549555-4ab5-461f-b85e-7c4b92944fd8]Not inserted - swie_order [29]
+20:08:28.054===========> GenericPO.saveError: DBExecuteError - DBExecuteError:错误: 关系 "swie_order" 的 "timestamp" 字段不存在
+  位置：39 [29]
+20:08:28.056-----------> Msg.getMsg: NOT found: DBExecuteError:DBExecuteError:错误: 关系 "swie_order" 的 "timestamp" 字段不存在 [29]
+20:08:28.057-----------> GridTable.saveWarning: DBExecuteError - DBExecuteError:DBExecuteError:错误: 关系 "swie_order" 的 "timestamp" 字段不存在
+  位置：39 [29]
+20:10:15.142===========> DB.executeUpdate: ALTER TABLE swie_order ADD COLUMN TIMESTAMP TIMESTAMP NOT NULL [SvrProcess_9dd6483b-a4e1-48f4-9d90-3951cf1f71e7] [115]
+org.postgresql.util.PSQLException: 错误: 字段 "timestamp" 包含空值; State=23502; ErrorCode=0
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2182)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:1911)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:173)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.execute(AbstractJdbc2Statement.java:645)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeWithFlags(AbstractJdbc2Statement.java:495)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeUpdate(AbstractJdbc2Statement.java:441)
+	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.executeUpdate(NewProxyPreparedStatement.java:1449)
+	at sun.reflect.GeneratedMethodAccessor61.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.compiere.db.StatementProxy.invoke(StatementProxy.java:128)
+	at com.sun.proxy.$Proxy3.executeUpdate(Unknown Source)
+	at org.compiere.util.DB.executeUpdate(DB.java:1038)
+	at org.compiere.util.DB.executeUpdate(DB.java:937)
+	at org.compiere.util.DB.executeUpdate(DB.java:923)
+	at org.compiere.process.ColumnSync.doIt(ColumnSync.java:146)
+	at org.compiere.process.SvrProcess.process(SvrProcess.java:198)
+	at org.compiere.process.SvrProcess.startProcess(SvrProcess.java:144)
+	at org.adempiere.util.ProcessUtil.startJavaProcess(ProcessUtil.java:172)
+	at org.compiere.apps.AbstractProcessCtl.startProcess(AbstractProcessCtl.java:466)
+	at org.compiere.apps.AbstractProcessCtl.run(AbstractProcessCtl.java:234)
+
+20:10:15.191===========> DB.saveError: DBExecuteError - 错误: 字段 "timestamp" 包含空值 [115]
+20:10:15.193===========> ColumnSync.process: 错误: 字段 "timestamp" 包含空值 - ALTER TABLE swie_order ADD date DATE NOT NULL [115]
+UserError: 错误: 字段 "timestamp" 包含空值 - ALTER TABLE swie_order ADD date DATE NOT NULL
+	at org.compiere.process.ColumnSync.doIt(ColumnSync.java:167)
+	at org.compiere.process.SvrProcess.process(SvrProcess.java:198)
+	at org.compiere.process.SvrProcess.startProcess(SvrProcess.java:144)
+	at org.adempiere.util.ProcessUtil.startJavaProcess(ProcessUtil.java:172)
+	at org.compiere.apps.AbstractProcessCtl.startProcess(AbstractProcessCtl.java:466)
+	at org.compiere.apps.AbstractProcessCtl.run(AbstractProcessCtl.java:234)
+	at org.adempiere.webui.apps.WProcessCtl.process(WProcessCtl.java:197)
+	at org.adempiere.webui.apps.AbstractProcessDialog$ProcessDialogRunnable.doRun(AbstractProcessDialog.java:1060)
+	at org.adempiere.util.ContextRunnable.run(ContextRunnable.java:38)
+	at org.adempiere.webui.apps.DesktopRunnable.run(DesktopRunnable.java:40)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+20:10:58.784===========> Trx.commit: POdel_38b7c4d0-43ee-47f8-84ef-a0d662ee6cda [33]
+org.postgresql.util.PSQLException: 错误: 在 "ad_column" 上的更新或删除操作违反了在 "ad_field" 上的外键约束 "ad_column_field"
+  详细：键值对(ad_column_id)=(1000950)仍然是从表"ad_field"引用的.; State=23503; ErrorCode=0
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2182)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:1911)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:173)
+	at org.postgresql.jdbc2.AbstractJdbc2Connection.executeTransactionCommand(AbstractJdbc2Connection.java:824)
+	at org.postgresql.jdbc2.AbstractJdbc2Connection.commit(AbstractJdbc2Connection.java:848)
+	at com.mchange.v2.c3p0.impl.NewProxyConnection.commit(NewProxyConnection.java:1007)
+	at org.compiere.util.Trx.commit(Trx.java:357)
+	at org.compiere.model.PO.delete(PO.java:3401)
+	at org.compiere.model.GridTable.dataDelete(GridTable.java:2692)
+	at org.compiere.model.GridTab.dataDelete(GridTab.java:1207)
+	at org.adempiere.webui.adwindow.CompositeADTabbox$1$4.onCallback(CompositeADTabbox.java:205)
+	at org.adempiere.webui.adwindow.CompositeADTabbox$1$4.onCallback(CompositeADTabbox.java:1)
+	at org.adempiere.webui.window.FDialog$3.onCallback(FDialog.java:385)
+	at org.adempiere.webui.window.FDialog$3.onCallback(FDialog.java:1)
+	at org.adempiere.webui.component.Messagebox.onPageDetached(Messagebox.java:349)
+	at org.zkoss.zk.ui.AbstractComponent.setPage0(AbstractComponent.java:477)
+	at org.zkoss.zk.ui.AbstractComponent.setPageBefore(AbstractComponent.java:396)
+	at org.zkoss.zk.ui.AbstractComponent.setPage(AbstractComponent.java:361)
+	at org.zkoss.zk.ui.AbstractComponent.detach(AbstractComponent.java:1681)
+	at org.adempiere.webui.component.Messagebox.onEvent(Messagebox.java:340)
+	at org.zkoss.zk.ui.AbstractComponent.onEvent(AbstractComponent.java:2773)
+
+20:10:58.801===========> MColumn.saveError: DeleteErrorDependent - 错误: 在 "ad_column" 上的更新或删除操作违反了在 "ad_field" 上的外键约束 "ad_column_field"
+  详细：键值对(ad_column_id)=(1000950)仍然是从表"ad_field"引用的. [33]
+20:10:58.804-----------> GridTable.saveWarning: DeleteErrorDependent - 错误: 在 "ad_column" 上的更新或删除操作违反了在 "ad_field" 上的外键约束 "ad_column_field"
+  详细：键值对(ad_column_id)=(1000950)仍然是从表"ad_field"引用的. [33]
+20:12:21.674===========> GridTable.saveError: 错误: 字段 "statusid" 不存在
+  建议：也许您想要引用列"swie_order.statusId"。
+  位置：45 - 错误: 字段 "statusid" 不存在
+  建议：也许您想要引用列"swie_order.statusId"。
+  位置：45 [129]
+20:12:21.676===========> UiEngineImpl.handleError:  [37]
+org.adempiere.webui.exception.ApplicationException: org.postgresql.util.PSQLException: 错误: 字段 "statusid" 不存在
+  建议：也许您想要引用列"swie_order.statusId"。
+  位置：45
+	at org.adempiere.webui.panel.AbstractMenuPanel.fireMenuSelectedEvent(AbstractMenuPanel.java:305)
+	at org.adempiere.webui.panel.AbstractMenuPanel.doOnClick(AbstractMenuPanel.java:250)
+	at org.adempiere.webui.panel.AbstractMenuPanel.onEvent(AbstractMenuPanel.java:224)
+	at org.adempiere.webui.panel.MenuTreePanel.onEvent(MenuTreePanel.java:116)
+	at org.zkoss.zk.ui.AbstractComponent.onEvent(AbstractComponent.java:2773)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2744)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2685)
+	at org.zkoss.zk.ui.impl.EventProcessor.process(EventProcessor.java:136)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.processEvent(UiEngineImpl.java:1765)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.process(UiEngineImpl.java:1550)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.execUpdate(UiEngineImpl.java:1260)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet.process(DHtmlUpdateServlet.java:611)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet.doGet(DHtmlUpdateServlet.java:485)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet.doPost(DHtmlUpdateServlet.java:494)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:808)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:587)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+caused by: java.lang.IllegalStateException: org.postgresql.util.PSQLException: 错误: 字段 "statusid" 不存在
+  建议：也许您想要引用列"swie_order.statusId"。
+  位置：45
+	at org.compiere.model.GridTable.waitLoadingForRow(GridTable.java:1095)
+	at org.compiere.model.GridTab.verifyRow(GridTab.java:2529)
+	at org.compiere.model.GridTab.setCurrentRow(GridTab.java:2544)
+	at org.compiere.model.GridTab.query(GridTab.java:729)
+	at org.adempiere.webui.adwindow.ADTabpanel.query(ADTabpanel.java:944)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent.initFirstTabpanel(AbstractADWindowContent.java:653)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent.initTab(AbstractADWindowContent.java:639)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent.initPanel(AbstractADWindowContent.java:352)
+	at org.adempiere.webui.adwindow.ADWindow.doCreatePart(ADWindow.java:132)
+	at org.adempiere.webui.part.AbstractUIPart.createPart(AbstractUIPart.java:50)
+	at org.adempiere.webui.desktop.TabbedDesktop$OpenWindowRunnable.run(TabbedDesktop.java:383)
+	at org.adempiere.webui.desktop.TabbedDesktop.openWindow(TabbedDesktop.java:168)
+	at org.adempiere.webui.desktop.TabbedDesktop.openWindow(TabbedDesktop.java:148)
+	at org.adempiere.webui.desktop.AbstractDesktop.onMenuSelected(AbstractDesktop.java:68)
+	at org.adempiere.webui.desktop.DefaultDesktop.onMenuSelected(DefaultDesktop.java:886)
+	at org.adempiere.webui.panel.AbstractMenuPanel.fireMenuSelectedEvent(AbstractMenuPanel.java:301)
+	at org.adempiere.webui.panel.AbstractMenuPanel.doOnClick(AbstractMenuPanel.java:250)
+	at org.adempiere.webui.panel.AbstractMenuPanel.onEvent(AbstractMenuPanel.java:224)
+	at org.adempiere.webui.panel.MenuTreePanel.onEvent(MenuTreePanel.java:116)
+	at org.zkoss.zk.ui.AbstractComponent.onEvent(AbstractComponent.java:2773)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2744)
+caused by: org.postgresql.util.PSQLException: 错误: 字段 "statusid" 不存在
+  建议：也许您想要引用列"swie_order.statusId"。
+  位置：45; State=42703; ErrorCode=0
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2182)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:1911)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:173)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.execute(AbstractJdbc2Statement.java:645)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeWithFlags(AbstractJdbc2Statement.java:495)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeQuery(AbstractJdbc2Statement.java:380)
+	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.executeQuery(NewProxyPreparedStatement.java:1418)
+	at sun.reflect.GeneratedMethodAccessor21.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.compiere.db.StatementProxy.invoke(StatementProxy.java:128)
+	at com.sun.proxy.$Proxy3.executeQuery(Unknown Source)
+	at org.compiere.model.GridTable$Loader.openResultSet(GridTable.java:3560)
+	at org.compiere.model.GridTable$Loader.doRun(GridTable.java:3598)
+	at org.compiere.model.GridTable$Loader.run(GridTable.java:3590)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+
+20:14:10.270===========> GridTable.saveError: 错误: 字段 "userid" 不存在
+  建议：也许您想要引用列"swie_order.userId"。
+  位置：45 - 错误: 字段 "userid" 不存在
+  建议：也许您想要引用列"swie_order.userId"。
+  位置：45 [135]
+20:14:10.272===========> UiEngineImpl.handleError:  [33]
+org.adempiere.webui.exception.ApplicationException: org.postgresql.util.PSQLException: 错误: 字段 "userid" 不存在
+  建议：也许您想要引用列"swie_order.userId"。
+  位置：45
+	at org.adempiere.webui.panel.AbstractMenuPanel.fireMenuSelectedEvent(AbstractMenuPanel.java:305)
+	at org.adempiere.webui.panel.AbstractMenuPanel.doOnClick(AbstractMenuPanel.java:250)
+	at org.adempiere.webui.panel.AbstractMenuPanel.onEvent(AbstractMenuPanel.java:224)
+	at org.adempiere.webui.panel.MenuTreePanel.onEvent(MenuTreePanel.java:116)
+	at org.zkoss.zk.ui.AbstractComponent.onEvent(AbstractComponent.java:2773)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2744)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2685)
+	at org.zkoss.zk.ui.impl.EventProcessor.process(EventProcessor.java:136)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.processEvent(UiEngineImpl.java:1765)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.process(UiEngineImpl.java:1550)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.execUpdate(UiEngineImpl.java:1260)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet.process(DHtmlUpdateServlet.java:611)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet.doGet(DHtmlUpdateServlet.java:485)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet.doPost(DHtmlUpdateServlet.java:494)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:808)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:587)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+caused by: java.lang.IllegalStateException: org.postgresql.util.PSQLException: 错误: 字段 "userid" 不存在
+  建议：也许您想要引用列"swie_order.userId"。
+  位置：45
+	at org.compiere.model.GridTable.waitLoadingForRow(GridTable.java:1095)
+	at org.compiere.model.GridTab.verifyRow(GridTab.java:2529)
+	at org.compiere.model.GridTab.setCurrentRow(GridTab.java:2544)
+	at org.compiere.model.GridTab.query(GridTab.java:729)
+	at org.adempiere.webui.adwindow.ADTabpanel.query(ADTabpanel.java:944)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent.initFirstTabpanel(AbstractADWindowContent.java:653)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent.initTab(AbstractADWindowContent.java:639)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent.initPanel(AbstractADWindowContent.java:352)
+	at org.adempiere.webui.adwindow.ADWindow.doCreatePart(ADWindow.java:132)
+	at org.adempiere.webui.part.AbstractUIPart.createPart(AbstractUIPart.java:50)
+	at org.adempiere.webui.desktop.TabbedDesktop$OpenWindowRunnable.run(TabbedDesktop.java:383)
+	at org.adempiere.webui.desktop.TabbedDesktop.openWindow(TabbedDesktop.java:168)
+	at org.adempiere.webui.desktop.TabbedDesktop.openWindow(TabbedDesktop.java:148)
+	at org.adempiere.webui.desktop.AbstractDesktop.onMenuSelected(AbstractDesktop.java:68)
+	at org.adempiere.webui.desktop.DefaultDesktop.onMenuSelected(DefaultDesktop.java:886)
+	at org.adempiere.webui.panel.AbstractMenuPanel.fireMenuSelectedEvent(AbstractMenuPanel.java:301)
+	at org.adempiere.webui.panel.AbstractMenuPanel.doOnClick(AbstractMenuPanel.java:250)
+	at org.adempiere.webui.panel.AbstractMenuPanel.onEvent(AbstractMenuPanel.java:224)
+	at org.adempiere.webui.panel.MenuTreePanel.onEvent(MenuTreePanel.java:116)
+	at org.zkoss.zk.ui.AbstractComponent.onEvent(AbstractComponent.java:2773)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2744)
+caused by: org.postgresql.util.PSQLException: 错误: 字段 "userid" 不存在
+  建议：也许您想要引用列"swie_order.userId"。
+  位置：45; State=42703; ErrorCode=0
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2182)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:1911)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:173)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.execute(AbstractJdbc2Statement.java:645)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeWithFlags(AbstractJdbc2Statement.java:495)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeQuery(AbstractJdbc2Statement.java:380)
+	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.executeQuery(NewProxyPreparedStatement.java:1418)
+	at sun.reflect.GeneratedMethodAccessor21.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.compiere.db.StatementProxy.invoke(StatementProxy.java:128)
+	at com.sun.proxy.$Proxy3.executeQuery(Unknown Source)
+	at org.compiere.model.GridTable$Loader.openResultSet(GridTable.java:3560)
+	at org.compiere.model.GridTable$Loader.doRun(GridTable.java:3598)
+	at org.compiere.model.GridTable$Loader.run(GridTable.java:3590)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+
+20:16:09.313===========> GridTable.saveError: 错误: 字段 "projectversionid" 不存在
+  建议：也许您想要引用列"swie_order_bom.projectVersionId"。
+  位置：63 - 错误: 字段 "projectversionid" 不存在
+  建议：也许您想要引用列"swie_order_bom.projectVersionId"。
+  位置：63 [162]
+20:16:09.315===========> UiEngineImpl.handleError:  [33]
+java.lang.IllegalStateException: org.postgresql.util.PSQLException: 错误: 字段 "projectversionid" 不存在
+  建议：也许您想要引用列"swie_order_bom.projectVersionId"。
+  位置：63
+	at org.compiere.model.GridTable.waitLoadingForRow(GridTable.java:1095)
+	at org.compiere.model.GridTab.verifyRow(GridTab.java:2529)
+	at org.compiere.model.GridTab.setCurrentRow(GridTab.java:2544)
+	at org.compiere.model.GridTab.query(GridTab.java:729)
+	at org.adempiere.webui.adwindow.ADTabpanel.query(ADTabpanel.java:944)
+	at org.adempiere.webui.adwindow.CompositeADTabbox.onActivateDetail(CompositeADTabbox.java:894)
+	at org.adempiere.webui.adwindow.CompositeADTabbox.access$7(CompositeADTabbox.java:884)
+	at org.adempiere.webui.adwindow.CompositeADTabbox$5.onEvent(CompositeADTabbox.java:326)
+	at org.zkoss.zk.ui.AbstractComponent.onEvent(AbstractComponent.java:2773)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2744)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2685)
+	at org.zkoss.zk.ui.impl.EventProcessor.process(EventProcessor.java:136)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.processEvent(UiEngineImpl.java:1765)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.process(UiEngineImpl.java:1550)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.execUpdate(UiEngineImpl.java:1260)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet.process(DHtmlUpdateServlet.java:611)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet.doGet(DHtmlUpdateServlet.java:485)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet.doPost(DHtmlUpdateServlet.java:494)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:808)
+caused by: org.postgresql.util.PSQLException: 错误: 字段 "projectversionid" 不存在
+  建议：也许您想要引用列"swie_order_bom.projectVersionId"。
+  位置：63; State=42703; ErrorCode=0
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2182)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:1911)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:173)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.execute(AbstractJdbc2Statement.java:645)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeWithFlags(AbstractJdbc2Statement.java:495)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeQuery(AbstractJdbc2Statement.java:380)
+	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.executeQuery(NewProxyPreparedStatement.java:1418)
+	at sun.reflect.GeneratedMethodAccessor21.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.compiere.db.StatementProxy.invoke(StatementProxy.java:128)
+	at com.sun.proxy.$Proxy3.executeQuery(Unknown Source)
+	at org.compiere.model.GridTable$Loader.openResultSet(GridTable.java:3560)
+	at org.compiere.model.GridTable$Loader.doRun(GridTable.java:3598)
+	at org.compiere.model.GridTable$Loader.run(GridTable.java:3590)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+
+20:18:11.828===========> GridTable.saveError: 错误: 字段 "projectversionid" 不存在
+  建议：也许您想要引用列"swie_order_bom.projectVersionId"。
+  位置：63 - 错误: 字段 "projectversionid" 不存在
+  建议：也许您想要引用列"swie_order_bom.projectVersionId"。
+  位置：63 [115]
+20:18:11.830===========> UiEngineImpl.handleError:  [36]
+java.lang.IllegalStateException: org.postgresql.util.PSQLException: 错误: 字段 "projectversionid" 不存在
+  建议：也许您想要引用列"swie_order_bom.projectVersionId"。
+  位置：63
+	at org.compiere.model.GridTable.waitLoadingForRow(GridTable.java:1095)
+	at org.compiere.model.GridTab.verifyRow(GridTab.java:2529)
+	at org.compiere.model.GridTab.setCurrentRow(GridTab.java:2544)
+	at org.compiere.model.GridTab.query(GridTab.java:729)
+	at org.adempiere.webui.adwindow.ADTabpanel.query(ADTabpanel.java:944)
+	at org.adempiere.webui.adwindow.CompositeADTabbox.onActivateDetail(CompositeADTabbox.java:894)
+	at org.adempiere.webui.adwindow.CompositeADTabbox.access$7(CompositeADTabbox.java:884)
+	at org.adempiere.webui.adwindow.CompositeADTabbox$5.onEvent(CompositeADTabbox.java:326)
+	at org.zkoss.zk.ui.AbstractComponent.onEvent(AbstractComponent.java:2773)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2744)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2685)
+	at org.zkoss.zk.ui.impl.EventProcessor.process(EventProcessor.java:136)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.processEvent(UiEngineImpl.java:1765)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.process(UiEngineImpl.java:1550)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.execUpdate(UiEngineImpl.java:1260)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet.process(DHtmlUpdateServlet.java:611)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet.doGet(DHtmlUpdateServlet.java:485)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet.doPost(DHtmlUpdateServlet.java:494)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:808)
+caused by: org.postgresql.util.PSQLException: 错误: 字段 "projectversionid" 不存在
+  建议：也许您想要引用列"swie_order_bom.projectVersionId"。
+  位置：63; State=42703; ErrorCode=0
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2182)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:1911)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:173)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.execute(AbstractJdbc2Statement.java:645)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeWithFlags(AbstractJdbc2Statement.java:495)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeQuery(AbstractJdbc2Statement.java:380)
+	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.executeQuery(NewProxyPreparedStatement.java:1418)
+	at sun.reflect.GeneratedMethodAccessor21.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.compiere.db.StatementProxy.invoke(StatementProxy.java:128)
+	at com.sun.proxy.$Proxy3.executeQuery(Unknown Source)
+	at org.compiere.model.GridTable$Loader.openResultSet(GridTable.java:3560)
+	at org.compiere.model.GridTable$Loader.doRun(GridTable.java:3598)
+	at org.compiere.model.GridTable$Loader.run(GridTable.java:3590)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+
+20:19:46.822===========> GridTable.saveError: 错误: 字段 "timestamp" 不存在
+  位置：107 - 错误: 字段 "timestamp" 不存在
+  位置：107 [174]
+20:19:46.824===========> UiEngineImpl.handleError:  [37]
+org.adempiere.webui.exception.ApplicationException: org.postgresql.util.PSQLException: 错误: 字段 "timestamp" 不存在
+  位置：107
+	at org.adempiere.webui.panel.AbstractMenuPanel.fireMenuSelectedEvent(AbstractMenuPanel.java:305)
+	at org.adempiere.webui.panel.AbstractMenuPanel.doOnClick(AbstractMenuPanel.java:250)
+	at org.adempiere.webui.panel.AbstractMenuPanel.onEvent(AbstractMenuPanel.java:224)
+	at org.adempiere.webui.panel.MenuTreePanel.onEvent(MenuTreePanel.java:116)
+	at org.zkoss.zk.ui.AbstractComponent.onEvent(AbstractComponent.java:2773)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2744)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2685)
+	at org.zkoss.zk.ui.impl.EventProcessor.process(EventProcessor.java:136)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.processEvent(UiEngineImpl.java:1765)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.process(UiEngineImpl.java:1550)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.execUpdate(UiEngineImpl.java:1260)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet.process(DHtmlUpdateServlet.java:611)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet.doGet(DHtmlUpdateServlet.java:485)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet.doPost(DHtmlUpdateServlet.java:494)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:808)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:587)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+caused by: java.lang.IllegalStateException: org.postgresql.util.PSQLException: 错误: 字段 "timestamp" 不存在
+  位置：107
+	at org.compiere.model.GridTable.waitLoadingForRow(GridTable.java:1095)
+	at org.compiere.model.GridTab.verifyRow(GridTab.java:2529)
+	at org.compiere.model.GridTab.setCurrentRow(GridTab.java:2544)
+	at org.compiere.model.GridTab.query(GridTab.java:729)
+	at org.adempiere.webui.adwindow.ADTabpanel.query(ADTabpanel.java:944)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent.initFirstTabpanel(AbstractADWindowContent.java:653)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent.initTab(AbstractADWindowContent.java:639)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent.initPanel(AbstractADWindowContent.java:352)
+	at org.adempiere.webui.adwindow.ADWindow.doCreatePart(ADWindow.java:132)
+	at org.adempiere.webui.part.AbstractUIPart.createPart(AbstractUIPart.java:50)
+	at org.adempiere.webui.desktop.TabbedDesktop$OpenWindowRunnable.run(TabbedDesktop.java:383)
+	at org.adempiere.webui.desktop.TabbedDesktop.openWindow(TabbedDesktop.java:168)
+	at org.adempiere.webui.desktop.TabbedDesktop.openWindow(TabbedDesktop.java:148)
+	at org.adempiere.webui.desktop.AbstractDesktop.onMenuSelected(AbstractDesktop.java:68)
+	at org.adempiere.webui.desktop.DefaultDesktop.onMenuSelected(DefaultDesktop.java:886)
+	at org.adempiere.webui.panel.AbstractMenuPanel.fireMenuSelectedEvent(AbstractMenuPanel.java:301)
+	at org.adempiere.webui.panel.AbstractMenuPanel.doOnClick(AbstractMenuPanel.java:250)
+	at org.adempiere.webui.panel.AbstractMenuPanel.onEvent(AbstractMenuPanel.java:224)
+	at org.adempiere.webui.panel.MenuTreePanel.onEvent(MenuTreePanel.java:116)
+	at org.zkoss.zk.ui.AbstractComponent.onEvent(AbstractComponent.java:2773)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2744)
+caused by: org.postgresql.util.PSQLException: 错误: 字段 "timestamp" 不存在
+  位置：107; State=42703; ErrorCode=0
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2182)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:1911)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:173)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.execute(AbstractJdbc2Statement.java:645)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeWithFlags(AbstractJdbc2Statement.java:495)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeQuery(AbstractJdbc2Statement.java:380)
+	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.executeQuery(NewProxyPreparedStatement.java:1418)
+	at sun.reflect.GeneratedMethodAccessor21.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.compiere.db.StatementProxy.invoke(StatementProxy.java:128)
+	at com.sun.proxy.$Proxy3.executeQuery(Unknown Source)
+	at org.compiere.model.GridTable$Loader.openResultSet(GridTable.java:3560)
+	at org.compiere.model.GridTable$Loader.doRun(GridTable.java:3598)
+	at org.compiere.model.GridTable$Loader.run(GridTable.java:3590)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+
+21:08:27.600-----------> ClusterService: [192.168.10.212]:5701 [adempiere.idempiere/localhost] [3.5.3] Resetting master confirmation timestamps because of huge system clock jump! Clock-Jump: 944751ms, Master-Confirmation-Timeout: 500000ms. [96]
+21:11:07.171===========> GridTable.saveError: 错误: 字段 "timestamp" 不存在
+  位置：107 - 错误: 字段 "timestamp" 不存在
+  位置：107 [157]
+21:11:07.174===========> UiEngineImpl.handleError:  [37]
+org.adempiere.webui.exception.ApplicationException: org.postgresql.util.PSQLException: 错误: 字段 "timestamp" 不存在
+  位置：107
+	at org.adempiere.webui.panel.AbstractMenuPanel.fireMenuSelectedEvent(AbstractMenuPanel.java:305)
+	at org.adempiere.webui.panel.AbstractMenuPanel.doOnClick(AbstractMenuPanel.java:250)
+	at org.adempiere.webui.panel.AbstractMenuPanel.onEvent(AbstractMenuPanel.java:224)
+	at org.adempiere.webui.panel.MenuTreePanel.onEvent(MenuTreePanel.java:116)
+	at org.zkoss.zk.ui.AbstractComponent.onEvent(AbstractComponent.java:2773)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2744)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2685)
+	at org.zkoss.zk.ui.impl.EventProcessor.process(EventProcessor.java:136)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.processEvent(UiEngineImpl.java:1765)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.process(UiEngineImpl.java:1550)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.execUpdate(UiEngineImpl.java:1260)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet.process(DHtmlUpdateServlet.java:611)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet.doGet(DHtmlUpdateServlet.java:485)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet.doPost(DHtmlUpdateServlet.java:494)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:808)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:587)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+caused by: java.lang.IllegalStateException: org.postgresql.util.PSQLException: 错误: 字段 "timestamp" 不存在
+  位置：107
+	at org.compiere.model.GridTable.waitLoadingForRow(GridTable.java:1095)
+	at org.compiere.model.GridTab.verifyRow(GridTab.java:2529)
+	at org.compiere.model.GridTab.setCurrentRow(GridTab.java:2544)
+	at org.compiere.model.GridTab.query(GridTab.java:729)
+	at org.adempiere.webui.adwindow.ADTabpanel.query(ADTabpanel.java:944)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent.initFirstTabpanel(AbstractADWindowContent.java:653)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent.initTab(AbstractADWindowContent.java:639)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent.initPanel(AbstractADWindowContent.java:352)
+	at org.adempiere.webui.adwindow.ADWindow.doCreatePart(ADWindow.java:132)
+	at org.adempiere.webui.part.AbstractUIPart.createPart(AbstractUIPart.java:50)
+	at org.adempiere.webui.desktop.TabbedDesktop$OpenWindowRunnable.run(TabbedDesktop.java:383)
+	at org.adempiere.webui.desktop.TabbedDesktop.openWindow(TabbedDesktop.java:168)
+	at org.adempiere.webui.desktop.TabbedDesktop.openWindow(TabbedDesktop.java:148)
+	at org.adempiere.webui.desktop.AbstractDesktop.onMenuSelected(AbstractDesktop.java:68)
+	at org.adempiere.webui.desktop.DefaultDesktop.onMenuSelected(DefaultDesktop.java:886)
+	at org.adempiere.webui.panel.AbstractMenuPanel.fireMenuSelectedEvent(AbstractMenuPanel.java:301)
+	at org.adempiere.webui.panel.AbstractMenuPanel.doOnClick(AbstractMenuPanel.java:250)
+	at org.adempiere.webui.panel.AbstractMenuPanel.onEvent(AbstractMenuPanel.java:224)
+	at org.adempiere.webui.panel.MenuTreePanel.onEvent(MenuTreePanel.java:116)
+	at org.zkoss.zk.ui.AbstractComponent.onEvent(AbstractComponent.java:2773)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2744)
+caused by: org.postgresql.util.PSQLException: 错误: 字段 "timestamp" 不存在
+  位置：107; State=42703; ErrorCode=0
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2182)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:1911)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:173)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.execute(AbstractJdbc2Statement.java:645)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeWithFlags(AbstractJdbc2Statement.java:495)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeQuery(AbstractJdbc2Statement.java:380)
+	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.executeQuery(NewProxyPreparedStatement.java:1418)
+	at sun.reflect.GeneratedMethodAccessor21.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.compiere.db.StatementProxy.invoke(StatementProxy.java:128)
+	at com.sun.proxy.$Proxy3.executeQuery(Unknown Source)
+	at org.compiere.model.GridTable$Loader.openResultSet(GridTable.java:3560)
+	at org.compiere.model.GridTable$Loader.doRun(GridTable.java:3598)
+	at org.compiere.model.GridTable$Loader.run(GridTable.java:3590)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+
+21:12:02.300===========> GridTable.saveError: 错误: 字段 "timestamp" 不存在
+  位置：107 - 错误: 字段 "timestamp" 不存在
+  位置：107 [117]
+21:12:02.302===========> UiEngineImpl.handleError:  [33]
+org.adempiere.webui.exception.ApplicationException: org.postgresql.util.PSQLException: 错误: 字段 "timestamp" 不存在
+  位置：107
+	at org.adempiere.webui.panel.AbstractMenuPanel.fireMenuSelectedEvent(AbstractMenuPanel.java:305)
+	at org.adempiere.webui.panel.AbstractMenuPanel.doOnClick(AbstractMenuPanel.java:250)
+	at org.adempiere.webui.panel.AbstractMenuPanel.onEvent(AbstractMenuPanel.java:224)
+	at org.adempiere.webui.panel.MenuTreePanel.onEvent(MenuTreePanel.java:116)
+	at org.zkoss.zk.ui.AbstractComponent.onEvent(AbstractComponent.java:2773)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2744)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2685)
+	at org.zkoss.zk.ui.impl.EventProcessor.process(EventProcessor.java:136)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.processEvent(UiEngineImpl.java:1765)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.process(UiEngineImpl.java:1550)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.execUpdate(UiEngineImpl.java:1260)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet.process(DHtmlUpdateServlet.java:611)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet.doGet(DHtmlUpdateServlet.java:485)
+	at org.zkoss.zk.au.http.DHtmlUpdateServlet.doPost(DHtmlUpdateServlet.java:494)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:808)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:587)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+caused by: java.lang.IllegalStateException: org.postgresql.util.PSQLException: 错误: 字段 "timestamp" 不存在
+  位置：107
+	at org.compiere.model.GridTable.waitLoadingForRow(GridTable.java:1095)
+	at org.compiere.model.GridTab.verifyRow(GridTab.java:2529)
+	at org.compiere.model.GridTab.setCurrentRow(GridTab.java:2544)
+	at org.compiere.model.GridTab.query(GridTab.java:729)
+	at org.adempiere.webui.adwindow.ADTabpanel.query(ADTabpanel.java:944)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent.initFirstTabpanel(AbstractADWindowContent.java:653)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent.initTab(AbstractADWindowContent.java:639)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent.initPanel(AbstractADWindowContent.java:352)
+	at org.adempiere.webui.adwindow.ADWindow.doCreatePart(ADWindow.java:132)
+	at org.adempiere.webui.part.AbstractUIPart.createPart(AbstractUIPart.java:50)
+	at org.adempiere.webui.desktop.TabbedDesktop$OpenWindowRunnable.run(TabbedDesktop.java:383)
+	at org.adempiere.webui.desktop.TabbedDesktop.openWindow(TabbedDesktop.java:168)
+	at org.adempiere.webui.desktop.TabbedDesktop.openWindow(TabbedDesktop.java:148)
+	at org.adempiere.webui.desktop.AbstractDesktop.onMenuSelected(AbstractDesktop.java:68)
+	at org.adempiere.webui.desktop.DefaultDesktop.onMenuSelected(DefaultDesktop.java:886)
+	at org.adempiere.webui.panel.AbstractMenuPanel.fireMenuSelectedEvent(AbstractMenuPanel.java:301)
+	at org.adempiere.webui.panel.AbstractMenuPanel.doOnClick(AbstractMenuPanel.java:250)
+	at org.adempiere.webui.panel.AbstractMenuPanel.onEvent(AbstractMenuPanel.java:224)
+	at org.adempiere.webui.panel.MenuTreePanel.onEvent(MenuTreePanel.java:116)
+	at org.zkoss.zk.ui.AbstractComponent.onEvent(AbstractComponent.java:2773)
+	at org.zkoss.zk.ui.AbstractComponent.service(AbstractComponent.java:2744)
+caused by: org.postgresql.util.PSQLException: 错误: 字段 "timestamp" 不存在
+  位置：107; State=42703; ErrorCode=0
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2182)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:1911)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:173)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.execute(AbstractJdbc2Statement.java:645)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeWithFlags(AbstractJdbc2Statement.java:495)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeQuery(AbstractJdbc2Statement.java:380)
+	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.executeQuery(NewProxyPreparedStatement.java:1418)
+	at sun.reflect.GeneratedMethodAccessor21.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.compiere.db.StatementProxy.invoke(StatementProxy.java:128)
+	at com.sun.proxy.$Proxy3.executeQuery(Unknown Source)
+	at org.compiere.model.GridTable$Loader.openResultSet(GridTable.java:3560)
+	at org.compiere.model.GridTable$Loader.doRun(GridTable.java:3598)
+	at org.compiere.model.GridTable$Loader.run(GridTable.java:3590)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+
+21:14:46.420===========> Trx.commit: POdel_bfc58708-a02e-40c5-87b2-ac4913d813df [37]
+org.postgresql.util.PSQLException: 错误: 在 "ad_window" 上的更新或删除操作违反了在 "ad_menu" 上的外键约束 "adwindow_admenu"
+  详细：键值对(ad_window_id)=(1000003)仍然是从表"ad_menu"引用的.; State=23503; ErrorCode=0
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2182)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:1911)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:173)
+	at org.postgresql.jdbc2.AbstractJdbc2Connection.executeTransactionCommand(AbstractJdbc2Connection.java:824)
+	at org.postgresql.jdbc2.AbstractJdbc2Connection.commit(AbstractJdbc2Connection.java:848)
+	at com.mchange.v2.c3p0.impl.NewProxyConnection.commit(NewProxyConnection.java:1007)
+	at org.compiere.util.Trx.commit(Trx.java:357)
+	at org.compiere.model.PO.delete(PO.java:3401)
+	at org.compiere.model.GridTable.dataDelete(GridTable.java:2692)
+	at org.compiere.model.GridTab.dataDelete(GridTab.java:1207)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent$35.onCallback(AbstractADWindowContent.java:2361)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent$35.onCallback(AbstractADWindowContent.java:1)
+	at org.adempiere.webui.window.FDialog$3.onCallback(FDialog.java:385)
+	at org.adempiere.webui.window.FDialog$3.onCallback(FDialog.java:1)
+	at org.adempiere.webui.component.Messagebox.onPageDetached(Messagebox.java:349)
+	at org.zkoss.zk.ui.AbstractComponent.setPage0(AbstractComponent.java:477)
+	at org.zkoss.zk.ui.AbstractComponent.setPageBefore(AbstractComponent.java:396)
+	at org.zkoss.zk.ui.AbstractComponent.setPage(AbstractComponent.java:361)
+	at org.zkoss.zk.ui.AbstractComponent.detach(AbstractComponent.java:1681)
+	at org.adempiere.webui.component.Messagebox.onEvent(Messagebox.java:340)
+	at org.zkoss.zk.ui.AbstractComponent.onEvent(AbstractComponent.java:2773)
+
+21:14:46.453===========> MWindow.saveError: DeleteErrorDependent - 错误: 在 "ad_window" 上的更新或删除操作违反了在 "ad_menu" 上的外键约束 "adwindow_admenu"
+  详细：键值对(ad_window_id)=(1000003)仍然是从表"ad_menu"引用的. [37]
+21:14:46.455-----------> GridTable.saveWarning: DeleteErrorDependent - 错误: 在 "ad_window" 上的更新或删除操作违反了在 "ad_menu" 上的外键约束 "adwindow_admenu"
+  详细：键值对(ad_window_id)=(1000003)仍然是从表"ad_menu"引用的. [37]
+21:15:11.276===========> Trx.commit: POdel_4bdfe234-c6cc-450f-80bf-dd6deeda660e [29]
+org.postgresql.util.PSQLException: 错误: 在 "ad_window" 上的更新或删除操作违反了在 "ad_menu" 上的外键约束 "adwindow_admenu"
+  详细：键值对(ad_window_id)=(1000003)仍然是从表"ad_menu"引用的.; State=23503; ErrorCode=0
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2182)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:1911)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:173)
+	at org.postgresql.jdbc2.AbstractJdbc2Connection.executeTransactionCommand(AbstractJdbc2Connection.java:824)
+	at org.postgresql.jdbc2.AbstractJdbc2Connection.commit(AbstractJdbc2Connection.java:848)
+	at com.mchange.v2.c3p0.impl.NewProxyConnection.commit(NewProxyConnection.java:1007)
+	at org.compiere.util.Trx.commit(Trx.java:357)
+	at org.compiere.model.PO.delete(PO.java:3401)
+	at org.compiere.model.GridTable.dataDelete(GridTable.java:2692)
+	at org.compiere.model.GridTab.dataDelete(GridTab.java:1207)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent$35.onCallback(AbstractADWindowContent.java:2361)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent$35.onCallback(AbstractADWindowContent.java:1)
+	at org.adempiere.webui.window.FDialog$3.onCallback(FDialog.java:385)
+	at org.adempiere.webui.window.FDialog$3.onCallback(FDialog.java:1)
+	at org.adempiere.webui.component.Messagebox.onPageDetached(Messagebox.java:349)
+	at org.zkoss.zk.ui.AbstractComponent.setPage0(AbstractComponent.java:477)
+	at org.zkoss.zk.ui.AbstractComponent.setPageBefore(AbstractComponent.java:396)
+	at org.zkoss.zk.ui.AbstractComponent.setPage(AbstractComponent.java:361)
+	at org.zkoss.zk.ui.AbstractComponent.detach(AbstractComponent.java:1681)
+	at org.adempiere.webui.component.Messagebox.onEvent(Messagebox.java:340)
+	at org.zkoss.zk.ui.AbstractComponent.onEvent(AbstractComponent.java:2773)
+
+21:15:11.295===========> MWindow.saveError: DeleteErrorDependent - 错误: 在 "ad_window" 上的更新或删除操作违反了在 "ad_menu" 上的外键约束 "adwindow_admenu"
+  详细：键值对(ad_window_id)=(1000003)仍然是从表"ad_menu"引用的. [29]
+21:15:11.297-----------> GridTable.saveWarning: DeleteErrorDependent - 错误: 在 "ad_window" 上的更新或删除操作违反了在 "ad_menu" 上的外键约束 "adwindow_admenu"
+  详细：键值对(ad_window_id)=(1000003)仍然是从表"ad_menu"引用的. [29]
+21:15:49.372===========> Trx.commit: POdel_b4150248-a580-4ebb-a011-6e3dd8d793b9 [37]
+org.postgresql.util.PSQLException: 错误: 在 "ad_window" 上的更新或删除操作违反了在 "ad_menu" 上的外键约束 "adwindow_admenu"
+  详细：键值对(ad_window_id)=(1000003)仍然是从表"ad_menu"引用的.; State=23503; ErrorCode=0
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2182)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:1911)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:173)
+	at org.postgresql.jdbc2.AbstractJdbc2Connection.executeTransactionCommand(AbstractJdbc2Connection.java:824)
+	at org.postgresql.jdbc2.AbstractJdbc2Connection.commit(AbstractJdbc2Connection.java:848)
+	at com.mchange.v2.c3p0.impl.NewProxyConnection.commit(NewProxyConnection.java:1007)
+	at org.compiere.util.Trx.commit(Trx.java:357)
+	at org.compiere.model.PO.delete(PO.java:3401)
+	at org.compiere.model.GridTable.dataDelete(GridTable.java:2692)
+	at org.compiere.model.GridTab.dataDelete(GridTab.java:1207)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent$35.onCallback(AbstractADWindowContent.java:2361)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent$35.onCallback(AbstractADWindowContent.java:1)
+	at org.adempiere.webui.window.FDialog$3.onCallback(FDialog.java:385)
+	at org.adempiere.webui.window.FDialog$3.onCallback(FDialog.java:1)
+	at org.adempiere.webui.component.Messagebox.onPageDetached(Messagebox.java:349)
+	at org.zkoss.zk.ui.AbstractComponent.setPage0(AbstractComponent.java:477)
+	at org.zkoss.zk.ui.AbstractComponent.setPageBefore(AbstractComponent.java:396)
+	at org.zkoss.zk.ui.AbstractComponent.setPage(AbstractComponent.java:361)
+	at org.zkoss.zk.ui.AbstractComponent.detach(AbstractComponent.java:1681)
+	at org.adempiere.webui.component.Messagebox.onEvent(Messagebox.java:340)
+	at org.zkoss.zk.ui.AbstractComponent.onEvent(AbstractComponent.java:2773)
+
+21:15:49.390===========> MWindow.saveError: DeleteErrorDependent - 错误: 在 "ad_window" 上的更新或删除操作违反了在 "ad_menu" 上的外键约束 "adwindow_admenu"
+  详细：键值对(ad_window_id)=(1000003)仍然是从表"ad_menu"引用的. [37]
+21:15:49.392-----------> GridTable.saveWarning: DeleteErrorDependent - 错误: 在 "ad_window" 上的更新或删除操作违反了在 "ad_menu" 上的外键约束 "adwindow_admenu"
+  详细：键值对(ad_window_id)=(1000003)仍然是从表"ad_menu"引用的. [37]
+21:16:01.792===========> Trx.commit: POdel_86615a09-e8c2-45f4-aa12-8a6145dcf71d [36]
+org.postgresql.util.PSQLException: 错误: 在 "ad_window" 上的更新或删除操作违反了在 "ad_menu" 上的外键约束 "adwindow_admenu"
+  详细：键值对(ad_window_id)=(1000003)仍然是从表"ad_menu"引用的.; State=23503; ErrorCode=0
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2182)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:1911)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:173)
+	at org.postgresql.jdbc2.AbstractJdbc2Connection.executeTransactionCommand(AbstractJdbc2Connection.java:824)
+	at org.postgresql.jdbc2.AbstractJdbc2Connection.commit(AbstractJdbc2Connection.java:848)
+	at com.mchange.v2.c3p0.impl.NewProxyConnection.commit(NewProxyConnection.java:1007)
+	at org.compiere.util.Trx.commit(Trx.java:357)
+	at org.compiere.model.PO.delete(PO.java:3401)
+	at org.compiere.model.GridTable.dataDelete(GridTable.java:2692)
+	at org.compiere.model.GridTab.dataDelete(GridTab.java:1207)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent$35.onCallback(AbstractADWindowContent.java:2361)
+	at org.adempiere.webui.adwindow.AbstractADWindowContent$35.onCallback(AbstractADWindowContent.java:1)
+	at org.adempiere.webui.window.FDialog$3.onCallback(FDialog.java:385)
+	at org.adempiere.webui.window.FDialog$3.onCallback(FDialog.java:1)
+	at org.adempiere.webui.component.Messagebox.onPageDetached(Messagebox.java:349)
+	at org.zkoss.zk.ui.AbstractComponent.setPage0(AbstractComponent.java:477)
+	at org.zkoss.zk.ui.AbstractComponent.setPageBefore(AbstractComponent.java:396)
+	at org.zkoss.zk.ui.AbstractComponent.setPage(AbstractComponent.java:361)
+	at org.zkoss.zk.ui.AbstractComponent.detach(AbstractComponent.java:1681)
+	at org.adempiere.webui.component.Messagebox.onEvent(Messagebox.java:340)
+	at org.zkoss.zk.ui.AbstractComponent.onEvent(AbstractComponent.java:2773)
+
+21:16:01.808===========> MWindow.saveError: DeleteErrorDependent - 错误: 在 "ad_window" 上的更新或删除操作违反了在 "ad_menu" 上的外键约束 "adwindow_admenu"
+  详细：键值对(ad_window_id)=(1000003)仍然是从表"ad_menu"引用的. [36]
+21:16:01.809-----------> GridTable.saveWarning: DeleteErrorDependent - 错误: 在 "ad_window" 上的更新或删除操作违反了在 "ad_menu" 上的外键约束 "adwindow_admenu"
+  详细：键值对(ad_window_id)=(1000003)仍然是从表"ad_menu"引用的. [36]
+21:33:55.525===========> MLookupFactory.getLookup_TableDir: Key does not end with '_ID': status_id [33]
+21:33:55.551===========> MLookupFactory.getLookupInfo: No SQL - status_id [33]
+21:33:55.568===========> MLookupFactory.getLookup_TableDir: Key does not end with '_ID': user_id [33]
+21:33:55.579===========> MLookupFactory.getLookupInfo: No SQL - user_id [33]
+21:33:55.640===========> MLookupFactory.getLookup_TableDir: Key does not end with '_ID': project_version_id [33]
+21:33:55.651===========> MLookupFactory.getLookupInfo: No SQL - project_version_id [33]
+21:33:55.665===========> MLookupFactory.getLookup_TableDir: Key does not end with '_ID': user_id [33]
+21:33:55.678===========> MLookupFactory.getLookupInfo: No SQL - user_id [33]
+21:37:07.416===========> MLookupFactory.getLookup_TableDir: Key does not end with '_ID': status_id [37]
+21:37:07.432===========> MLookupFactory.getLookupInfo: No SQL - status_id [37]
+21:37:07.444===========> MLookupFactory.getLookup_TableDir: Key does not end with '_ID': user_id [37]
+21:37:07.455===========> MLookupFactory.getLookupInfo: No SQL - user_id [37]
+21:37:07.509===========> MLookupFactory.getLookup_TableDir: Key does not end with '_ID': project_version_id [37]
+21:37:07.523===========> MLookupFactory.getLookupInfo: No SQL - project_version_id [37]
+21:37:07.534===========> MLookupFactory.getLookup_TableDir: Key does not end with '_ID': user_id [37]
+21:37:07.546===========> MLookupFactory.getLookupInfo: No SQL - user_id [37]
+21:54:05.877-----------> Trx.run: Transaction timeout. Name=Loader_ae081c60-9b89-41aa-95a6-cf36fcf8805c, timeout(sec)=7394 [149]
+21:54:05.879-----------> Trx.run: Transaction timeout. Name=Loader_3f9eed20-5f9f-4c76-9bf8-37763fc1a204, timeout(sec)=7340 [149]
+21:54:05.880-----------> Trx.run: Transaction timeout. Name=Loader_9aec5ade-c3c1-4d2f-acbe-b34047d7b9ec, timeout(sec)=7485 [149]
+22:04:05.883-----------> Trx.run: Transaction timeout. Name=Loader_aa663bf1-7712-4854-bf2e-2ab88e1085f4, timeout(sec)=7457 [116]
+22:09:05.885-----------> Trx.run: Transaction timeout. Name=Loader_b61310dc-832c-4fc1-b68d-b55f073133d8, timeout(sec)=7296 [116]
+22:09:05.887-----------> Trx.run: Transaction timeout. Name=Loader_8b2213b5-7198-44a5-896c-2e369f3fb67c, timeout(sec)=7414 [116]
+22:09:05.888-----------> Trx.run: Transaction timeout. Name=Loader_43070d49-e119-4d82-9641-862c6769669d, timeout(sec)=7263 [116]
+22:14:05.891-----------> Trx.run: Transaction timeout. Name=Loader_61e76108-4c52-4399-b034-1d82d6b69a54, timeout(sec)=7304 [54]
+22:19:05.894-----------> Trx.run: Transaction timeout. Name=Loader_013dd39b-768b-429e-b581-b74c6fd780bc, timeout(sec)=7376 [54]
+22:19:05.895-----------> Trx.run: Transaction timeout. Name=Loader_7f2c1166-79f0-48cd-b651-067c79d5f171, timeout(sec)=7254 [54]
+22:19:05.897-----------> Trx.run: Transaction timeout. Name=Loader_c3389a42-1bca-4d30-83f7-fceb4f25f568, timeout(sec)=7495 [54]
+22:24:05.900-----------> Trx.run: Transaction timeout. Name=Loader_b9fcdf57-5219-4e15-a4b5-f802b950d361, timeout(sec)=7459 [130]

@@ -8,6 +8,9 @@ import javax.jms.Message;
 import javax.jms.MessageListener;
 import javax.jms.TextMessage;
 
+import org.apache.activemq.command.ActiveMQBytesMessage;
+import org.apache.activemq.util.ByteSequence;
+
 import net.sf.json.JSONObject;
 
 import com.dao.OrderDao;
@@ -17,12 +20,20 @@ public class JMSListener implements MessageListener{
 	public static SimpleDateFormat df = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ssXXX");
 	@Override
 	public void onMessage(Message message) {
-		TextMessage textMessage = (TextMessage) message;
-		if (textMessage != null){
-			String jsonString;
+		String jsonString = new String();
+		if (message instanceof ActiveMQBytesMessage){
+			jsonString = new String (((ActiveMQBytesMessage) message).getContent().getData());
+		}else if (message instanceof TextMessage){
+			try {
+				jsonString = ((TextMessage) message).getText();
+			} catch (JMSException e) {
+				e.printStackTrace();
+			}
+		}
+		
+		if (jsonString != null){
 			try {
 				//转换为javaBean
-				jsonString = textMessage.getText();
 				JSONObject jsonObject = JSONObject.fromObject(jsonString); 
 				Order order = (Order) JSONObject.toBean(jsonObject, Order.class);
 				order.setSetupTime(df.parse(jsonObject.getString("setupTime")));
@@ -36,15 +47,14 @@ public class JMSListener implements MessageListener{
 				OrderDao orderDao = new OrderDao();
 				boolean result = true;
 				result = orderDao.insertOrder(order);
+				// 还需要存入redis
 				result = orderDao.insertOrder_redis(order);
-				if (result){
+				if (result){ 
 					System.out.println("insert success");
 				}else{
 					System.out.println("insert fail");
 				}
-				
-				// 还需要存入redis
-			} catch (JMSException | ParseException e) {
+			} catch (ParseException e) {
 				e.printStackTrace();
 			}
 		}

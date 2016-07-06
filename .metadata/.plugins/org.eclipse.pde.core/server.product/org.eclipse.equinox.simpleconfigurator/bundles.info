@@ -1,5 +1,6 @@
 #version=1
 com.sun.mail.javax.mail,1.5.1,file:/D:/idempiere/targetPlatform/plugins/com.sun.mail.javax.mail_1.5.1.jar,4,false
+idempiere-first,1.0.0.qualifier,file:/D:/idempiere-plugins/idempiere-first/,4,false
 javax.activation,1.1.0.v201211130549,file:/D:/idempiere/targetPlatform/plugins/javax.activation_1.1.0.v201211130549.jar,4,false
 javax.annotation-api,1.2.0,file:/D:/idempiere/targetPlatform/plugins/javax.annotation-api_1.2.0.jar,4,false
 javax.ejb,3.1.1.v201204261316,file:/D:/idempiere/targetPlatform/plugins/javax.ejb_3.1.1.v201204261316.jar,4,false
@@ -174,3 +175,4 @@ org.w3c.dom.fragment,3.0.0.qualifier,file:/D:/idempiere/org.w3c.dom.fragment/,4,
 org.w3c.dom.smil,1.0.1.v200903091627,file:/D:/idempiere/targetPlatform/plugins/org.w3c.dom.smil_1.0.1.v200903091627.jar,4,false
 org.w3c.dom.svg,1.1.0.v201011041433,file:/D:/idempiere/targetPlatform/plugins/org.w3c.dom.svg_1.1.0.v201011041433.jar,4,false
 org.zkoss.zk.library,7.0.7.qualifier,file:/D:/idempiere/org.zkoss.zk.library/,4,true
+org.zzyan.MyProcess,1.0.0.qualifier,file:/D:/idempiere-plugins/,4,true

@@ -40,7 +40,7 @@ public class OrderDao {
 
         try {
                 connection = DriverManager.getConnection(
-                                "jdbc:postgresql://192.168.199.10:5432/activemq", "activemq",
+                                "jdbc:postgresql://127.0.0.1:5432/activemq", "activemq",
                                 "activemq");
                 statement = connection.createStatement();
         } catch (SQLException e) {

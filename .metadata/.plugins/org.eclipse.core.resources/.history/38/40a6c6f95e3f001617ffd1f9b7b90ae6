@@ -1,0 +1,26 @@
+package com.tgb.activemq;
+
+import java.sql.Timestamp;
+import java.util.Date;
+
+import net.sf.ezmorph.array.AbstractArrayMorpher;
+
+public class TimestampMorpher extends AbstractArrayMorpher {
+
+	public TimestampMorpher(String[] dateFormats) {
+		System.out.println("1111111111111111111");
+	}
+
+	@Override
+	public Object morph(Object timeLong) {
+		System.out.println("1111111111111111111");
+		return new Date();
+	}
+
+	@Override
+	public Class morphsTo() {
+		return Date.class;
+	}
+
+}
+

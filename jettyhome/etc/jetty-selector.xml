@@ -21,7 +21,7 @@
                 </Item>
               </Array>
              </Arg>
-            <Set name="host"><Property name="jetty.host" default="localhost" /></Set>
+            <Set name="host"><Property name="jetty.host" default="0.0.0.0" /></Set>
             <Set name="port"><Property name="jetty.port" default="8080"/></Set>
             <Set name="idleTimeout">300000</Set>
           </New>
