@@ -1,0 +1,144 @@
+package com.dao;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.ResultSet;
+import java.sql.ResultSetMetaData;
+import java.sql.SQLException;
+import java.sql.Statement;
+
+import redis.clients.jedis.Jedis;
+import redis.clients.jedis.JedisPool;
+
+
+public class Test {
+	static Connection connection = null;
+	static Statement statement = null;
+	
+	static JedisPool pool = null; 
+	static Jedis jedis = null;
+	
+	public static void creatDBConnection(){
+		System.out.println("-------- PostgreSQL "
+				+ "JDBC Connection Testing ------------");
+		try {
+		        Class.forName("org.postgresql.Driver");
+		} catch (ClassNotFoundException e) {
+		        System.out.println("Where is your PostgreSQL JDBC Driver? "
+		                        + "Include in your library path!");
+		        e.printStackTrace();
+		        return;
+		}
+		System.out.println("PostgreSQL JDBC Driver Registered!");
+
+        try {
+                connection = DriverManager.getConnection(
+                                "jdbc:postgresql://192.168.199.235:5432/circuitive-development", "postgres",
+                                "postgres");
+                statement = connection.createStatement();
+        } catch (SQLException e) {
+                System.out.println("Connection Failed! Check output console");
+                e.printStackTrace();
+                return;
+        }
+        if (connection != null) {
+	            System.out.println("You made it, take control your database now!");
+	    } else {
+	            System.out.println("Failed to make connection!");
+	    }
+	}
+	
+	public static void createRedisConnection(){
+		pool = new JedisPool("127.0.0.1", 6379); 
+		try {
+			jedis = pool.getResource();
+		} catch (Exception e) {
+			System.out.println("redis连接错误");
+			e.printStackTrace();
+		}
+	}
+	
+	public static void main(String[] args) throws SQLException{
+		creatDBConnection();
+		
+		String orderId = "24";
+		
+		
+		String sql = "select o.\"orderId\", o.\"date\", o.\"statusId\", a.* ";
+		sql += "from order_details o, (select * from user_address where id = (select \"addressId\" from order_shippment where \"orderId\"=";
+		sql += orderId;
+		sql += ")) a ";
+		sql += "where o.\"orderId\"=";
+		sql += orderId;
+		
+		System.out.println(sql);
+		
+		ResultSet result = statement.executeQuery(sql);
+		
+		ResultSetMetaData m = result.getMetaData();
+		
+		for(int i=1; i<=m.getColumnCount(); i++)
+		{
+			System.out.print(m.getColumnName(i));
+			System.out.print("\t\t");
+		}
+		
+		System.out.println();
+		
+		while(result.next()){
+		    for(int i=1; i<=m.getColumnCount(); i++)
+		    {
+		    	System.out.print(result.getString(i));
+		    	System.out.print("\t\t");
+		    }
+		    	System.out.println();
+	   }
+		
+	}  
+	
+	public static String getOrderBomSql(String orderId){
+		String sql = "select * from project_bom_info where \"projectVersionId\" = (select \"projectId\" from order_project_details where \"id\" =";
+		sql = sql + orderId;
+		sql += ")";
+		return sql;
+	}
+	
+	public static String getOrderSql(String orderId){
+		String sql = "select o.\"orderId\", o.\"date\", o.\"statusId\", a.* ";
+		sql += "from order_details o, (select * from user_address where id = (select \"addressId\" from order_shippment where \"orderId\"=";
+		sql += orderId;
+		sql += ")) a ";
+		sql += "where o.\"orderId\"=";
+		sql += orderId;
+		return sql;
+	}
+	
+	public static ResultSet query(String sql) throws SQLException{
+		ResultSet result = statement.executeQuery(sql);
+		return result;
+	}
+	
+	public static void printResult(ResultSet result) throws SQLException{
+		ResultSetMetaData m = result.getMetaData();
+		
+		for(int i=1; i<=m.getColumnCount(); i++)
+		{
+			System.out.print(m.getColumnName(i));
+			System.out.print("\t\t");
+		}
+		
+		System.out.println();
+		
+		while(result.next()){
+		    for(int i=1; i<=m.getColumnCount(); i++)
+		    {
+		    	System.out.print(result.getString(i));
+		    	System.out.print("\t\t");
+		    }
+		    	System.out.println();
+	   }
+		
+	}
+	
+	
+}

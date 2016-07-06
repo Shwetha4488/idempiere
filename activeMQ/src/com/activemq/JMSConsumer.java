@@ -10,16 +10,16 @@ import javax.jms.Session;
 import org.apache.activemq.ActiveMQConnection;
 import org.apache.activemq.ActiveMQConnectionFactory;
 
-import com.dao.OrderDao;
+import com.dao.JdbcDao;
 
 public class JMSConsumer {
 	private static final String USERNAME = ActiveMQConnection.DEFAULT_USER;//默认连接用户名
     private static final String PASSWORD = ActiveMQConnection.DEFAULT_PASSWORD;//默认连接密码
-    private static final String BROKEURL = ActiveMQConnection.DEFAULT_BROKER_URL;//默认连接地址
+//    private static final String BROKEURL = ActiveMQConnection.DEFAULT_BROKER_URL;//默认连接地址
 
   
     
-//    private static final String BROKEURL = "failover://tcp://127.0.0.1:61616";
+    private static final String BROKEURL = "failover://tcp://192.168.199.10:61616";
     
     public static void main(String[] args) {
         ConnectionFactory connectionFactory;//连接工厂
@@ -27,7 +27,12 @@ public class JMSConsumer {
 
         Session session;//会话 接受或者发送消息的线程
         Destination destination;//消息的目的地
-
+        
+        Connection connectionA = null;
+        Session sessionA;
+        Destination destinationA;
+        MessageConsumer messageConsumerA;
+        
         MessageConsumer messageConsumer;//消息的消费者
 
         //实例化连接工厂
@@ -44,15 +49,28 @@ public class JMSConsumer {
             session = connection.createSession(false, Session.AUTO_ACKNOWLEDGE);
             //创建一个连接HelloWorld的消息队列
             //destination = session.createQueue("HelloWorld");
-            destination = session.createTopic("/topic/mytopic");
+            destination = session.createTopic("mytopic");
             //创建消息消费者
             messageConsumer = session.createConsumer(destination);
             //创建数据库连接
-            OrderDao.creatConnection();
-            //创建redis连接
-            OrderDao.createRedisConnection();
-            	messageConsumer.setMessageListener(new JMSListener());
-
+//            OrderDao.creatConnection();
+//            //创建redis连接
+//            OrderDao.createRedisConnection();
+//            	messageConsumer.setMessageListener(new JMSListener());
+            
+            JdbcDao.creatWebDBConnection();
+            JdbcDao.creatERPDBConnection();
+            JdbcDao.createRedisConnection();
+            
+            connectionA = connectionFactory.createConnection();
+            connectionA.start();
+            sessionA = connectionA.createSession(false, Session.AUTO_ACKNOWLEDGE);
+            destinationA = sessionA.createTopic("orderstatus");
+            messageConsumerA = sessionA.createConsumer(destinationA);
+            messageConsumerA.setMessageListener(new JMSListenerB());
+            
+            
+            	messageConsumer.setMessageListener(new JMSListenerA());
 
         } catch (JMSException e) {
             e.printStackTrace();

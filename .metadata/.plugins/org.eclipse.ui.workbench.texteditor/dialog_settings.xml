@@ -12,6 +12,7 @@
 		<item value="true" key="wrap"/>
 		<item value="false" key="wholeword"/>
 		<list key="findhistory">
+			<item value="insertBom"/>
 			<item value="发送消息"/>
 			<item value="s_ImplementationVersion"/>
 			<item value="Supported by iDempiere community"/>
@@ -19,7 +20,6 @@
 			<item value="afterMigration"/>
 			<item value="getVersion"/>
 			<item value="getDatabaseVersion"/>
-			<item value="adempiere_version"/>
 		</list>
 		<list key="replacehistory">
 		</list>

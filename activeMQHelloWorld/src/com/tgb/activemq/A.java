@@ -7,6 +7,7 @@ public class A{
 	private String id;
 	private String text;
 	private Date time;
+	private Date time1;
 	private ArrayList<B> list;
 	public String getId() {
 		return id;
@@ -26,7 +27,12 @@ public class A{
 	public void setTime(Date time) {
 		this.time = time;
 	}
-	
+	public Date getTime1() {
+		return time1;
+	}
+	public void setTime1(Date time1) {
+		this.time1 = time1;
+	}
 	public ArrayList<B> getList() {
 		return list;
 	}

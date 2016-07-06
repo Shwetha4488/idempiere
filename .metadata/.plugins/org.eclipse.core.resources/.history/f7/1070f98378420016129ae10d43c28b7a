@@ -1,0 +1,44 @@
+package org.zzyan.processes;
+
+
+import java.math.BigDecimal;
+import java.sql.Timestamp;
+import java.util.logging.Level;
+
+import org.compiere.process.ProcessInfoParameter;
+import org.compiere.process.SvrProcess;
+
+public class MyProcess extends SvrProcess{
+	private String astring;
+	private boolean acheckbox;
+	private Timestamp adatetime;
+
+	@Override
+	protected void prepare() {
+		// TODO Auto-generated method stub
+		log.warning("------- Here I'm in the prepare() method");
+		ProcessInfoParameter[] paras = getParameter();
+		for (ProcessInfoParameter para : paras){
+			String paraName = para.getParameterName();
+			if (paraName.equalsIgnoreCase("astring")){
+				astring = para.getParameterAsString();
+			}else if (paraName.equalsIgnoreCase("acheckbox")){
+				acheckbox = para.getParameterAsBoolean();
+			}else if (paraName.equalsIgnoreCase("adatetime")){
+				adatetime = para.getParameterAsTimestamp();
+			}else
+				log.log(Level.SEVERE, "Unknown Parameter" + paraName);
+		}
+	}
+
+	@Override
+	protected String doIt() throws Exception {
+		// TODO Auto-generated method stub
+		log.warning("--------- Here I'm in the doIt() method");
+		addLog(astring);
+		addLog(10000, adatetime, BigDecimal.ONE, "Our Datetime is " + adatetime.toString());
+		addLog(10000, adatetime, BigDecimal.ONE, "Our Checkbox is " + acheckbox, 100, 100);
+		return null;
+	}
+
+}

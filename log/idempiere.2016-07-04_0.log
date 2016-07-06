@@ -1,0 +1,153 @@
+*** 2016-07-04 10:21:09.454 idempiere Log (CLogFile) ***
+10:21:09.454 Adempiere.startup: iDempiere(r) Release 3.1_2015-10-31 -Smart Suite ERP, CRM and SCM- (c) 1999-2013 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community [14]
+10:21:09.454 Ini.loadProperties: D:\idempiere\idempiere.properties #33 [14]
+10:21:10.491 DB.isBuildOK: Build DB=${env.ADEMPIERE_VERSION} 20080428-1232 [14]
+10:21:10.491 DB.isBuildOK: Build Cl=3.1.0.qualifier [14]
+10:21:10.540-----------> DB.isBuildOK: Build Version Error 
+
+The program assumes build version 3.1.0.qualifier, but database has build version ${env.ADEMPIERE_VERSION} 20080428-1232. 
+This is likely to cause hard to fix errors. 
+Please contact administrator. [14]
+10:21:10.854 Language.getLanguage: Adding Language=en, Country=US, Locale=en_US [14]
+10:21:10.854 Language.getLanguage: Adding Language=en, Country=US, Locale=en_US [14]
+10:21:11.539 WebEnv.initWeb: Servlet Context Init Parameters: iDempiere Root
+ServerRoot=1 [14]
+10:21:11.554-----------> EMail.setFrom: you @ company.org: javax.mail.internet.AddressException: Local address contains control or whitespace in string ``you @ company.org'' [14]
+10:21:11.554-----------> EMail.addTo: you @ company.org: javax.mail.internet.AddressException: Local address contains control or whitespace in string ``you @ company.org'' [14]
+10:21:11.554-----------> EMail.isValid: From is invalid=null [14]
+10:21:11.554-----------> EMail.isValid: From is invalid=null [14]
+10:21:11.554-----------> MClient.sendEMail: Could NOT Send Email: Server started: iDempiere (DESKTOP-K0DQ6Q3:192.168.10.212) to you @ company.org: Invalid Data (System) [14]
+10:21:11.570 WebEnv.initWeb: Servlet Init Parameter: idempiereMonitor [14]
+10:21:11.570 AdempiereMonitor.init:  [14]
+10:21:13.780-----------> AnnotationConfiguration.configure: ServletContainerInitializers: detected. Class hierarchy: empty [14]
+10:21:14.042-----------> ClassLocator.getDependentXMLResources: Replicate resource: ckez
+Overwrite bundleresource://175.fwk1174037956:2/metainfo/zk/config.xml
+with bundleresource://175.fwk1174037956:19/metainfo/zk/config.xml [14]
+10:21:14.042-----------> ClassLocator.getDependentXMLResources: Replicate resource: zk
+Overwrite bundleresource://175.fwk1174037956:11/metainfo/zk/config.xml
+with bundleresource://175.fwk1174037956:28/metainfo/zk/config.xml [14]
+10:21:14.058-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkbind
+Overwrite bundleresource://175.fwk1174037956:12/metainfo/zk/config.xml
+with bundleresource://175.fwk1174037956:29/metainfo/zk/config.xml [14]
+10:21:14.080-----------> ClassLocator.getDependentXMLResources: Replicate resource: zul
+Overwrite bundleresource://175.fwk1174037956:14/metainfo/zk/zk.xml
+with bundleresource://175.fwk1174037956:31/metainfo/zk/zk.xml [14]
+10:21:14.458-----------> LanguageDefinition.<init>: Replicated language: xhtml, overriden by [LanguageDefinition: xhtml] [14]
+10:21:14.481-----------> LanguageDefinition.<init>: Replicated language: xul/html, overriden by [LanguageDefinition: xul/html] [14]
+10:21:14.543-----------> ClassLocator.getDependentXMLResources: Replicate resource: calendar
+Overwrite bundleresource://175.fwk1174037956:1/metainfo/zk/lang-addon.xml
+with bundleresource://175.fwk1174037956:18/metainfo/zk/lang-addon.xml [14]
+10:21:14.543-----------> ClassLocator.getDependentXMLResources: Replicate resource: ckez
+Overwrite bundleresource://175.fwk1174037956:2/metainfo/zk/lang-addon.xml
+with bundleresource://175.fwk1174037956:19/metainfo/zk/lang-addon.xml [14]
+10:21:14.543-----------> ClassLocator.getDependentXMLResources: Replicate resource: gmapsz
+Overwrite bundleresource://175.fwk1174037956:5/metainfo/zk/lang-addon.xml
+with bundleresource://175.fwk1174037956:22/metainfo/zk/lang-addon.xml [14]
+10:21:14.543-----------> ClassLocator.getDependentXMLResources: Replicate resource: timeline
+Overwrite bundleresource://175.fwk1174037956:6/metainfo/zk/lang-addon.xml
+with bundleresource://175.fwk1174037956:23/metainfo/zk/lang-addon.xml [14]
+10:21:14.543-----------> ClassLocator.getDependentXMLResources: Replicate resource: timeplot
+Overwrite bundleresource://175.fwk1174037956:7/metainfo/zk/lang-addon.xml
+with bundleresource://175.fwk1174037956:24/metainfo/zk/lang-addon.xml [14]
+10:21:14.559-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkbind
+Overwrite bundleresource://175.fwk1174037956:12/metainfo/zk/lang-addon.xml
+with bundleresource://175.fwk1174037956:29/metainfo/zk/lang-addon.xml [14]
+10:21:14.578-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkplus
+Overwrite bundleresource://175.fwk1174037956:13/metainfo/zk/lang-addon.xml
+with bundleresource://175.fwk1174037956:30/metainfo/zk/lang-addon.xml [14]
+10:21:14.712           WebUIServlet.init: iDempiere Web Client started successfully [14]
+10:21:16.083-----------> AnnotationConfiguration.configure: ServletContainerInitializers: detected. Class hierarchy: empty [14]
+
+*** 2016-07-04 10:21:16.362 idempiere Log (CLogFile) ***
+10:21:18.696-----------> Node: [192.168.10.212]:5701 [adempiere.idempiere/localhost] [3.5.3] No join method is enabled! Starting standalone. [38]
+10:21:56.984===========> GenericPO.load: NO Data found for swie_order_ID=85 [111]
+java.lang.Exception
+	at org.compiere.model.PO.load(PO.java:1347)
+	at org.compiere.model.PO.load(PO.java:1287)
+	at org.compiere.model.PO.<init>(PO.java:204)
+	at org.adempiere.model.GenericPO.<init>(GenericPO.java:71)
+	at org.compiere.model.MTable.getPO(MTable.java:410)
+	at org.compiere.model.MRecentItem.getLabel(MRecentItem.java:289)
+	at org.adempiere.webui.dashboard.DPRecentItems.refresh(DPRecentItems.java:236)
+	at org.adempiere.webui.dashboard.DPRecentItems.createRecentItemsPanel(DPRecentItems.java:145)
+	at org.adempiere.webui.dashboard.DPRecentItems.<init>(DPRecentItems.java:98)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at java.lang.Class.newInstance(Unknown Source)
+	at org.zkoss.zk.ui.metainfo.impl.ComponentDefinitionImpl.newInstance(ComponentDefinitionImpl.java:312)
+	at org.zkoss.zk.ui.metainfo.impl.ComponentDefinitionImpl.newInstance(ComponentDefinitionImpl.java:299)
+	at org.zkoss.zk.ui.metainfo.ComponentInfo.newInstance(ComponentInfo.java:624)
+	at org.zkoss.zk.ui.impl.AbstractUiFactory.newComponent(AbstractUiFactory.java:96)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.execCreateChild0(UiEngineImpl.java:857)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.execCreateChild(UiEngineImpl.java:826)
+	at org.zkoss.zk.ui.impl.UiEngineImpl.execCreate0(UiEngineImpl.java:735)
+
+10:22:15.252===========> MLookupFactory.getLookup_TableDir: Key does not end with '_ID': status_id [29]
+10:22:15.269===========> MLookupFactory.getLookupInfo: No SQL - status_id [29]
+10:22:15.274===========> MLookupFactory.getLookup_TableDir: Key does not end with '_ID': user_id [29]
+10:22:15.290===========> MLookupFactory.getLookupInfo: No SQL - user_id [29]
+10:22:15.716===========> MLookupFactory.getLookup_TableDir: Key does not end with '_ID': project_version_id [29]
+10:22:15.732===========> MLookupFactory.getLookupInfo: No SQL - project_version_id [29]
+10:22:15.753===========> MLookupFactory.getLookup_TableDir: Key does not end with '_ID': user_id [29]
+10:22:15.769===========> MLookupFactory.getLookupInfo: No SQL - user_id [29]
+10:26:41.787-----------> Prop.loadProperties: D:\idempiere\home.properties not found [31]
+10:26:41.787-----------> Prop.loadProperties: !!WARNING:Please locate yout custom home.properties on iDEMPIERE_HOME. [31]
+10:31:11.641===========> MLookupFactory.getLookup_TableDir: Key does not end with '_ID': status_id [34]
+10:31:11.656===========> MLookupFactory.getLookupInfo: No SQL - status_id [34]
+10:31:11.672===========> MLookupFactory.getLookup_TableDir: Key does not end with '_ID': user_id [34]
+10:31:11.688===========> MLookupFactory.getLookupInfo: No SQL - user_id [34]
+10:31:11.857===========> MLookupFactory.getLookup_TableDir: Key does not end with '_ID': project_version_id [34]
+10:31:11.873===========> MLookupFactory.getLookupInfo: No SQL - project_version_id [34]
+10:31:11.888===========> MLookupFactory.getLookup_TableDir: Key does not end with '_ID': user_id [34]
+10:31:11.904===========> MLookupFactory.getLookupInfo: No SQL - user_id [34]
+10:35:59.377-----------> Msg.getMsg: NOT found: Current record was changed by another user, please ReQuery [122]
+10:36:04.544-----------> GridTable.saveWarning: FillMandatory - swie order
+ [34]
+12:23:12.585-----------> ClusterService: [192.168.10.212]:5701 [adempiere.idempiere/localhost] [3.5.3] Resetting master confirmation timestamps because of huge system clock jump! Clock-Jump: 3373837ms, Master-Confirmation-Timeout: 500000ms. [109]
+14:09:52.565-----------> ClusterService: [192.168.10.212]:5701 [adempiere.idempiere/localhost] [3.5.3] Resetting master confirmation timestamps because of huge system clock jump! Clock-Jump: 3690408ms, Master-Confirmation-Timeout: 500000ms. [85]
+14:49:25.903===========> MLookupFactory.getLookup_TableDir: Key does not end with '_ID': status_id [30]
+14:49:25.944===========> MLookupFactory.getLookupInfo: No SQL - status_id [30]
+14:49:25.964===========> MLookupFactory.getLookup_TableDir: Key does not end with '_ID': user_id [30]
+14:49:25.979===========> MLookupFactory.getLookupInfo: No SQL - user_id [30]
+14:49:26.142===========> MLookupFactory.getLookup_TableDir: Key does not end with '_ID': project_version_id [30]
+14:49:26.158===========> MLookupFactory.getLookupInfo: No SQL - project_version_id [30]
+14:49:26.171===========> MLookupFactory.getLookup_TableDir: Key does not end with '_ID': user_id [30]
+14:49:26.186===========> MLookupFactory.getLookupInfo: No SQL - user_id [30]
+14:50:07.895===========> MLookupFactory.getLookup_TableDir: Key does not end with '_ID': status_id [122]
+14:50:07.910===========> MLookupFactory.getLookupInfo: No SQL - status_id [122]
+14:50:07.924===========> MLookupFactory.getLookup_TableDir: Key does not end with '_ID': user_id [122]
+14:50:07.938===========> MLookupFactory.getLookupInfo: No SQL - user_id [122]
+14:50:08.005===========> MLookupFactory.getLookup_TableDir: Key does not end with '_ID': project_version_id [122]
+14:50:08.022===========> MLookupFactory.getLookupInfo: No SQL - project_version_id [122]
+14:50:08.036===========> MLookupFactory.getLookup_TableDir: Key does not end with '_ID': user_id [122]
+14:50:08.050===========> MLookupFactory.getLookupInfo: No SQL - user_id [122]
+14:56:35.131===========> MLookupFactory.getLookup_TableDir: Key does not end with '_ID': status_id [30]
+14:56:35.159===========> MLookupFactory.getLookupInfo: No SQL - status_id [30]
+14:56:35.180===========> MLookupFactory.getLookup_TableDir: Key does not end with '_ID': user_id [30]
+14:56:35.198===========> MLookupFactory.getLookupInfo: No SQL - user_id [30]
+14:56:35.272===========> MLookupFactory.getLookup_TableDir: Key does not end with '_ID': project_version_id [30]
+14:56:35.288===========> MLookupFactory.getLookupInfo: No SQL - project_version_id [30]
+14:56:35.301===========> MLookupFactory.getLookup_TableDir: Key does not end with '_ID': user_id [30]
+14:56:35.314===========> MLookupFactory.getLookupInfo: No SQL - user_id [30]
+18:37:44.903===========> MLookupFactory.getLookup_TableDir: Key does not end with '_ID': status_id [221]
+18:37:44.959===========> MLookupFactory.getLookupInfo: No SQL - status_id [221]
+18:37:44.972===========> MLookupFactory.getLookup_TableDir: Key does not end with '_ID': user_id [221]
+18:37:45.003===========> MLookupFactory.getLookupInfo: No SQL - user_id [221]
+18:37:45.167===========> MLookupFactory.getLookup_TableDir: Key does not end with '_ID': project_version_id [221]
+18:37:45.189===========> MLookupFactory.getLookupInfo: No SQL - project_version_id [221]
+18:37:45.207===========> MLookupFactory.getLookup_TableDir: Key does not end with '_ID': user_id [221]
+18:37:45.227===========> MLookupFactory.getLookupInfo: No SQL - user_id [221]
+19:21:25.324-----------> Prop.loadProperties: D:\idempiere\home.properties not found [221]
+19:21:25.325-----------> Prop.loadProperties: !!WARNING:Please locate yout custom home.properties on iDEMPIERE_HOME. [221]
+19:21:42.177-----------> Prop.loadProperties: D:\idempiere\home.properties not found [122]
+19:21:42.178-----------> Prop.loadProperties: !!WARNING:Please locate yout custom home.properties on iDEMPIERE_HOME. [122]
+19:23:16.309===========> MLookupFactory.getLookup_TableDir: Key does not end with '_ID': status_id [122]
+19:23:16.339===========> MLookupFactory.getLookupInfo: No SQL - status_id [122]
+19:23:16.355===========> MLookupFactory.getLookup_TableDir: Key does not end with '_ID': user_id [122]
+19:23:16.375===========> MLookupFactory.getLookupInfo: No SQL - user_id [122]
+19:23:16.461===========> MLookupFactory.getLookup_TableDir: Key does not end with '_ID': project_version_id [122]
+19:23:16.476===========> MLookupFactory.getLookupInfo: No SQL - project_version_id [122]
+19:23:16.505===========> MLookupFactory.getLookup_TableDir: Key does not end with '_ID': user_id [122]
+19:23:16.518===========> MLookupFactory.getLookupInfo: No SQL - user_id [122]

@@ -25,7 +25,7 @@
            xmlns="http://www.hazelcast.com/schema/config"
            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <group>
-        <name>adempiere.idempiere/localhost</name>
+        <name>adempiere.idempiere/127.0.0.1</name>
         <password>adempiere</password>
     </group>
     <management-center enabled="false">http://localhost:8080/mancenter</management-center>

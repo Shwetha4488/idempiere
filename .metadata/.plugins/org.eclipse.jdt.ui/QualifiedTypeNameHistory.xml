@@ -6,7 +6,6 @@
 <fullyQualifiedTypeName name="java.text.SimpleDateFormat"/>
 <fullyQualifiedTypeName name="javax.jms.Message"/>
 <fullyQualifiedTypeName name="net.sf.json.JsonConfig"/>
-<fullyQualifiedTypeName name="java.util.Date"/>
 <fullyQualifiedTypeName name="net.sf.json.util.JSONUtils"/>
 <fullyQualifiedTypeName name="net.sf.ezmorph.object.DateMorpher"/>
 <fullyQualifiedTypeName name="net.sf.json.JSONObject"/>
@@ -31,7 +30,6 @@
 <fullyQualifiedTypeName name="net.sf.json.JSONArray"/>
 <fullyQualifiedTypeName name="com.pojo.OrderSub"/>
 <fullyQualifiedTypeName name="redis.clients.jedis.JedisPool"/>
-<fullyQualifiedTypeName name="redis.clients.jedis.JedisPoolConfig"/>
 <fullyQualifiedTypeName name="org.junit.Before"/>
 <fullyQualifiedTypeName name="java.util.Iterator"/>
 <fullyQualifiedTypeName name="java.util.HashMap"/>
@@ -40,5 +38,22 @@
 <fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="redis.clients.jedis.Jedis"/>
 <fullyQualifiedTypeName name="org.apache.activemq.transport.stomp.StompConnection"/>
+<fullyQualifiedTypeName name="org.apache.activemq.command.ActiveMQBytesMessage"/>
+<fullyQualifiedTypeName name="java.util.Date"/>
+<fullyQualifiedTypeName name="com.dao.OrderDaoA"/>
+<fullyQualifiedTypeName name="com.dao.JdbcDao"/>
+<fullyQualifiedTypeName name="java.sql.ResultSet"/>
+<fullyQualifiedTypeName name="redis.clients.jedis.JedisPoolConfig"/>
 <fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="org.apache.activemq.command.ActiveMQTextMessage"/>
+<fullyQualifiedTypeName name="org.compiere.process.SvrProcess"/>
+<fullyQualifiedTypeName name="org.adempiere.base.IProcessFactory"/>
+<fullyQualifiedTypeName name="org.zzyan.processes.MyProcess"/>
+<fullyQualifiedTypeName name="java.security.Timestamp"/>
+<fullyQualifiedTypeName name="java.sql.Timestamp"/>
+<fullyQualifiedTypeName name="java.util.logging.Level"/>
+<fullyQualifiedTypeName name="java.math.BigDecimal"/>
+<fullyQualifiedTypeName name="java.util.Collection"/>
+<fullyQualifiedTypeName name="org.compiere.model.MProduct"/>
+<fullyQualifiedTypeName name="org.compiere.model.Query"/>
 </qualifiedTypeNameHistroy>

@@ -1,0 +1,100 @@
+*** 2016-07-05 09:55:28.304 idempiere Log (CLogFile) ***
+09:55:28.303 Adempiere.startup: iDempiere(r) Release 3.1_2015-10-31 -Smart Suite ERP, CRM and SCM- (c) 1999-2013 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community [14]
+09:55:28.308 Ini.loadProperties: D:\idempiere\idempiere.properties #33 [14]
+09:55:29.144 DB.isBuildOK: Build DB=${env.ADEMPIERE_VERSION} 20080428-1232 [14]
+09:55:29.144 DB.isBuildOK: Build Cl=3.1.0.qualifier [14]
+09:55:29.169-----------> DB.isBuildOK: Build Version Error 
+
+The program assumes build version 3.1.0.qualifier, but database has build version ${env.ADEMPIERE_VERSION} 20080428-1232. 
+This is likely to cause hard to fix errors. 
+Please contact administrator. [14]
+09:55:29.304 Language.getLanguage: Adding Language=en, Country=US, Locale=en_US [14]
+09:55:29.307 Language.getLanguage: Adding Language=en, Country=US, Locale=en_US [14]
+09:55:29.550 WebEnv.initWeb: Servlet Context Init Parameters: iDempiere Root
+ServerRoot=1 [14]
+09:55:29.568-----------> EMail.setFrom: you @ company.org: javax.mail.internet.AddressException: Local address contains control or whitespace in string ``you @ company.org'' [14]
+09:55:29.572-----------> EMail.addTo: you @ company.org: javax.mail.internet.AddressException: Local address contains control or whitespace in string ``you @ company.org'' [14]
+09:55:29.573-----------> EMail.isValid: From is invalid=null [14]
+09:55:29.573-----------> EMail.isValid: From is invalid=null [14]
+09:55:29.573-----------> MClient.sendEMail: Could NOT Send Email: Server started: iDempiere (DESKTOP-K0DQ6Q3:192.168.10.212) to you @ company.org: Invalid Data (System) [14]
+09:55:29.573 WebEnv.initWeb: Servlet Init Parameter: idempiereMonitor [14]
+09:55:29.573 AdempiereMonitor.init:  [14]
+09:55:31.320-----------> AnnotationConfiguration.configure: ServletContainerInitializers: detected. Class hierarchy: empty [14]
+09:55:31.551-----------> ClassLocator.getDependentXMLResources: Replicate resource: ckez
+Overwrite bundleresource://175.fwk147000507:2/metainfo/zk/config.xml
+with bundleresource://175.fwk147000507:19/metainfo/zk/config.xml [14]
+09:55:31.554-----------> ClassLocator.getDependentXMLResources: Replicate resource: zk
+Overwrite bundleresource://175.fwk147000507:11/metainfo/zk/config.xml
+with bundleresource://175.fwk147000507:28/metainfo/zk/config.xml [14]
+09:55:31.559-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkbind
+Overwrite bundleresource://175.fwk147000507:12/metainfo/zk/config.xml
+with bundleresource://175.fwk147000507:29/metainfo/zk/config.xml [14]
+09:55:31.584-----------> ClassLocator.getDependentXMLResources: Replicate resource: zul
+Overwrite bundleresource://175.fwk147000507:14/metainfo/zk/zk.xml
+with bundleresource://175.fwk147000507:31/metainfo/zk/zk.xml [14]
+09:55:31.984-----------> LanguageDefinition.<init>: Replicated language: xhtml, overriden by [LanguageDefinition: xhtml] [14]
+09:55:32.009-----------> LanguageDefinition.<init>: Replicated language: xul/html, overriden by [LanguageDefinition: xul/html] [14]
+09:55:32.053-----------> ClassLocator.getDependentXMLResources: Replicate resource: calendar
+Overwrite bundleresource://175.fwk147000507:1/metainfo/zk/lang-addon.xml
+with bundleresource://175.fwk147000507:18/metainfo/zk/lang-addon.xml [14]
+09:55:32.056-----------> ClassLocator.getDependentXMLResources: Replicate resource: ckez
+Overwrite bundleresource://175.fwk147000507:2/metainfo/zk/lang-addon.xml
+with bundleresource://175.fwk147000507:19/metainfo/zk/lang-addon.xml [14]
+09:55:32.059-----------> ClassLocator.getDependentXMLResources: Replicate resource: gmapsz
+Overwrite bundleresource://175.fwk147000507:5/metainfo/zk/lang-addon.xml
+with bundleresource://175.fwk147000507:22/metainfo/zk/lang-addon.xml [14]
+09:55:32.063-----------> ClassLocator.getDependentXMLResources: Replicate resource: timeline
+Overwrite bundleresource://175.fwk147000507:6/metainfo/zk/lang-addon.xml
+with bundleresource://175.fwk147000507:23/metainfo/zk/lang-addon.xml [14]
+09:55:32.066-----------> ClassLocator.getDependentXMLResources: Replicate resource: timeplot
+Overwrite bundleresource://175.fwk147000507:7/metainfo/zk/lang-addon.xml
+with bundleresource://175.fwk147000507:24/metainfo/zk/lang-addon.xml [14]
+09:55:32.078-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkbind
+Overwrite bundleresource://175.fwk147000507:12/metainfo/zk/lang-addon.xml
+with bundleresource://175.fwk147000507:29/metainfo/zk/lang-addon.xml [14]
+09:55:32.090-----------> ClassLocator.getDependentXMLResources: Replicate resource: zkplus
+Overwrite bundleresource://175.fwk147000507:13/metainfo/zk/lang-addon.xml
+with bundleresource://175.fwk147000507:30/metainfo/zk/lang-addon.xml [14]
+09:55:32.200           WebUIServlet.init: iDempiere Web Client started successfully [14]
+09:55:33.640-----------> AnnotationConfiguration.configure: ServletContainerInitializers: detected. Class hierarchy: empty [14]
+
+*** 2016-07-05 09:55:33.946 idempiere Log (CLogFile) ***
+09:55:36.076-----------> Node: [192.168.10.212]:5701 [adempiere.idempiere/127.0.0.1] [3.5.3] No join method is enabled! Starting standalone. [37]
+10:02:38.241-----------> Prop.loadProperties: D:\idempiere\home.properties not found [34]
+10:02:38.242-----------> Prop.loadProperties: !!WARNING:Please locate yout custom home.properties on iDEMPIERE_HOME. [34]
+10:02:44.023-----------> Env.verifyLanguage: Not System Language=Language=[简体中文 (CN),Locale=zh_CN,AD_Language=zh_CN,DatePattern=YYYY-MM-DD,DecimalPoint=true] - Set to Base Language en_US [29]
+10:02:44.293-----------> Msg.translate: NOT found: Availability [29]
+10:03:19.597-----------> WebLogin.action: Unknown request='null' [29]
+10:03:48.236-----------> AdempiereMonitorFilter.checkAuthorization: User not found: 'system [108]
+10:07:32.014-----------> HttpParser.<init>: Illegal character 0x16 in state=START for buffer HeapByteBuffer@560e5ba8[p=1,l=172,c=8192,r=171]={\x16<<<\x03\x01\x00\xA7\x01\x00\x00\xA3\x03\x03c*\x83\x11\x10\x83\xCd...\x02\x01\x00\x00\n\x00\x08\x00\x06\x00\x1d\x00\x17\x00\x18>>>Pragma: no-cache\r...\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00} [29]
+10:07:32.014-----------> HttpParser.<init>: Illegal character 0x16 in state=START for buffer HeapByteBuffer@7ddb816d[p=1,l=172,c=8192,r=171]={\x16<<<\x03\x01\x00\xA7\x01\x00\x00\xA3\x03\x03\x11\x18%\x0cL\xCb]...\x02\x01\x00\x00\n\x00\x08\x00\x06\x00\x1d\x00\x17\x00\x18>>>Accept: text/html...\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00} [123]
+10:07:32.017-----------> HttpParser.parseNext: badMessage: 400 Illegal character 0x16 for HttpChannelOverHttp@48a39ebb{r=0,c=false,a=IDLE,uri=-} [29]
+10:07:32.018-----------> HttpParser.parseNext: badMessage: 400 Illegal character 0x16 for HttpChannelOverHttp@6e0a2c3e{r=0,c=false,a=IDLE,uri=-} [123]
+10:07:32.107-----------> HttpParser.<init>: Illegal character 0x16 in state=START for buffer HeapByteBuffer@7ddb816d[p=1,l=172,c=8192,r=171]={\x16<<<\x03\x01\x00\xA7\x01\x00\x00\xA3\x03\x03\x1eh\x91k\x07\xF5\x8d...\x02\x01\x00\x00\n\x00\x08\x00\x06\x00\x1d\x00\x17\x00\x18>>>Accept: text/html...\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00} [121]
+10:07:32.110-----------> HttpParser.parseNext: badMessage: 400 Illegal character 0x16 for HttpChannelOverHttp@4fd0b0e0{r=0,c=false,a=IDLE,uri=-} [121]
+10:07:32.121-----------> HttpParser.<init>: Illegal character 0x16 in state=START for buffer HeapByteBuffer@b2b7aad[p=1,l=129,c=8192,r=128]={\x16<<<\x03\x01\x00|\x01\x00\x00x\x03\x02q\xCd3`-\x14\xCf...\x02\x01\x00\x00\n\x00\x08\x00\x06\x00\x1d\x00\x17\x00\x18>>>trol: no-store, n...\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00} [29]
+10:07:32.124-----------> HttpParser.parseNext: badMessage: 400 Illegal character 0x16 for HttpChannelOverHttp@5382f995{r=0,c=false,a=IDLE,uri=-} [29]
+10:07:37.257-----------> HttpParser.<init>: Illegal character 0x16 in state=START for buffer HeapByteBuffer@5252bc83[p=1,l=172,c=8192,r=171]={\x16<<<\x03\x01\x00\xA7\x01\x00\x00\xA3\x03\x03\xE0?\x1dD@\x814...\x02\x01\x00\x00\n\x00\x08\x00\x06\x00\x1d\x00\x17\x00\x18>>>Accept: text/html...\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00} [121]
+10:07:37.258-----------> HttpParser.parseNext: badMessage: 400 Illegal character 0x16 for HttpChannelOverHttp@35d666ae{r=0,c=false,a=IDLE,uri=-} [121]
+10:07:37.270-----------> HttpParser.<init>: Illegal character 0x16 in state=START for buffer HeapByteBuffer@7ec9ffba[p=1,l=129,c=8192,r=128]={\x16<<<\x03\x01\x00|\x01\x00\x00x\x03\x02\x14\xF8*\x8c\xC4\xDc\x0b...\x02\x01\x00\x00\n\x00\x08\x00\x06\x00\x1d\x00\x17\x00\x18>>> rv:47.0) Gecko/2...\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00} [29]
+10:07:37.272-----------> HttpParser.parseNext: badMessage: 400 Illegal character 0x16 for HttpChannelOverHttp@7fb44d5d{r=0,c=false,a=IDLE,uri=-} [29]
+10:07:38.109-----------> HttpParser.<init>: Illegal character 0x16 in state=START for buffer HeapByteBuffer@71c98a14[p=1,l=172,c=8192,r=171]={\x16<<<\x03\x01\x00\xA7\x01\x00\x00\xA3\x03\x03%jU\x19\x98m\xDd...\x02\x01\x00\x00\n\x00\x08\x00\x06\x00\x1d\x00\x17\x00\x18>>>Server: Jetty(9.2...\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00} [124]
+10:07:38.112-----------> HttpParser.parseNext: badMessage: 400 Illegal character 0x16 for HttpChannelOverHttp@66886168{r=0,c=false,a=IDLE,uri=-} [124]
+10:07:38.125-----------> HttpParser.<init>: Illegal character 0x16 in state=START for buffer HeapByteBuffer@5252bc83[p=1,l=129,c=8192,r=128]={\x16<<<\x03\x01\x00|\x01\x00\x00x\x03\x02\xBc\x9bq\x9b\xA5\xA3\x89...\x02\x01\x00\x00\n\x00\x08\x00\x06\x00\x1d\x00\x17\x00\x18>>>\x12\x00\x00\x00\x10\x00\x0e\x00\x0c\x02h2\x08http...\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00} [121]
+10:07:38.126-----------> HttpParser.parseNext: badMessage: 400 Illegal character 0x16 for HttpChannelOverHttp@79dddba6{r=0,c=false,a=IDLE,uri=-} [121]
+10:07:47.337-----------> HttpParser.<init>: Illegal character 0x16 in state=START for buffer HeapByteBuffer@5252bc83[p=1,l=172,c=8192,r=171]={\x16<<<\x03\x01\x00\xA7\x01\x00\x00\xA3\x03\x03\xD3|\x86rW\xD0\x0b...\x02\x01\x00\x00\n\x00\x08\x00\x06\x00\x1d\x00\x17\x00\x18>>>Accept: text/html...\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00} [124]
+10:07:47.338-----------> HttpParser.<init>: Illegal character 0x16 in state=START for buffer HeapByteBuffer@b2b7aad[p=1,l=172,c=8192,r=171]={\x16<<<\x03\x01\x00\xA7\x01\x00\x00\xA3\x03\x03{F(\xDb/C@...\x02\x01\x00\x00\n\x00\x08\x00\x06\x00\x1d\x00\x17\x00\x18>>>Pragma: no-cache\r...\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00} [29]
+10:07:47.340-----------> HttpParser.parseNext: badMessage: 400 Illegal character 0x16 for HttpChannelOverHttp@6b256c0f{r=0,c=false,a=IDLE,uri=-} [29]
+10:07:47.340-----------> HttpParser.parseNext: badMessage: 400 Illegal character 0x16 for HttpChannelOverHttp@65d983bd{r=0,c=false,a=IDLE,uri=-} [124]
+10:07:47.356-----------> HttpParser.<init>: Illegal character 0x16 in state=START for buffer HeapByteBuffer@7ec9ffba[p=1,l=129,c=8192,r=128]={\x16<<<\x03\x01\x00|\x01\x00\x00x\x03\x02\x99\xF49\xE0\x9d\xDd\x13...\x02\x01\x00\x00\n\x00\x08\x00\x06\x00\x1d\x00\x17\x00\x18>>> rv:47.0) Gecko/2...\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00} [124]
+10:07:47.358-----------> HttpParser.parseNext: badMessage: 400 Illegal character 0x16 for HttpChannelOverHttp@52f3f086{r=0,c=false,a=IDLE,uri=-} [124]
+10:07:55.095-----------> Prop.loadProperties: D:\idempiere\home.properties not found [29]
+10:07:55.096-----------> Prop.loadProperties: !!WARNING:Please locate yout custom home.properties on iDEMPIERE_HOME. [29]
+10:11:33.705===========> MLookupFactory.getLookup_TableDir: Key does not end with '_ID': status_id [130]
+10:11:33.770===========> MLookupFactory.getLookupInfo: No SQL - status_id [130]
+10:11:33.805===========> MLookupFactory.getLookup_TableDir: Key does not end with '_ID': user_id [130]
+10:11:33.823===========> MLookupFactory.getLookupInfo: No SQL - user_id [130]
+10:11:33.955===========> MLookupFactory.getLookup_TableDir: Key does not end with '_ID': project_version_id [130]
+10:11:33.973===========> MLookupFactory.getLookupInfo: No SQL - project_version_id [130]
+10:11:33.987===========> MLookupFactory.getLookup_TableDir: Key does not end with '_ID': user_id [130]
+10:11:34.004===========> MLookupFactory.getLookupInfo: No SQL - user_id [130]

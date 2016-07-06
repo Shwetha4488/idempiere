@@ -1,2 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<typeInfoHistroy/>
+<typeInfoHistroy>
+<typeInfo handle="=org.adempiere.plugin.utils/src&lt;org.adempiere.plugin.utils{AdempiereActivator.java[AdempiereActivator" modifiers="1" timestamp="1465524977194"/>
+<typeInfo handle="=org.adempiere.base/src&lt;org.adempiere.base{IPaymentProcessorFactory.java[IPaymentProcessorFactory" modifiers="513" timestamp="1465524953603"/>
+<typeInfo handle="=org.adempiere.base/src&lt;org.adempiere.base{IProcessFactory.java[IProcessFactory" modifiers="513" timestamp="1465524953609"/>
+</typeInfoHistroy>
